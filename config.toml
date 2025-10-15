@@ -1,3 +1,4 @@
+baseURL = "https://saltless-bruh.github.io/FCJ_D2F/"
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
