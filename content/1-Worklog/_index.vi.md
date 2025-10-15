@@ -3,9 +3,8 @@ title: "Nhật Ký Làm Việc"
 date: 2025-10-11
 weight: 1
 chapter: false
+pre: " <b>1. </b>"
 ---
-
-pre: "{{< b >}}1.{{< /b >}}"
 
 ------
 
