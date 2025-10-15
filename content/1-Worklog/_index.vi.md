@@ -1,12 +1,9 @@
-------
-
-title : "Nhật Ký Làm Việc"title : "Giới thiệu"
-
-date: 2025-10-11date: 2025-09-30
-
-weight : 1 weight : 1
-
-chapter : falsechapter : false
+---
+title: "Nhật Ký Làm Việc"
+date: 2025-10-11
+weight: 1
+chapter: false
+---
 
 pre: "{{< b >}}1.{{< /b >}}"
 
