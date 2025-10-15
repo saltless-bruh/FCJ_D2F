@@ -9,8 +9,6 @@ pre: "5. "
 
 ------
 
-
-
 Phần này ghi lại các hội thảo mà tôi đã tạo và trình bày trong thời gian thực tập.
 
 Với Session Manager chúng ta có thể xem được lịch sử các kết nối tới các instance thông qua **Session history**. Tuy nhiên chúng ta chưa xem được chi tiết các câu lệnh được sử dụng.
@@ -25,11 +23,11 @@ Trong phần này chúng ta sẽ tiến hành tạo S3 bucket và thực hiện 
 
 Một hội thảo toàn diện về việc sử dụng AWS Systems Manager Session Manager để quản lý instance một cách an toàn mà không cần máy chủ bastion hoặc khóa SSH.
 
-![port-fwd](/images/arc-log.png) 
+![port-fwd](/images/arc-log.png)
 
 ### Đối Tượng Tham Gia
 
-### Nội dung:
+### Nội dung
 
 - Kỹ sư Điện toán Đám mây AWS
 
@@ -40,7 +38,6 @@ Một hội thảo toàn diện về việc sử dụng AWS Systems Manager Sess
   - [Tạo S3 Gateway endpoint](./4.3-creategwes3)
 
 ### Điều Kiện Tiên Quyết  - [Cấu hình **Session logs**](./4.4-configsessionlogs/)
-
 
 - Hiểu biết cơ bản về dịch vụ AWS
 - Tài khoản AWS với quyền hạn thích hợp

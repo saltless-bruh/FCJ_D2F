@@ -5,7 +5,7 @@ weight: 1
 chapter: false
 ---
 
-pre: "1. "
+pre: "{{< b >}}1.{{< /b >}}"
 
 ------
 
