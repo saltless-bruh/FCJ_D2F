@@ -27,10 +27,10 @@ Internship Duration: From 12/08/2025 to 12/11/2025
 
 ### Report Content
 
-1. [Worklog](/1-worklog/)
-2. [Proposal](/2-proposal/)
-3. [Translated Blogs](/3-translated-blogs/)
-4. [Events Participated](/4-event-participated/)
-5. [Workshop](/5-workshop/)
-6. [Self-Assessment](/6-self-assessment/)
-7. [Sharing and Feedback](/7-sharing-and-feedback/)
+1. [Worklog](1-worklog)
+2. [Proposal](2-proposal)
+3. [Translated Blogs](3-translated-blogs)
+4. [Events Participated](4-event-participated)
+5. [Workshop](5-workshop)
+6. [Self-Assessment](6-self-assessment)
+7. [Sharing and Feedback](7-sharing-and-feedback)

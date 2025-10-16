@@ -1,27 +1,45 @@
 ---
+
 title: "Báo Cáo Thực Tập"
+
 date: 2025-10-11
+
 weight: 1 
+
 chapter: false
----itle : "Session Management"
-date: 2025-09-30
-weight : 1 
-chapter : false
+
 ---
-# Làm việc với Amazon System Manager - Session Manager
 
-### Tổng quan
+date: 2025-09-30
 
- Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
+## Thông Tin Sinh Viên
 
-![ConnectPrivate](/images/arc-log.png) 
+Họ và Tên: [Họ và Tên của bạn]
 
-### Nội dung
+MSSV: [Mã số sinh viên của bạn]
 
- 1. [Giới thiệu](1-introduce/)
- 2. [Các bước chuẩn bị](2-Prerequiste/)
- 3. [Tạo kết nối đến máy chủ EC2](3-Accessibilitytoinstance/)
- 4. [Quản lý session logs](4-s3log/)
- 5. [Port Forwarding](5-Portfwd/)
- 6. [Dọn dẹp tài nguyên](6-cleanup/)
- 7. [Đề xuất](7-Proposal/)
+Số Điện Thoại: [Số điện thoại của bạn]
+
+Email: [Email của bạn]
+
+Trường Đại Học: [Trường của bạn]
+
+Chuyên Ngành: Công Nghệ Thông Tin
+
+Lớp: AWS082025
+
+Công Ty Thực Tập: Amazon Web Services Vietnam Co., Ltd. 2.
+
+Vị Trí Thực Tập: FCJ Cloud Intern 4.
+
+Thời Gian Thực Tập: Từ 12/08/2025 đến 12/11/2025
+
+### Nội Dung Báo Cáo
+
+1. [Nhật Ký Làm Việc](1-worklog)
+2. [Đề Xuất](2-proposal)
+3. [Blog Đã Dịch](3-translated-blogs)
+4. [Sự Kiện Đã Tham Gia](4-event-participated)
+5. [Hội Thảo](5-workshop)
+6. [Tự Đánh Giá](6-self-assessment)
+7. [Chia Sẻ và Phản Hồi](7-sharing-and-feedback)
