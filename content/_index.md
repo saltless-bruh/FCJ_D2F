@@ -4,7 +4,6 @@ date: 2025-10-11
 weight: 1 
 chapter: false
 ---
-
 ### Student Information
 
 Full Name: [Your Full Name]

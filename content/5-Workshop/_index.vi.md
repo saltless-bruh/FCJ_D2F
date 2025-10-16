@@ -1,14 +1,10 @@
 ---
-title: "Hội Thảo"
+title: Hội Thảo
 date: 2025-10-11
 weight: 5
 chapter: false
+pre: " <b> 5. </b>"
 ---
-
-pre: "5. "
-
-------
-
 Phần này ghi lại các hội thảo mà tôi đã tạo và trình bày trong thời gian thực tập.
 
 Với Session Manager chúng ta có thể xem được lịch sử các kết nối tới các instance thông qua **Session history**. Tuy nhiên chúng ta chưa xem được chi tiết các câu lệnh được sử dụng.

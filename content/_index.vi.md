@@ -9,9 +9,6 @@ weight: 1
 chapter: false
 
 ---
-
-date: 2025-09-30
-
 ## Thông Tin Sinh Viên
 
 Họ và Tên: [Họ và Tên của bạn]

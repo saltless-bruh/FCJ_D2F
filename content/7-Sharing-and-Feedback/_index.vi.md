@@ -5,7 +5,6 @@ weight : 7
 chapter : false
 pre : " <b> 7. </b> "
 ---
-
 Phần này ghi lại các hoạt động chia sẻ kiến thức và phản hồi nhận được trong thời gian thực tập.
 
 ## Chia Sẻ Kiến Thức
