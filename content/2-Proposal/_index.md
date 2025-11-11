@@ -84,7 +84,7 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 
 ### 3.3 System Architecture Diagram
 
-![System Architecture](/FCJ_D2F/images/Diagrams.jpg)
+![System Architecture](/FCJ_D2F/images/Diagrams.png)
 
 ---
 
