@@ -30,11 +30,10 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 ### Tổng Ngân Sách
 
-**$100 USD** phân bổ cho ba thành phần chính:
+**$100 USD** phân bổ cho hai thành phần chính:
 
 - Phát triển WebApp: $10
-- IoT Hardware & Firmware: $20
-- Hạ tầng Bảo mật: $10
+- IoT Hardware & Firmware: $40
 
 ### Quy Mô Ứng Dụng
 
@@ -46,16 +45,14 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 ### Mục Tiêu Chính
 
-1. **Phát triển hệ sinh thái IoT an toàn** với bảo mật hardware-level sử dụng HSM/PKI
+1. **Phát triển hệ sinh thái IoT** cho giám sát smart home
 2. **Triển khai hệ thống giám sát real-time** cho các thông số môi trường và an toàn
 3. **Tạo backend serverless có khả năng mở rộng** sử dụng các dịch vụ AWS được quản lý
 4. **Xây dựng giao diện dashboard trực quan** cho giám sát và quản lý thiết bị
-5. **Thiết lập framework bảo mật toàn diện** với phát hiện mối đe dọa và ứng phó sự cố
 
 ### Chỉ Số Thành Công Chính
 
 - **Kết Nối Thiết Bị**: 99.9% uptime cho kết nối thiết bị IoT
-- **Tuân Thủ Bảo Mật**: Không có vi phạm bảo mật trong giai đoạn testing
 - **Hiệu Suất Real-time**: <100ms độ trễ cho cảnh báo quan trọng
 - **Trải Nghiệm Người Dùng**: Dashboard responsive có thể truy cập trên web và mobile
 - **Hiệu Quả Chi Phí**: Giữ trong ngân sách $100 trong khi đạt được production-ready prototype
@@ -75,14 +72,15 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 | Dịch Vụ                     | Mục Đích                          | Chi Phí Ước Tính Hàng Tháng |
 | --------------------------- | --------------------------------- | --------------------------- |
 | **AWS IoT Core**            | Gateway thiết bị và messaging     | $3-8 (cho smart home)       |
-| **AWS IoT Rules**           | quản lý policies của IoT          | Miễn phí                    |
-| **AWS IAM**                 | Quản lý danh tính và truy cập     | Miễn phí                    |
-| **AWS Certificate Manager** | Quản lý chứng chỉ SSL/TLS         | Miễn phí                    |
+| **AWS IoT Rules**           | Định tuyến và lọc thông điệp      | Miễn phí                    |
 | **AWS Lambda**              | Logic business serverless         | $3-8                        |
-| **API Gateway**             | Endpoints RESTful API             | $1-3                        |
 | **Amazon DynamoDB**         | Database NoSQL cho dữ liệu sensor | $3-8                        |
-| **Amazon SNS**              | Push notifications và alerts      | $1-2                        |
-| **Amazon S3**               | Gửi thông tin về mail             | $1-2                        |
+| **Amazon S3**               | Lưu trữ và sao lưu dữ liệu        | $1-2                        |
+| **Amazon SES**              | Dịch vụ gửi email thông báo       | $1-2                        |
+| **API Gateway**             | Endpoints RESTful API             | $1-3                        |
+| **Amazon Cognito**          | Xác thực và phân quyền người dùng | $1-2                        |
+| **AWS Amplify**             | Hosting frontend và CI/CD         | $1-2                        |
+| **Amazon Route 53**         | Quản lý DNS và domain             | $1-2                        |
 
 ### 3.3 Sơ Đồ Kiến Trúc Hệ Thống
 
@@ -92,27 +90,19 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 ## 4. Phân Tích Ngân Sách
 
-### 4.1 Phát Triển WebApp ($200)
+### 4.1 Phát Triển WebApp ($10)
 
 - **Framework Frontend**: Công cụ phát triển React.js/Vue.js - free
 - **Testing & Deployment**: AWS S3/CloudFront hosting - $10
 - **Thư Viện Phát Triển**: Chart.js, Material-UI, WebSocket libraries - free
 - **Tài Liệu & Đào Tạo**: Tài nguyên technical writing - free
 
-### 4.2 IoT Hardware & Firmware ($200)
+### 4.2 IoT Hardware & Firmware ($40)
 
-- **Board Phát Triển**: 3x ESP32 development kits cho smart home - $90
-- **Cảm Biến & Linh Kiện**: Sensor nhiệt độ, độ ẩm, khí gas, chuyển động - $70
-- **Hardware Security Module**: SoftHSM hoặc TPM module - $10
-- ***Công Cụ Phát Triển**: Firmware debugging tools và licenses - $5*
-
-### 4.3 Hạ Tầng Bảo Mật ($200)
-
-- **Dịch Vụ AWS**: IoT Device Defender, CloudTrail, Certificate Manager - $80
-- **Công Cụ Testing Bảo Mật**: Licenses phần mềm penetration testing - $40
-- **Setup Certificate Authority**: Chi phí hạ tầng PKI - $30
-- **Giám Sát Bảo Mật**: Chi phí CloudWatch và logging bổ sung - $30
-- **Tài Liệu Tuân Thủ**: Công cụ security audit và documentation - $20
+- **Board Phát Triển**: 3x ESP32 development kits cho smart home - $15
+- **Cảm Biến & Linh Kiện**: Sensor nhiệt độ, độ ẩm, khí gas, chuyển động - $10
+- **Nguồn Điện & Vỏ Bảo Vệ**: Housing và quản lý nguồn - $10
+- **Linh Kiện Kết Nối**: WiFi modules và antenna - $5
 
 ---
 
@@ -131,8 +121,8 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 - Thiết kế sơ đồ hardware và sourcing linh kiện
 - Phát triển firmware cơ bản cho tích hợp sensor
-- Setup hạ tầng PKI và tạo certificate authority
 - Thiết kế backend API và các Lambda function ban đầu
+- Thiết kế database schema
 
 ### Giai Đoạn 2: Tích Hợp (Tháng 2)
 
@@ -140,28 +130,29 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 - Lắp ráp linh kiện
 - Triển khai communication từ thiết bị lên cloud
-- Deploy certificate bảo mật cho thiết bị
 - Phát triển pipeline dữ liệu real-time
+- Setup xác thực người dùng
 
-#### Tuần 7-8: Triển Khai Bảo Mật
+#### Tuần 7-8: Phát Triển Frontend
 
-- Hệ thống xác thực Mutual TLS
+- Thiết kế UI/UX dashboard
 - Phát triển dashboard frontend
+- Triển khai responsive cho mobile
 
 ### Giai Đoạn 3: Testing & Deployment (Tháng 3)
 
 #### Tuần 9-10: Testing Tích Hợp Hệ Thống
 
 - Testing và validation hệ thống end-to-end
-- Security penetration testing và đánh giá lỗ hổng
 - Tối ưu hiệu suất và load testing
 - User acceptance testing và tích hợp feedback
+- Sửa lỗi và cải tiến
 
 #### Tuần 11-12: Chuẩn Bị Sản Xuất
 
 - Hoàn thiện tài liệu
 - Production deployment và setup monitoring
-- Security audit cuối cùng và xác minh tuân thủ
+- Validation hệ thống cuối cùng
 - Chuẩn bị presentation và demonstration dự án
 
 ---
@@ -180,14 +171,6 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 - **Frontend Dashboard**: Ứng dụng web responsive với giám sát real-time
 - **Mobile Interface**: Progressive Web App (PWA) cho truy cập mobile device
 - **Database Schema**: Data models tối ưu cho dữ liệu time-series sensor
-
-### *6.3 Sản Phẩm Bảo Mật*
-
-- ***Hạ Tầng PKI**: Certificate authority hoàn chỉnh và hệ thống device certificate*
-- ***Chính Sách Bảo Mật**: IAM roles, device policies, và cấu hình access control*
-- ***Hệ Thống Giám Sát**: Phát hiện mối đe dọa tự động và ứng phó sự cố*
-- ***Tài Liệu Bảo Mật**: Checklist tuân thủ và manual vận hành bảo mật*
-
 
 ---
 
@@ -216,14 +199,14 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 ### 8.1 Thành Tựu Kỹ Thuật
 
-- *Hệ Thống IoT Hoạt Động*: production-ready prototype thể hiện tất cả tính năng chính
-- ***Xuất Sắc Về Bảo Mật**: Hệ thống zero-vulnerability với practices bảo mật chuẩn ngành*
+- **Hệ Thống IoT Hoạt Động**: production-ready prototype thể hiện tất cả tính năng chính
 - **Hiệu Suất Real-time**: Thời gian phản hồi dưới giây cho cảnh báo và thông báo quan trọng
+- **Kiến Trúc Có Khả Năng Mở Rộng**: Thiết kế cloud-native sẵn sàng mở rộng
 
 ### 8.2 Kết Quả Học Tập
 
 - **Kiến Trúc Cloud**: Trải nghiệm thực tế với AWS services và serverless computing
-- **IoT Security**: Hiểu biết sâu về bảo mật hardware-level và triển khai PKI
+- **Phát Triển IoT**: Hiểu biết về tích hợp thiết bị IoT và phát triển firmware
 - **Full-Stack Development**: Trải nghiệm complete software development lifecycle
 - **Quản Lý Dự Án**: Kinh nghiệm thực tế trong agile development và team collaboration
 

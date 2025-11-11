@@ -30,11 +30,10 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 
 ### Total Budget
 
-**$100 USD** allocated across three main components:
+**$100 USD** allocated across two main components:
 
 - WebApp Development: $10
 - IoT Hardware & Firmware: $20  
-- Security Infrastructure: $10
 
 ### Project Scale
 
@@ -46,16 +45,14 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 
 ### Primary Goals
 
-1. **Develop secure IoT device ecosystem** with hardware-level security using HSM/PKI
+1. **Develop IoT device ecosystem** for smart home monitoring
 2. **Implement real-time monitoring system** for environmental and security parameters
 3. **Create scalable serverless backend** using AWS managed services
 4. **Build intuitive dashboard interface** for monitoring and device management
-5. **Establish comprehensive security framework** with threat detection and incident response
 
 ### Key Success Metrics
 
 - **Device Connectivity**: 99.9% uptime for IoT device connections
-- **Security Compliance**: Zero security breaches during testing phase
 - **Real-time Performance**: <100ms latency for critical alerts
 - **User Experience**: Responsive dashboard accessible on web and mobile
 - **Cost Efficiency**: Stay within $100 budget while achieving production-ready prototype
@@ -75,14 +72,15 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 | Service | Purpose | Estimated Monthly Cost |
 |---------|---------|----------------------|
 | **AWS IoT Core** | Device gateway and messaging | $3-8 (for smart home) |
-| **AWS IoT Rules** | IoT policy management | Free |
-| **AWS IAM** | Identity and access management | Free |
-| **AWS Certificate Manager** | SSL/TLS certificate management | Free |
+| **AWS IoT Rules** | Message routing and filtering | Free |
 | **AWS Lambda** | Serverless business logic | $3-8 |
-| **API Gateway** | RESTful API endpoints | $1-3 |
 | **Amazon DynamoDB** | NoSQL database for sensor data | $3-8 |
-| **Amazon SNS** | Push notifications and alerts | $1-2 |
-| **Amazon S3** | Mail notification services | $1-2 |
+| **Amazon S3** | Data storage and backup | $1-2 |
+| **Amazon SES** | Email notification services | $1-2 |
+| **API Gateway** | RESTful API endpoints | $1-3 |
+| **Amazon Cognito** | User authentication and authorization | $1-2 |
+| **AWS Amplify** | Frontend hosting and CI/CD | $1-2 |
+| **Amazon Route 53** | DNS and domain management | $1-2 |
 
 ### 3.3 System Architecture Diagram
 
@@ -103,16 +101,8 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 
 - **Development Boards**: 3x ESP32 development kits for smart home - $15
 - **Sensors & Components**: Temperature, humidity, gas, motion sensors - $10
-- **Hardware Security Module**: SoftHSM or TPM module - $2
-- ***Development Tools**: Firmware debugging tools and licenses - $1*
-
-### 4.3 Security Infrastructure ($10)
-
-- **AWS Services**: IoT Device Defender, CloudTrail, Certificate Manager - $8
-- **Security Testing Tools**: Penetration testing software licenses - $4
-- **Certificate Authority Setup**: PKI infrastructure costs - $3
-- **Security Monitoring**: Additional CloudWatch and logging costs - $3
-- **Compliance Documentation**: Security audit and documentation tools - $2
+- **Power Supplies & Enclosures**: Housing and power management - $5
+- **Connectivity Components**: WiFi modules and antenna - $5
 
 ---
 
@@ -131,8 +121,8 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 
 - Hardware schematic design and component sourcing
 - Basic firmware development for sensor integration
-- PKI infrastructure setup and certificate authority creation
 - Backend API design and initial Lambda functions
+- Database schema design
 
 ### Phase 2: Integration (Month 2)
 
@@ -140,28 +130,29 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 
 - Component assembly
 - Device-to-cloud communication implementation
-- Security certificate deployment to devices
 - Real-time data pipeline development
+- User authentication setup
 
-#### Week 7-8: Security Implementation
+#### Week 7-8: Frontend Development
 
-- Mutual TLS authentication system
+- Dashboard UI/UX design
 - Frontend dashboard development
+- Mobile responsive implementation
 
 ### Phase 3: Testing & Deployment (Month 3)
 
 #### Week 9-10: System Integration Testing
 
 - End-to-end system testing and validation
-- Security penetration testing and vulnerability assessment
 - Performance optimization and load testing
 - User acceptance testing and feedback incorporation
+- Bug fixes and refinements
 
 #### Week 11-12: Production Preparation
 
 - Documentation completion and technical manual creation
 - Production deployment and monitoring setup
-- Final security audit and compliance verification
+- Final system validation
 - Project presentation and demonstration preparation
 
 ---
@@ -180,13 +171,6 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 - **Frontend Dashboard**: Responsive web application with real-time monitoring
 - **Mobile Interface**: Progressive Web App (PWA) for mobile device access
 - **Database Schema**: Optimized data models for time-series sensor data
-
-### *6.3 Security Deliverables*
-
-- ***PKI Infrastructure**: Complete certificate authority and device certificate system*
-- ***Security Policies**: IAM roles, device policies, and access control configurations*
-- ***Monitoring System**: Automated threat detection and incident response*
-- ***Security Documentation**: Compliance checklist and security operation manual*
 
 ---
 
@@ -215,14 +199,14 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 
 ### 8.1 Technical Achievements
 
-- *Functional IoT System*: Production-ready prototype demonstrating all key features
-- ***Security Excellence**: Zero-vulnerability system with industry-standard security practices*
+- **Functional IoT System**: Production-ready prototype demonstrating all key features
 - **Real-time Performance**: Sub-second response times for critical alerts and notifications
+- **Scalable Architecture**: Cloud-native design ready for expansion
 
 ### 8.2 Learning Outcomes
 
 - **Cloud Architecture**: Hands-on experience with AWS services and serverless computing
-- **IoT Security**: Deep understanding of hardware-level security and PKI implementation
+- **IoT Development**: Understanding of IoT device integration and firmware development
 - **Full-Stack Development**: Complete software development lifecycle experience
 - **Project Management**: Practical experience in agile development and team collaboration
 
