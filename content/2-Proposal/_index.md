@@ -33,7 +33,7 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 **$100 USD** allocated across two main components:
 
 - WebApp Development: $10
-- IoT Hardware & Firmware: $20  
+- IoT Hardware & Firmware: $40  
 
 ### Project Scale
 
@@ -97,11 +97,11 @@ Development of a comprehensive IoT security monitoring and alert system for smar
 - **Development Libraries**: Chart.js, Material-UI, WebSocket libraries - free
 - **Documentation & Training**: Technical writing resources - free
 
-### 4.2 IoT Hardware & Firmware ($20)
+### 4.2 IoT Hardware & Firmware ($40)
 
 - **Development Boards**: 3x ESP32 development kits for smart home - $15
 - **Sensors & Components**: Temperature, humidity, gas, motion sensors - $10
-- **Power Supplies & Enclosures**: Housing and power management - $5
+- **Power Supplies & Enclosures**: Housing and power management - $10
 - **Connectivity Components**: WiFi modules and antenna - $5
 
 ---
