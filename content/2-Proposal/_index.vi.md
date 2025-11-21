@@ -235,3 +235,7 @@ Dự án không chỉ phục vụ như một trải nghiệm học tập xuất 
 ---
 
 *Đề xuất này được gửi để xem xét và phê duyệt. Chúng tôi mong được cơ hội thể hiện khả năng kỹ thuật và giao kết quả xuất sắc trong timeline và ngân sách đề xuất.*
+
+## Tài Liệu Dự Án
+
+{{%attachments title="Tài Liệu Liên Quan" style="blue" /%}}

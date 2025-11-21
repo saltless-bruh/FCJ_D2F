@@ -235,3 +235,7 @@ The project not only serves as an excellent learning experience but also creates
 ---
 
 *This proposal is submitted for consideration and approval. We look forward to the opportunity to demonstrate our technical capabilities and deliver exceptional results within the proposed timeline and budget.*
+
+## Project Documents
+
+{{%attachments title="Related Documents" style="blue" /%}}
