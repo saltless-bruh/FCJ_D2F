@@ -69,15 +69,18 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 ### 3.2 Tích Hợp Dịch Vụ AWS Cloud
 
-| Dịch Vụ | Usage Type | Operation | Khu Vực | Số Lượng Ước Tính | Chi Phí Ước Tính (USD) |
-|---------|------------|-----------|---------|-------------------|------------------------|
-| **AWS Lambda** | APS1-Request |  | ap-southeast-1 | 5,000,000 requests | $1.00 |
-| **AWS Lambda** | APS1-Lambda-Edge-Request |  | ap-southeast-1 | 5,000,000 requests | $3.00 |
-| **AWS Lambda** | APS1-Lambda-Edge-GB-Second |  | ap-southeast-1 | 125,000 GB-seconds | $6.25 |
-| **Amazon DynamoDB** | APS1-ReadRequestUnits | PayPerRequestThroughput | ap-southeast-1 | 2,500,000 read units | $0.36 |
-| **Amazon DynamoDB** | APS1-WriteRequestUnits | PayPerRequestThroughput | ap-southeast-1 | 500 write units | $0.00036 |
-| **Amazon DynamoDB** | APS1-TimedStorage-ByteHrs |  | ap-southeast-1 | 1 GB-Mo | $0.00 |
-| **Amazon API Gateway** | APS1-ApiGatewayHttpRequest | ApiGatewayHttpApi | ap-southeast-1 | 5,000,000 requests | $6.25 |
+| Dịch Vụ | Mục Đích | Chi Phí Ước Tính Hàng Tháng |
+|---------|---------|---------------------------|
+| **AWS IoT Core** | Gateway thiết bị và messaging | $3-8 (cho smart home) |
+| **AWS IoT Rules** | Định tuyến và lọc thông điệp | Miễn phí |
+| **AWS Lambda** | Logic business serverless | $10.25 |
+| **Amazon DynamoDB** | Database NoSQL cho dữ liệu sensor | $0.36 |
+| **Amazon S3** | Lưu trữ và sao lưu dữ liệu | $1-2 |
+| **Amazon SES** | Dịch vụ gửi email thông báo | $1-2 |
+| **API Gateway** | Endpoints RESTful API | $6.25 |
+| **Amazon Cognito** | Xác thực và phân quyền người dùng | $1-2 |
+| **AWS Amplify** | Hosting frontend và CI/CD | $1-2 |
+| **Amazon Route 53** | Quản lý DNS và domain | $1-2 |
 
 ### 3.3 Sơ Đồ Kiến Trúc Hệ Thống
 
