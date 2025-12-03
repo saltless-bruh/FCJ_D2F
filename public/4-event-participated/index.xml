@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events Participated on AWS System Manager</title>
-    <link>https://saltless-bruh.github.io/FCJ_D2F/4-event-participated/</link>
+    <link>http://localhost:1313/FCJ_D2F/4-event-participated/</link>
     <description>Recent content in Events Participated on AWS System Manager</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://saltless-bruh.github.io/FCJ_D2F/4-event-participated/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/FCJ_D2F/4-event-participated/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
