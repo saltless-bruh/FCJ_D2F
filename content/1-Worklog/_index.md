@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-#### WORKLOG
+### WORKLOG
 
 ⚠️ **Note**: This worklog documents my actual internship experience. All information reflects real work completed during the program.
 
