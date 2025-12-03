@@ -33,10 +33,10 @@ Thời Gian Thực Tập: Từ 12/08/2025 đến 12/11/2025
 
 ### Nội Dung Báo Cáo
 
-1. [Nhật Ký Làm Việc](1-worklog)
-2. [Đề Xuất](2-proposal)
-3. [Blog Đã Dịch](3-translated-blogs)
-4. [Sự Kiện Đã Tham Gia](4-event-participated)
-5. [Hội Thảo](5-workshop)
-6. [Tự Đánh Giá](6-self-assessment)
-7. [Chia Sẻ và Phản Hồi](7-sharing-and-feedback)
+1. [Nhật Ký Làm Việc](/FCJ_D2F/vi/1-worklog/)
+2. [Đề Xuất](/FCJ_D2F/vi/2-proposal/)
+3. [Blog Đã Dịch](/FCJ_D2F/vi/3-translated-blogs/)
+4. [Sự Kiện Đã Tham Gia](/FCJ_D2F/vi/4-event-participated/)
+5. [Hội Thảo](/FCJ_D2F/vi/5-workshop/)
+6. [Tự Đánh Giá](/FCJ_D2F/vi/6-self-assessment/)
+7. [Chia Sẻ và Phản Hồi](/FCJ_D2F/vi/7-sharing-and-feedback/)
