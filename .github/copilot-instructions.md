@@ -1,4 +1,4 @@
-he# AI Agent Instructions for Session Manager Project
+# AI Agent Instructions for Session Manager Project
 
 ## Project Overview
 This is a Hugo-based documentation project for managing and tracking internship sessions, focused on an IoT Security Monitoring & Alert System project. The site uses the Hugo Learn theme with bilingual support (English/Vietnamese).
