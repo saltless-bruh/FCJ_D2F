@@ -12,9 +12,9 @@ pre: " <b> 1.8 </b> "
 
 ### Mục tiêu Tuần 8
 
-• Xây dựng hệ thống ứng phó sự cố tự động
-• Hoàn thành kiểm tra giữa kỳ
-• Triển khai báo cáo tuân thủ cho audit bảo mật
+- Xây dựng hệ thống ứng phó sự cố tự động
+- Hoàn thành kiểm tra giữa kỳ
+- Triển khai báo cáo tuân thủ cho audit bảo mật
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.8 </b> "
 
 ### Thành tựu Tuần 8
 
-• **Hệ thống ứng phó sự cố hoạt động** với device isolation và thu thập forensic tự động
+- **Hệ thống ứng phó sự cố hoạt động** với device isolation và thu thập forensic tự động
 
-• **Kiểm tra giữa kỳ thành công** với phản hồi tích cực từ điều phối viên
+- **Kiểm tra giữa kỳ thành công** với phản hồi tích cực từ điều phối viên
 
-• **Báo cáo tuân thủ được triển khai** tạo báo cáo audit SOC 2 và ISO 27001
+- **Báo cáo tuân thủ được triển khai** tạo báo cáo audit SOC 2 và ISO 27001
 
-• **Tăng cường bảo mật hoàn thành** giải quyết các phát hiện từ penetration test
+- **Tăng cường bảo mật hoàn thành** giải quyết các phát hiện từ penetration test

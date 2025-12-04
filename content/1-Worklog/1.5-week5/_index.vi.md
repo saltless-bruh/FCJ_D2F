@@ -12,9 +12,9 @@ pre: " <b> 1.5 </b> "
 
 ### Mục tiêu Tuần 5
 
-• Khởi động phát triển dự án thực tế với thiết lập repository
-• Hoàn thành labs DynamoDB và IoT Core
-• Đóng góp 3 blog dịch cho cộng đồng FCJ
+- Khởi động phát triển dự án thực tế với thiết lập repository
+- Hoàn thành labs DynamoDB và IoT Core
+- Đóng góp 3 blog dịch cho cộng đồng FCJ
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -28,12 +28,12 @@ pre: " <b> 1.5 </b> "
 
 ### Thành tựu Tuần 5
 
-• **Repository dự án được thiết lập** với cấu trúc monorepo và CI/CD pipelines
+- **Repository dự án được thiết lập** với cấu trúc monorepo và CI/CD pipelines
 
-• **DynamoDB device registry được triển khai** với query patterns hiệu quả và TTL
+- **DynamoDB device registry được triển khai** với query patterns hiệu quả và TTL
 
-• **IoT Core được cấu hình** với Thing Registry và MQTT topics
+- **IoT Core được cấu hình** với Thing Registry và MQTT topics
 
-• **3 blog kỹ thuật được dịch và xuất bản** đóng góp cho cộng đồng FCJ Việt Nam
+- **3 blog kỹ thuật được dịch và xuất bản** đóng góp cho cộng đồng FCJ Việt Nam
 
-• **Phân cấp PKI CA được tạo** với Root và Intermediate CAs sử dụng ACM Private CA
+- **Phân cấp PKI CA được tạo** với Root và Intermediate CAs sử dụng ACM Private CA

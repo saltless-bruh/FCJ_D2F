@@ -12,9 +12,9 @@ pre: " <b> 1.11 </b> "
 
 ### Week 11 Objectives
 
-• Implement Infrastructure as Code with Terraform
-• Attend AWS Cloud Mastery Series #2
-• Build CI/CD pipeline for automated deployments
+- Implement Infrastructure as Code with Terraform
+- Attend AWS Cloud Mastery Series #2
+- Build CI/CD pipeline for automated deployments
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.11 </b> "
 
 ### Week 11 Achievements
 
-• **Terraform IaC implementation complete** with modular, reusable infrastructure code
+- **Terraform IaC implementation complete** with modular, reusable infrastructure code
 
-• **Attended AWS Cloud Mastery #2** learning IaC and multi-region deployment patterns
+- **Attended AWS Cloud Mastery #2** learning IaC and multi-region deployment patterns
 
-• **CI/CD pipeline operational** with automated testing and deployment workflows
+- **CI/CD pipeline operational** with automated testing and deployment workflows
 
-• **Comprehensive test suite implemented** covering unit, integration, and infrastructure tests
+- **Comprehensive test suite implemented** covering unit, integration, and infrastructure tests

@@ -12,9 +12,9 @@ pre: " <b> 1.6 </b> "
 
 ### Mục tiêu Tuần 6
 
-• Triển khai tự động hóa vòng đời chứng chỉ với Lambda
-• Tích hợp CloudHSM cho quản lý key bảo mật
-• Thiết lập CRL và OCSP endpoints cho xác thực chứng chỉ
+- Triển khai tự động hóa vòng đời chứng chỉ với Lambda
+- Tích hợp CloudHSM cho quản lý key bảo mật
+- Thiết lập CRL và OCSP endpoints cho xác thực chứng chỉ
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.6 </b> "
 
 ### Thành tựu Tuần 6
 
-• **Tự động hóa chứng chỉ được triển khai** với Lambda cho phát hành, gia hạn và thu hồi
+- **Tự động hóa chứng chỉ được triển khai** với Lambda cho phát hành, gia hạn và thu hồi
 
-• **EventBridge scheduling được cấu hình** cho quản lý vòng đời chứng chỉ chủ động
+- **EventBridge scheduling được cấu hình** cho quản lý vòng đời chứng chỉ chủ động
 
-• **CloudHSM được tích hợp** cho lưu trữ private key bảo mật
+- **CloudHSM được tích hợp** cho lưu trữ private key bảo mật
 
-• **Certificate validation endpoints hoạt động** với CRL và OCSP cho kiểm tra thu hồi thời gian thực
+- **Certificate validation endpoints hoạt động** với CRL và OCSP cho kiểm tra thu hồi thời gian thực

@@ -12,9 +12,9 @@ pre: " <b> 1.6 </b> "
 
 ### Week 6 Objectives
 
-• Implement certificate lifecycle automation with Lambda
-• Integrate CloudHSM for secure key management
-• Set up CRL and OCSP endpoints for certificate validation
+- Implement certificate lifecycle automation with Lambda
+- Integrate CloudHSM for secure key management
+- Set up CRL and OCSP endpoints for certificate validation
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.6 </b> "
 
 ### Week 6 Achievements
 
-• **Certificate automation implemented** with Lambda for issuance, renewal, and revocation
+- **Certificate automation implemented** with Lambda for issuance, renewal, and revocation
 
-• **EventBridge scheduling configured** for proactive certificate lifecycle management
+- **EventBridge scheduling configured** for proactive certificate lifecycle management
 
-• **CloudHSM integrated** for secure private key storage
+- **CloudHSM integrated** for secure private key storage
 
-• **Certificate validation endpoints operational** with CRL and OCSP for real-time revocation checking
+- **Certificate validation endpoints operational** with CRL and OCSP for real-time revocation checking

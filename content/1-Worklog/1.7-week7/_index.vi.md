@@ -12,9 +12,9 @@ pre: " <b> 1.7 </b> "
 
 ### Mục tiêu Tuần 7
 
-• Triển khai phát hiện mối đe dọa với AWS IoT Device Defender
-• Xây dựng cơ chế thực thi chính sách
-• Phát triển pipeline xử lý sự kiện với Kinesis
+- Triển khai phát hiện mối đe dọa với AWS IoT Device Defender
+- Xây dựng cơ chế thực thi chính sách
+- Phát triển pipeline xử lý sự kiện với Kinesis
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.7 </b> "
 
 ### Thành tựu Tuần 7
 
-• **IoT Device Defender được cấu hình** với security profiles và behavior baselines
+- **IoT Device Defender được cấu hình** với security profiles và behavior baselines
 
-• **Thực thi chính sách được triển khai** với certificate-based authentication và authorization
+- **Thực thi chính sách được triển khai** với certificate-based authentication và authorization
 
-• **CloudWatch monitoring được thiết lập** với security dashboards và anomaly alarms
+- **CloudWatch monitoring được thiết lập** với security dashboards và anomaly alarms
 
-• **Event processing pipeline hoạt động** sử dụng Kinesis cho phát hiện mối đe dọa thời gian thực
+- **Event processing pipeline hoạt động** sử dụng Kinesis cho phát hiện mối đe dọa thời gian thực

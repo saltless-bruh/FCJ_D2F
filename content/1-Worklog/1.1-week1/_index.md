@@ -12,9 +12,9 @@ pre: " <b> 1.1 </b> "
 
 ### Week 1 Objectives
 
-• Connect with First Cloud Journey members and coordinators
-• Introduce project ideas and finalize topic selection
-• Establish initial project collaboration framework
+- Connect with First Cloud Journey members and coordinators
+- Introduce project ideas and finalize topic selection
+- Establish initial project collaboration framework
 
 ### Tasks Performed This Week
 
@@ -27,12 +27,12 @@ pre: " <b> 1.1 </b> "
 
 ### Week 1 Achievements
 
-• **Successfully attended FCJ 2025 event** and established connections with coordinators and fellow interns
+- **Successfully attended FCJ 2025 event** and established connections with coordinators and fellow interns
 
-• **Finalized project topic**: IoT Security Infrastructure Platform
+- **Finalized project topic**: IoT Security Infrastructure Platform
 
-• **Defined project scope** with clear objectives around PKI certificate management, security policy enforcement, threat detection, and compliance reporting
+- **Defined project scope** with clear objectives around PKI certificate management, security policy enforcement, threat detection, and compliance reporting
 
-• **Collaboration infrastructure established** with GitHub, Slack, and Notion
+- **Collaboration infrastructure established** with GitHub, Slack, and Notion
 
-• **AWS services identified** for the project: IoT Core, ACM Private CA, Lambda, DynamoDB, KMS
+- **AWS services identified** for the project: IoT Core, ACM Private CA, Lambda, DynamoDB, KMS

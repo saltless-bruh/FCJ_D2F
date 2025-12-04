@@ -12,9 +12,9 @@ pre: " <b> 1.8 </b> "
 
 ### Week 8 Objectives
 
-• Build automated incident response system
-• Complete mid-term examination
-• Implement compliance reporting for security audits
+- Build automated incident response system
+- Complete mid-term examination
+- Implement compliance reporting for security audits
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.8 </b> "
 
 ### Week 8 Achievements
 
-• **Incident response system operational** with automated device isolation and forensic collection
+- **Incident response system operational** with automated device isolation and forensic collection
 
-• **Mid-term examination passed successfully** with positive coordinator feedback
+- **Mid-term examination passed successfully** with positive coordinator feedback
 
-• **Compliance reporting implemented** generating SOC 2 and ISO 27001 audit reports
+- **Compliance reporting implemented** generating SOC 2 and ISO 27001 audit reports
 
-• **Security hardening completed** addressing penetration test findings
+- **Security hardening completed** addressing penetration test findings

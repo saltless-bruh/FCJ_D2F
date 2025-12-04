@@ -12,9 +12,9 @@ pre: " <b> 1.7 </b> "
 
 ### Week 7 Objectives
 
-• Implement threat detection with AWS IoT Device Defender
-• Build policy enforcement mechanisms
-• Develop event processing pipeline with Kinesis
+- Implement threat detection with AWS IoT Device Defender
+- Build policy enforcement mechanisms
+- Develop event processing pipeline with Kinesis
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.7 </b> "
 
 ### Week 7 Achievements
 
-• **IoT Device Defender configured** with security profiles and behavior baselines
+- **IoT Device Defender configured** with security profiles and behavior baselines
 
-• **Policy enforcement implemented** with certificate-based authentication and authorization
+- **Policy enforcement implemented** with certificate-based authentication and authorization
 
-• **CloudWatch monitoring established** with security dashboards and anomaly alarms
+- **CloudWatch monitoring established** with security dashboards and anomaly alarms
 
-• **Event processing pipeline operational** using Kinesis for real-time threat detection
+- **Event processing pipeline operational** using Kinesis for real-time threat detection

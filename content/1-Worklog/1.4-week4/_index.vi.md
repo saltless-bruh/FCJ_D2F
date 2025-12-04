@@ -12,9 +12,9 @@ pre: " <b> 1.4 </b> "
 
 ### Mục tiêu Tuần 4
 
-• Hoàn thành các lab AWS cơ bản (IAM, EC2, VPC, S3, Lambda)
-• Tham dự sự kiện AI-Driven Development và khám phá GitHub Copilot
-• Bắt đầu triển khai kiến trúc serverless
+- Hoàn thành các lab AWS cơ bản (IAM, EC2, VPC, S3, Lambda)
+- Tham dự sự kiện AI-Driven Development và khám phá GitHub Copilot
+- Bắt đầu triển khai kiến trúc serverless
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.4 </b> "
 
 ### Thành tựu Tuần 4
 
-• **Hoàn thành labs IAM, EC2, VPC, S3 và Lambda** xây dựng kỹ năng AWS cơ bản
+- **Hoàn thành labs IAM, EC2, VPC, S3 và Lambda** xây dựng kỹ năng AWS cơ bản
 
-• **Tham dự sự kiện AI-Driven Development** và thiết lập GitHub Copilot để phát triển nhanh hơn
+- **Tham dự sự kiện AI-Driven Development** và thiết lập GitHub Copilot để phát triển nhanh hơn
 
-• **Hiểu biết về kiến trúc serverless** được thiết lập với Lambda và EventBridge
+- **Hiểu biết về kiến trúc serverless** được thiết lập với Lambda và EventBridge
 
-• **Năng suất phát triển được nâng cao** với công cụ AI-assisted coding
+- **Năng suất phát triển được nâng cao** với công cụ AI-assisted coding

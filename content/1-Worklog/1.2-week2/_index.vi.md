@@ -12,9 +12,9 @@ pre: " <b> 1.2 </b> "
 
 ### Mục tiêu Tuần 2
 
-• Tham dự Vietnam Cloud Day 2025 để học về dịch vụ AWS mới nhất và xu hướng cloud
-• Nghiên cứu best practices về quản lý chứng chỉ PKI/TLS
-• Tinh chỉnh kiến trúc dự án theo hướng security-first
+- Tham dự Vietnam Cloud Day 2025 để học về dịch vụ AWS mới nhất và xu hướng cloud
+- Nghiên cứu best practices về quản lý chứng chỉ PKI/TLS
+- Tinh chỉnh kiến trúc dự án theo hướng security-first
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.2 </b> "
 
 ### Thành tựu Tuần 2
 
-• **Tham dự Vietnam Cloud Day 2025** và thu được insights về best practices bảo mật AWS IoT
+- **Tham dự Vietnam Cloud Day 2025** và thu được insights về best practices bảo mật AWS IoT
 
-• **Kiến trúc PKI được thiết kế** với phân cấp CA 3 tầng (Root → Intermediate → Device)
+- **Kiến trúc PKI được thiết kế** với phân cấp CA 3 tầng (Root → Intermediate → Device)
 
-• **Đặc tả kỹ thuật được tài liệu hóa** cho quản lý vòng đời chứng chỉ
+- **Đặc tả kỹ thuật được tài liệu hóa** cho quản lý vòng đời chứng chỉ
 
-• **Sơ đồ kiến trúc hoàn thành** thể hiện tự động hóa Lambda, DynamoDB registry và orchestration EventBridge
+- **Sơ đồ kiến trúc hoàn thành** thể hiện tự động hóa Lambda, DynamoDB registry và orchestration EventBridge

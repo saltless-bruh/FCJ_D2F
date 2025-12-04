@@ -12,9 +12,9 @@ pre: " <b> 1.10 </b> "
 
 ### Week 10 Objectives
 
-• Enhance dashboard with advanced visualizations
-• Attend AWS Cloud Mastery Series #1
-• Implement device management features
+- Enhance dashboard with advanced visualizations
+- Attend AWS Cloud Mastery Series #1
+- Implement device management features
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.10 </b> "
 
 ### Week 10 Achievements
 
-• **Advanced visualizations implemented** with charts for certificate lifecycle and threat analysis
+- **Advanced visualizations implemented** with charts for certificate lifecycle and threat analysis
 
-• **Attended AWS Cloud Mastery #1** learning enterprise security architecture patterns
+- **Attended AWS Cloud Mastery #1** learning enterprise security architecture patterns
 
-• **Device management features complete** with onboarding wizard and bulk operations
+- **Device management features complete** with onboarding wizard and bulk operations
 
-• **Frontend-backend integration successful** with robust error handling and user feedback
+- **Frontend-backend integration successful** with robust error handling and user feedback

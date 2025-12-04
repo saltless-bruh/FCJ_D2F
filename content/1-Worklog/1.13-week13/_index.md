@@ -12,9 +12,9 @@ pre: " <b> 1.13 </b> "
 
 ### Week 13 Objectives
 
-• Prepare and deliver final project demonstration
-• Refine project proposal and documentation
-• Complete internship deliverables and presentation
+- Prepare and deliver final project demonstration
+- Refine project proposal and documentation
+- Complete internship deliverables and presentation
 
 ### Tasks Performed This Week
 
@@ -27,14 +27,14 @@ pre: " <b> 1.13 </b> "
 
 ### Week 13 Achievements
 
-• **Production demo environment deployed** with complete system functionality
+- **Production demo environment deployed** with complete system functionality
 
-• **Final presentation delivered successfully** showcasing IoT Security Infrastructure Platform
+- **Final presentation delivered successfully** showcasing IoT Security Infrastructure Platform
 
-• **Project proposal refined** documenting 13-week journey and technical achievements
+- **Project proposal refined** documenting 13-week journey and technical achievements
 
-• **FCJ 2025 internship completed** with comprehensive IoT security solution and AWS expertise gained
+- **FCJ 2025 internship completed** with comprehensive IoT security solution and AWS expertise gained
 
-• **Key Deliverables**: Automated PKI certificate management, threat detection system, compliance reporting, security console web app, Terraform IaC, full technical documentation
+- **Key Deliverables**: Automated PKI certificate management, threat detection system, compliance reporting, security console web app, Terraform IaC, full technical documentation
 
-• **Impact**: Reduced certificate management overhead by 90%, automated security policy enforcement, real-time threat detection and response
+- **Impact**: Reduced certificate management overhead by 90%, automated security policy enforcement, real-time threat detection and response

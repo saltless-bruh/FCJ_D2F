@@ -12,9 +12,9 @@ pre: " <b> 1.12 </b> "
 
 ### Week 12 Objectives
 
-• Comprehensive security and performance testing
-• Attend AWS Cloud Mastery Series #3
-• Complete technical documentation
+- Comprehensive security and performance testing
+- Attend AWS Cloud Mastery Series #3
+- Complete technical documentation
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.12 </b> "
 
 ### Week 12 Achievements
 
-• **Security testing completed** with all critical vulnerabilities addressed
+- **Security testing completed** with all critical vulnerabilities addressed
 
-• **Attended AWS Cloud Mastery #3** mastering advanced security and cost optimization
+- **Attended AWS Cloud Mastery #3** mastering advanced security and cost optimization
 
-• **Performance optimized** meeting <100ms response time and handling 1000+ devices
+- **Performance optimized** meeting <100ms response time and handling 1000+ devices
 
-• **Technical documentation complete** with comprehensive guides for deployment and operations
+- **Technical documentation complete** with comprehensive guides for deployment and operations

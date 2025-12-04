@@ -12,9 +12,9 @@ pre: " <b> 1.3 </b> "
 
 ### Week 3 Objectives
 
-• Set up AWS development environment with proper IAM roles
-• Make infrastructure-as-code decision (Terraform vs CloudFormation)
-• Document technical stack choices and rationale
+- Set up AWS development environment with proper IAM roles
+- Make infrastructure-as-code decision (Terraform vs CloudFormation)
+- Document technical stack choices and rationale
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.3 </b> "
 
 ### Week 3 Achievements
 
-• **AWS account configured** with IAM best practices and MFA security
+- **AWS account configured** with IAM best practices and MFA security
 
-• **Terraform selected** as IaC tool for infrastructure management
+- **Terraform selected** as IaC tool for infrastructure management
 
-• **Technology stack finalized**: TypeScript/Node.js for Lambda, React for frontend, DynamoDB for storage
+- **Technology stack finalized**: TypeScript/Node.js for Lambda, React for frontend, DynamoDB for storage
 
-• **Development environment documented** with setup instructions for team members
+- **Development environment documented** with setup instructions for team members

@@ -12,9 +12,9 @@ pre: " <b> 1.9 </b> "
 
 ### Week 9 Objectives
 
-• Develop security console web application with React
-• Implement Cognito authentication
-• Build device and policy management interfaces
+- Develop security console web application with React
+- Implement Cognito authentication
+- Build device and policy management interfaces
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.9 </b> "
 
 ### Week 9 Achievements
 
-• **React frontend application launched** with TypeScript and modern tooling
+- **React frontend application launched** with TypeScript and modern tooling
 
-• **Cognito authentication integrated** with MFA and secure session management
+- **Cognito authentication integrated** with MFA and secure session management
 
-• **Security dashboard operational** showing real-time certificate status and threats
+- **Security dashboard operational** showing real-time certificate status and threats
 
-• **Policy management interface complete** for security policy lifecycle management
+- **Policy management interface complete** for security policy lifecycle management

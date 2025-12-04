@@ -12,9 +12,9 @@ pre: " <b> 1.9 </b> "
 
 ### Mục tiêu Tuần 9
 
-• Phát triển ứng dụng web console bảo mật với React
-• Triển khai xác thực Cognito
-• Xây dựng giao diện quản lý thiết bị và chính sách
+- Phát triển ứng dụng web console bảo mật với React
+- Triển khai xác thực Cognito
+- Xây dựng giao diện quản lý thiết bị và chính sách
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.9 </b> "
 
 ### Thành tựu Tuần 9
 
-• **Ứng dụng React frontend được khởi chạy** với TypeScript và công cụ hiện đại
+- **Ứng dụng React frontend được khởi chạy** với TypeScript và công cụ hiện đại
 
-• **Xác thực Cognito được tích hợp** với MFA và quản lý session bảo mật
+- **Xác thực Cognito được tích hợp** với MFA và quản lý session bảo mật
 
-• **Security dashboard hoạt động** hiển thị trạng thái chứng chỉ và mối đe dọa thời gian thực
+- **Security dashboard hoạt động** hiển thị trạng thái chứng chỉ và mối đe dọa thời gian thực
 
-• **Giao diện quản lý chính sách hoàn thành** cho quản lý vòng đời security policy
+- **Giao diện quản lý chính sách hoàn thành** cho quản lý vòng đời security policy

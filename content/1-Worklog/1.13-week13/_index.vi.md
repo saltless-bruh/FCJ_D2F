@@ -12,9 +12,9 @@ pre: " <b> 1.13 </b> "
 
 ### Mục tiêu Tuần 13
 
-• Chuẩn bị và trình bày demo dự án cuối cùng
-• Hoàn thiện proposal và tài liệu dự án
-• Hoàn thành deliverables thực tập và presentation
+- Chuẩn bị và trình bày demo dự án cuối cùng
+- Hoàn thiện proposal và tài liệu dự án
+- Hoàn thành deliverables thực tập và presentation
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,14 +27,14 @@ pre: " <b> 1.13 </b> "
 
 ### Thành tựu Tuần 13
 
-• **Môi trường demo production được deploy** với đầy đủ chức năng hệ thống
+- **Môi trường demo production được deploy** với đầy đủ chức năng hệ thống
 
-• **Presentation cuối cùng thành công** giới thiệu IoT Security Infrastructure Platform
+- **Presentation cuối cùng thành công** giới thiệu IoT Security Infrastructure Platform
 
-• **Proposal dự án được hoàn thiện** tài liệu hóa hành trình 13 tuần và thành tựu kỹ thuật
+- **Proposal dự án được hoàn thiện** tài liệu hóa hành trình 13 tuần và thành tựu kỹ thuật
 
-• **Hoàn thành thực tập FCJ 2025** với giải pháp bảo mật IoT toàn diện và chuyên môn AWS
+- **Hoàn thành thực tập FCJ 2025** với giải pháp bảo mật IoT toàn diện và chuyên môn AWS
 
-• **Deliverables chính**: Quản lý chứng chỉ PKI tự động, hệ thống phát hiện mối đe dọa, báo cáo tuân thủ, ứng dụng web security console, Terraform IaC, tài liệu kỹ thuật đầy đủ
+- **Deliverables chính**: Quản lý chứng chỉ PKI tự động, hệ thống phát hiện mối đe dọa, báo cáo tuân thủ, ứng dụng web security console, Terraform IaC, tài liệu kỹ thuật đầy đủ
 
-• **Tác động**: Giảm 90% công sức quản lý chứng chỉ, tự động hóa thực thi chính sách bảo mật, phát hiện và ứng phó mối đe dọa thời gian thực
+- **Tác động**: Giảm 90% công sức quản lý chứng chỉ, tự động hóa thực thi chính sách bảo mật, phát hiện và ứng phó mối đe dọa thời gian thực

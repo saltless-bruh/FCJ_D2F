@@ -12,9 +12,9 @@ pre: " <b> 1.1 </b> "
 
 ### Mục tiêu Tuần 1
 
-• Kết nối và làm quen với các thành viên của First Cloud Journey
-• Giới thiệu ý tưởng dự án và hoàn thiện lựa chọn chủ đề
-• Thiết lập khung cộng tác dự án ban đầu
+- Kết nối và làm quen với các thành viên của First Cloud Journey
+- Giới thiệu ý tưởng dự án và hoàn thiện lựa chọn chủ đề
+- Thiết lập khung cộng tác dự án ban đầu
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,12 +27,12 @@ pre: " <b> 1.1 </b> "
 
 ### Thành tựu Tuần 1
 
-• **Tham dự thành công sự kiện FCJ 2025** và thiết lập kết nối với điều phối viên và các bạn thực tập
+- **Tham dự thành công sự kiện FCJ 2025** và thiết lập kết nối với điều phối viên và các bạn thực tập
 
-• **Hoàn thiện chủ đề dự án**: Nền tảng Bảo mật Hạ tầng IoT
+- **Hoàn thiện chủ đề dự án**: Nền tảng Bảo mật Hạ tầng IoT
 
-• **Phạm vi dự án được xác định** với mục tiêu rõ ràng về quản lý chứng chỉ PKI, thực thi chính sách bảo mật, phát hiện mối đe dọa và báo cáo tuân thủ
+- **Phạm vi dự án được xác định** với mục tiêu rõ ràng về quản lý chứng chỉ PKI, thực thi chính sách bảo mật, phát hiện mối đe dọa và báo cáo tuân thủ
 
-• **Hạ tầng cộng tác được thiết lập** với GitHub, Slack và Notion
+- **Hạ tầng cộng tác được thiết lập** với GitHub, Slack và Notion
 
-• **Các dịch vụ AWS được xác định** cho dự án: IoT Core, ACM Private CA, Lambda, DynamoDB, KMS
+- **Các dịch vụ AWS được xác định** cho dự án: IoT Core, ACM Private CA, Lambda, DynamoDB, KMS

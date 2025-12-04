@@ -12,9 +12,9 @@ pre: " <b> 1.5 </b> "
 
 ### Week 5 Objectives
 
-• Kickoff actual project development with repository setup
-• Complete DynamoDB and IoT Core labs
-• Contribute 3 translated blogs to FCJ community
+- Kickoff actual project development with repository setup
+- Complete DynamoDB and IoT Core labs
+- Contribute 3 translated blogs to FCJ community
 
 ### Tasks Performed This Week
 
@@ -28,12 +28,12 @@ pre: " <b> 1.5 </b> "
 
 ### Week 5 Achievements
 
-• **Project repository established** with monorepo structure and CI/CD pipelines
+- **Project repository established** with monorepo structure and CI/CD pipelines
 
-• **DynamoDB device registry implemented** with efficient query patterns and TTL
+- **DynamoDB device registry implemented** with efficient query patterns and TTL
 
-• **IoT Core configured** with Thing Registry and MQTT topics
+- **IoT Core configured** with Thing Registry and MQTT topics
 
-• **3 technical blogs translated and published** contributing to FCJ Vietnamese community
+- **3 technical blogs translated and published** contributing to FCJ Vietnamese community
 
-• **PKI CA hierarchy created** with Root and Intermediate CAs using ACM Private CA
+- **PKI CA hierarchy created** with Root and Intermediate CAs using ACM Private CA

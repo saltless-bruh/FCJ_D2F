@@ -12,9 +12,9 @@ pre: " <b> 1.3 </b> "
 
 ### Mục tiêu Tuần 3
 
-• Thiết lập môi trường phát triển AWS với IAM roles phù hợp
-• Quyết định infrastructure-as-code (Terraform vs CloudFormation)
-• Tài liệu hóa lựa chọn technical stack và lý do
+- Thiết lập môi trường phát triển AWS với IAM roles phù hợp
+- Quyết định infrastructure-as-code (Terraform vs CloudFormation)
+- Tài liệu hóa lựa chọn technical stack và lý do
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.3 </b> "
 
 ### Thành tựu Tuần 3
 
-• **AWS account được cấu hình** với IAM best practices và bảo mật MFA
+- **AWS account được cấu hình** với IAM best practices và bảo mật MFA
 
-• **Terraform được chọn** làm công cụ IaC cho quản lý infrastructure
+- **Terraform được chọn** làm công cụ IaC cho quản lý infrastructure
 
-• **Technology stack được hoàn thiện**: TypeScript/Node.js cho Lambda, React cho frontend, DynamoDB cho storage
+- **Technology stack được hoàn thiện**: TypeScript/Node.js cho Lambda, React cho frontend, DynamoDB cho storage
 
-• **Môi trường phát triển được tài liệu hóa** với hướng dẫn setup cho thành viên nhóm
+- **Môi trường phát triển được tài liệu hóa** với hướng dẫn setup cho thành viên nhóm

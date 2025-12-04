@@ -12,9 +12,9 @@ pre: " <b> 1.4 </b> "
 
 ### Week 4 Objectives
 
-• Complete AWS foundational labs (IAM, EC2, VPC, S3, Lambda)
-• Attend AI-Driven Development event and explore GitHub Copilot
-• Begin serverless architecture implementation
+- Complete AWS foundational labs (IAM, EC2, VPC, S3, Lambda)
+- Attend AI-Driven Development event and explore GitHub Copilot
+- Begin serverless architecture implementation
 
 ### Tasks Performed This Week
 
@@ -27,10 +27,10 @@ pre: " <b> 1.4 </b> "
 
 ### Week 4 Achievements
 
-• **Completed IAM, EC2, VPC, S3, and Lambda labs** building foundational AWS skills
+- **Completed IAM, EC2, VPC, S3, and Lambda labs** building foundational AWS skills
 
-• **Attended AI-Driven Development event** and set up GitHub Copilot for accelerated development
+- **Attended AI-Driven Development event** and set up GitHub Copilot for accelerated development
 
-• **Serverless architecture understanding** established with Lambda and EventBridge
+- **Serverless architecture understanding** established with Lambda and EventBridge
 
-• **Development productivity enhanced** with AI-assisted coding tools
+- **Development productivity enhanced** with AI-assisted coding tools

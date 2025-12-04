@@ -12,9 +12,9 @@ pre: " <b> 1.10 </b> "
 
 ### Mục tiêu Tuần 10
 
-• Nâng cao dashboard với visualizations tiên tiến
-• Tham dự AWS Cloud Mastery Series #1
-• Triển khai tính năng quản lý thiết bị
+- Nâng cao dashboard với visualizations tiên tiến
+- Tham dự AWS Cloud Mastery Series #1
+- Triển khai tính năng quản lý thiết bị
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.10 </b> "
 
 ### Thành tựu Tuần 10
 
-• **Visualizations tiên tiến được triển khai** với biểu đồ cho vòng đời chứng chỉ và phân tích mối đe dọa
+- **Visualizations tiên tiến được triển khai** với biểu đồ cho vòng đời chứng chỉ và phân tích mối đe dọa
 
-• **Tham dự AWS Cloud Mastery #1** học về enterprise security architecture patterns
+- **Tham dự AWS Cloud Mastery #1** học về enterprise security architecture patterns
 
-• **Tính năng quản lý thiết bị hoàn thành** với onboarding wizard và bulk operations
+- **Tính năng quản lý thiết bị hoàn thành** với onboarding wizard và bulk operations
 
-• **Tích hợp frontend-backend thành công** với error handling mạnh mẽ và user feedback
+- **Tích hợp frontend-backend thành công** với error handling mạnh mẽ và user feedback

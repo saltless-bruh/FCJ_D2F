@@ -12,9 +12,9 @@ pre: " <b> 1.12 </b> "
 
 ### Mục tiêu Tuần 12
 
-• Kiểm tra bảo mật và hiệu năng toàn diện
-• Tham dự AWS Cloud Mastery Series #3
-• Hoàn thành tài liệu kỹ thuật
+- Kiểm tra bảo mật và hiệu năng toàn diện
+- Tham dự AWS Cloud Mastery Series #3
+- Hoàn thành tài liệu kỹ thuật
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.12 </b> "
 
 ### Thành tựu Tuần 12
 
-• **Kiểm tra bảo mật hoàn thành** với tất cả lỗ hổng quan trọng được giải quyết
+- **Kiểm tra bảo mật hoàn thành** với tất cả lỗ hổng quan trọng được giải quyết
 
-• **Tham dự AWS Cloud Mastery #3** làm chủ advanced security và cost optimization
+- **Tham dự AWS Cloud Mastery #3** làm chủ advanced security và cost optimization
 
-• **Hiệu năng được tối ưu** đáp ứng <100ms response time và xử lý 1000+ devices
+- **Hiệu năng được tối ưu** đáp ứng <100ms response time và xử lý 1000+ devices
 
-• **Tài liệu kỹ thuật hoàn thành** với hướng dẫn toàn diện cho deployment và operations
+- **Tài liệu kỹ thuật hoàn thành** với hướng dẫn toàn diện cho deployment và operations

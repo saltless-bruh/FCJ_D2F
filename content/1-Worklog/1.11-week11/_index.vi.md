@@ -12,9 +12,9 @@ pre: " <b> 1.11 </b> "
 
 ### Mục tiêu Tuần 11
 
-• Triển khai Infrastructure as Code với Terraform
-• Tham dự AWS Cloud Mastery Series #2
-• Xây dựng CI/CD pipeline cho deployments tự động
+- Triển khai Infrastructure as Code với Terraform
+- Tham dự AWS Cloud Mastery Series #2
+- Xây dựng CI/CD pipeline cho deployments tự động
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
@@ -27,10 +27,10 @@ pre: " <b> 1.11 </b> "
 
 ### Thành tựu Tuần 11
 
-• **Triển khai Terraform IaC hoàn thành** với infrastructure code modular và có thể tái sử dụng
+- **Triển khai Terraform IaC hoàn thành** với infrastructure code modular và có thể tái sử dụng
 
-• **Tham dự AWS Cloud Mastery #2** học về IaC và multi-region deployment patterns
+- **Tham dự AWS Cloud Mastery #2** học về IaC và multi-region deployment patterns
 
-• **CI/CD pipeline hoạt động** với automated testing và deployment workflows
+- **CI/CD pipeline hoạt động** với automated testing và deployment workflows
 
-• **Test suite toàn diện được triển khai** bao gồm unit, integration và infrastructure tests
+- **Test suite toàn diện được triển khai** bao gồm unit, integration và infrastructure tests
