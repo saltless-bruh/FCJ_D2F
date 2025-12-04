@@ -73,6 +73,7 @@ The FCJ 2025 Kickoff Event marked the official beginning of the First Cloud Jour
 ### Impact on Internship Journey
 
 This kickoff event set the foundation for my entire internship:
+
 - Validated project topic choice and received guidance on scoping
 - Established relationships with mentors who provided ongoing support
 - Understood program milestones and planned accordingly
@@ -132,6 +133,7 @@ Vietnam Cloud Day 2025 was a premier cloud computing conference bringing togethe
 ### Impact on Internship Project
 
 This event was instrumental in shaping my project's technical direction:
+
 - Refined PKI architecture based on AWS recommended patterns
 - Identified AWS services (ACM Private CA, Lambda, DynamoDB) as core components
 - Learned security best practices that influenced project design decisions
@@ -402,6 +404,7 @@ The final session of the AWS Cloud Mastery Series trilogy focused on advanced se
 ### Series Reflection
 
 Completing all three AWS Cloud Mastery Series events provided comprehensive coverage of:
+
 1. **Security Architecture** (Series #1) - Foundation and design
 2. **Infrastructure as Code** (Series #2) - Implementation and deployment
 3. **Security Operations** (Series #3) - Operations and optimization
@@ -503,6 +506,7 @@ Participating in these six events was invaluable to my professional development 
 6. **Cloud Mastery #3** prepared my project for production with operations and cost optimization
 
 The strategic timing and comprehensive coverage of these events transformed my internship from a learning experience into a career-launching journey. The combination of:
+
 - **Technical knowledge** from expert presentations and workshops
 - **Professional networking** with AWS community and fellow interns  
 - **Practical application** to real-world IoT security project

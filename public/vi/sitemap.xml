@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://saltless-bruh.github.io/FCJ_D2F/vi/1-worklog/</loc>
+    <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://saltless-bruh.github.io/FCJ_D2F/1-worklog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://saltless-bruh.github.io/FCJ_D2F/vi/1-worklog/"
+                />
+  </url><url>
     <loc>https://saltless-bruh.github.io/FCJ_D2F/vi/</loc>
     <lastmod>2025-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -55,7 +68,7 @@
                 />
   </url><url>
     <loc>https://saltless-bruh.github.io/FCJ_D2F/vi/3-translated-blogs/</loc>
-    <lastmod>2025-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

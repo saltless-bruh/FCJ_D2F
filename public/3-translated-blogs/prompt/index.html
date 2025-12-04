@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta name="description" content="">
+<meta name="author" content="journeyoftheaverageguy@gmail.com">
+
+    <link rel="icon" href="/FCJ_D2F/images/favicon.png" type="image/png">
+
+    <title> :: AWS System Manager</title>
+
+    
+    <link href="/FCJ_D2F/css/nucleus.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/fontawesome-all.min.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/hybrid.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/featherlight.min.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/perfect-scrollbar.min.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/auto-complete.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/atom-one-dark-reasonable.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/theme.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/tabs.css?1764865901" rel="stylesheet">
+    <link href="/FCJ_D2F/css/hugo-theme.css?1764865901" rel="stylesheet">
+    
+    <link href="/FCJ_D2F/css/theme-workshop.css?1764865901" rel="stylesheet">
+    
+    
+
+    <script src="/FCJ_D2F/js/jquery-3.3.1.min.js?1764865901"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/FCJ_D2F/3-translated-blogs/prompt/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="/">
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="30%"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#f90;fill-rule:evenodd;}</style></defs><title>AWS-Logo_White-Color</title><path class="cls-1" d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"></path><path class="cls-2" d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"></path><path class="cls-2" d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"></path></svg>
+
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/FCJ_D2F/js/lunr.min.js?1764865901"></script>
+<script type="text/javascript" src="/FCJ_D2F/js/auto-complete.js?1764865901"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/saltless-bruh.github.io\/FCJ_D2F\/";
+    
+</script>
+<script type="text/javascript" src="/FCJ_D2F/js/search.js?1764865901"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/" title="Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/">
+           <b> 1. </b> Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.1-week1/" title="Week 1 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.1-week1/">
+           <b> 1.1 </b> Week 1 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.2-week2/" title="Week 2 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.2-week2/">
+           <b> 1.2 </b> Week 2 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.3-week3/" title="Week 3 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.3-week3/">
+           <b> 1.3 </b> Week 3 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.4-week4/" title="Week 4 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.4-week4/">
+           <b> 1.4 </b> Week 4 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.5-week5/" title="Week 5 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.5-week5/">
+           <b> 1.5 </b> Week 5 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.6-week6/" title="Week 6 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.6-week6/">
+           <b> 1.6 </b> Week 6 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.7-week7/" title="Week 7 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.7-week7/">
+           <b> 1.7 </b> Week 7 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.8-week8/" title="Week 8 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.8-week8/">
+           <b> 1.8 </b> Week 8 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.9-week9/" title="Week 9 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.9-week9/">
+           <b> 1.9 </b> Week 9 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.10-week10/" title="Week 10 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.10-week10/">
+           <b> 1.10 </b> Week 10 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.11-week11/" title="Week 11 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.11-week11/">
+           <b> 1.11 </b> Week 11 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.12-week12/" title="Week 12 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.12-week12/">
+           <b> 1.12 </b> Week 12 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/1-worklog/1.13-week13/" title="Week 13 Worklog" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/1-worklog/1.13-week13/">
+           <b> 1.13 </b> Week 13 Worklog
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/2-proposal/" title="Proposal" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/2-proposal/">
+           <b> 2. </b> Proposal
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/3-translated-blogs/" title="Translated Blogs" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/FCJ_D2F/3-translated-blogs/">
+          <b>3. </b>Translated Blogs
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/FCJ_D2F/3-translated-blogs/prompt/" title="" class="dd-item active">
+        <a href="/FCJ_D2F/3-translated-blogs/prompt/">
+        
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/4-event-participated/" title="Events Participated" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/4-event-participated/">
+          <b>4. </b>Events Participated
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/5-workshop/" title="Workshop" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/5-workshop/">
+           <b> 5. </b> Workshop
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/6-self-assessment/" title="Self-Assessment" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/6-self-assessment/">
+           <b> 6. </b> Self-Assessment
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/FCJ_D2F/7-sharing-and-feedback/" title="Sharing and Feedback" class="dd-item
+        
+        
+        
+        ">
+      <a href="/FCJ_D2F/7-sharing-and-feedback/">
+           <b> 7. </b> Sharing and Feedback
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"><i class='fab fa-facebook'></i> AWS Study Group</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+          <div class="select-style">
+            <select id="select-language" onchange="location = this.value;">
+          
+          
+          
+              
+              
+                  
+                    
+                    
+                      <option id="en" value="https://saltless-bruh.github.io/FCJ_D2F/3-translated-blogs/prompt/" selected>English</option>
+                    
+                  
+              
+                  
+              
+          
+        </select>
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+          <g>
+            <g id="arrow-drop-down">
+              <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+            </g>
+          </g>
+        </svg>
+        </div>
+        </a>
+        </li>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <left>
+    
+     <b> Workshop</b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7920860&style=0038&nbdigits=9&type=page&initCount=0" title="Migrate" Alt="web counter"   border="0" /></a>  <br>
+     <b> <a href="https://cloudjourney.awsstudygroup.com/">Cloud Journey</a></b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7830807&style=0038&nbdigits=9&type=page&initCount=0" title="Total CLoud Journey" Alt="web counter"   border="0"   />
+     
+</left>
+<left>
+    <br>
+    <br>
+        <b> Last Updated </b> <br>
+        <i><font color=orange>30-01-2022</font></i>
+    </left>
+    <left>
+        <br>
+        <br>
+            <b> Team </b> <br>
+           
+            <i> <a href="https://www.linkedin.com/in/sutrinh/"  style="color:orange">Sử Trịnh  </a> <br>
+                <a href="https://www.linkedin.com/in/jotaguy"  style="color:orange">Gia Hưng </a> <br>
+                <a href="https://www.linkedin.com/in/hiepnguyendt"  style="color:orange">Thanh Hiệp </a>
+               
+        </i>
+        </left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/FCJ_D2F/'>Internship Report</a> > <a href='/FCJ_D2F/3-translated-blogs/'>Translated Blogs</a> > 
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#role-and-context">Role and Context</a></li>
+    <li><a href="#project-context">Project Context</a></li>
+    <li><a href="#source-materials">Source Materials</a></li>
+    <li><a href="#output-requirements">Output Requirements</a>
+      <ul>
+        <li><a href="#file-structure">File Structure</a></li>
+        <li><a href="#format-specifications">Format Specifications</a></li>
+      </ul>
+    </li>
+    <li><a href="#content-structure-guidelines">Content Structure Guidelines</a>
+      <ul>
+        <li><a href="#english-version-_indexmd">English Version (_index.md)</a></li>
+        <li><a href="#vietnamese-version-_indexvimd">Vietnamese Version (_index.vi.md)</a></li>
+      </ul>
+    </li>
+    <li><a href="#content-requirements-for-each-blog">Content Requirements for Each Blog</a>
+      <ul>
+        <li><a href="#information-to-extract-from-source-documents">Information to Extract from Source Documents</a></li>
+        <li><a href="#translation-documentation-elements">Translation Documentation Elements</a></li>
+      </ul>
+    </li>
+    <li><a href="#translation-methodology-section">Translation Methodology Section</a>
+      <ul>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#quality-standards">Quality Standards</a></li>
+        <li><a href="#tools-and-resources">Tools and Resources</a></li>
+        <li><a href="#challenges-overcome">Challenges Overcome</a></li>
+      </ul>
+    </li>
+    <li><a href="#impact-and-contribution-section">Impact and Contribution Section</a>
+      <ul>
+        <li><a href="#community-benefit">Community Benefit</a></li>
+        <li><a href="#learning-outcomes">Learning Outcomes</a></li>
+        <li><a href="#metrics-if-available">Metrics (if available)</a></li>
+      </ul>
+    </li>
+    <li><a href="#writing-style-guidelines">Writing Style Guidelines</a>
+      <ul>
+        <li><a href="#tone">Tone</a></li>
+        <li><a href="#language-specifications">Language Specifications</a></li>
+        <li><a href="#formatting-standards">Formatting Standards</a></li>
+      </ul>
+    </li>
+    <li><a href="#technical-accuracy-requirements">Technical Accuracy Requirements</a>
+      <ul>
+        <li><a href="#aws-service-names">AWS Service Names</a></li>
+        <li><a href="#technical-terms">Technical Terms</a></li>
+        <li><a href="#code-and-commands">Code and Commands</a></li>
+      </ul>
+    </li>
+    <li><a href="#quality-checklist">Quality Checklist</a></li>
+    <li><a href="#expected-output-deliverables">Expected Output Deliverables</a>
+      <ul>
+        <li><a href="#file-1-3-translated-blogs_indexmd">File 1: <code>3-Translated-Blogs/_index.md</code></a></li>
+        <li><a href="#file-2-3-translated-blogs_indexvimd">File 2: <code>3-Translated-Blogs/_index.vi.md</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#additional-instructions">Additional Instructions</a></li>
+    <li><a href="#success-criteria">Success Criteria</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              
+            </h1>
+          
+
+        
+
+
+<h1 id="translated-blogs-content-generation-prompt">TRANSLATED BLOGS CONTENT GENERATION PROMPT</h1>
+<h2 id="role-and-context">Role and Context</h2>
+<p>You are an expert technical writer and bilingual content specialist (English/Vietnamese) working on documentation for the AWS First Cloud Journey (FCJ) internship program. Your task is to create comprehensive documentation of translated blog contributions in both English and Vietnamese, following FCJ&rsquo;s standard documentation format.</p>
+<h2 id="project-context">Project Context</h2>
+<p><strong>Intern:</strong> Senior Software Developer at AWS FCJ<br>
+<strong>Period:</strong> September 8, 2025 - December 4, 2025<br>
+<strong>Task:</strong> Translated 3 AWS technical blogs from English to Vietnamese during Week 5 (October 6-12, 2025)<br>
+<strong>Submission:</strong> Via Google Form to FCJ content tea
+<strong>Format:</strong> Follow this format <a href="https://workshop-sample.fcjuni.com/3-blogstranslated/">https://workshop-sample.fcjuni.com/3-blogstranslated/</a></p>
+<h2 id="source-materials">Source Materials</h2>
+<p>You must fetch and incorporate content from these three Google Docs containing the translated blogs:</p>
+<ol>
+<li><a href="https://docs.google.com/document/d/1hnV0juMqHs53-WLwe6cQpJSUdNTdIaE8y3VO6PMqPX4/edit?usp=sharing">https://docs.google.com/document/d/1hnV0juMqHs53-WLwe6cQpJSUdNTdIaE8y3VO6PMqPX4/edit?usp=sharing</a></li>
+<li><a href="https://docs.google.com/document/d/1ID0cw1LUwhZiFC03ndyjJQdcxwlh7VxjsS0wr6Oo3pk/edit?usp=sharing">https://docs.google.com/document/d/1ID0cw1LUwhZiFC03ndyjJQdcxwlh7VxjsS0wr6Oo3pk/edit?usp=sharing</a></li>
+<li><a href="https://docs.google.com/document/d/1bODyGeqjYXIxA9rkMRZvqJZtq4J9PEKTWRfBdUb2ekA/edit?usp=sharing">https://docs.google.com/document/d/1bODyGeqjYXIxA9rkMRZvqJZtq4J9PEKTWRfBdUb2ekA/edit?usp=sharing</a></li>
+</ol>
+<p><strong>Note:</strong> If the Google Docs are not accessible, request the user to provide the blog content or make the documents publicly accessible.</p>
+<h2 id="output-requirements">Output Requirements</h2>
+<h3 id="file-structure">File Structure</h3>
+<p>Generate two complete markdown files:</p>
+<ol>
+<li><code>3-Translated-Blogs/_index.md</code> (English version)</li>
+<li><code>3-Translated-Blogs/_index.vi.md</code> (Vietnamese version)</li>
+</ol>
+<h3 id="format-specifications">Format Specifications</h3>
+<p>Follow Hugo static site generator structure with proper front matter and hierarchical organization similar to FCJ workshop documentation standards:[3]</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Translated Blogs&#34;
+</span></span><span style="display:flex;"><span>date: YYYY-MM-DD
+</span></span><span style="display:flex;"><span>weight: 3
+</span></span><span style="display:flex;"><span>chapter: false
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Overview
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[Brief introduction to blog translation contributions]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Blog 1: [Title in English]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">### Original Content Summary
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[2-3 sentence summary of the original blog topic]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">### Translation Highlights
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[Key technical terms translated, challenges faced, localization decisions]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">### Target Audience
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[Who benefits from this translation]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">### Link to Translation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[Link to Google Doc or published version]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Blog 2: [Title in English]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[Repeat structure]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Blog 3: [Title in English]
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[Repeat structure]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Translation Methodology
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[Approach taken for technical accuracy and cultural localization]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Impact and Contribution
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[How these translations benefit the Vietnamese AWS community]
+</span></span></code></pre></div><h2 id="content-structure-guidelines">Content Structure Guidelines</h2>
+<h3 id="english-version-_indexmd">English Version (_index.md)</h3>
+<p><strong>Front Matter:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Translated Blogs&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>: <span style="color:#e6db74">2025-10-12</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">weight</span>: <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">chapter</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">pre</span>: <span style="color:#e6db74">&#34;&lt;b&gt;3. &lt;/b&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p><strong>Overview Section:</strong></p>
+<ul>
+<li>Brief introduction (3-4 sentences) explaining the blog translation initiative</li>
+<li>Mention this was part of Week 5 activities (October 6-12, 2025)</li>
+<li>State the purpose: making AWS technical content accessible to Vietnamese developers</li>
+<li>Note submission via Google Form to FCJ</li>
+</ul>
+<p><strong>Per Blog Structure:</strong>
+Each of the 3 blogs should have:</p>
+<ol>
+<li>
+<p><strong>Blog Title</strong> (## header)</p>
+<ul>
+<li>Use the actual English title from the source document</li>
+<li>Add subtitle if relevant</li>
+</ul>
+</li>
+<li>
+<p><strong>Original Content Summary</strong> (### header)</p>
+<ul>
+<li>2-3 sentences summarizing the blog&rsquo;s main topic</li>
+<li>Include the primary AWS services or concepts covered</li>
+<li>Example: &ldquo;This blog explores AWS Lambda deployment strategies using containerized applications, covering best practices for Docker image optimization and cold start reduction.&rdquo;</li>
+</ul>
+</li>
+<li>
+<p><strong>Translation Highlights</strong> (### header)</p>
+<ul>
+<li>Technical terminology decisions</li>
+<li>Localization choices for Vietnamese audience</li>
+<li>Challenges encountered (e.g., translating AWS service names, technical jargon)</li>
+<li>Example: &ldquo;Retained &lsquo;Lambda function&rsquo; and &lsquo;cold start&rsquo; in English as they are standard industry terms. Translated conceptual explanations into natural Vietnamese while preserving technical accuracy.&rdquo;</li>
+</ul>
+</li>
+<li>
+<p><strong>Key Topics Covered</strong> (### header)</p>
+<ul>
+<li>Bullet list of main topics/sections in the blog</li>
+<li>AWS services discussed</li>
+<li>Technical concepts explained</li>
+<li>Best practices highlighted</li>
+</ul>
+</li>
+<li>
+<p><strong>Target Audience</strong> (### header)</p>
+<ul>
+<li>Who benefits from this translation</li>
+<li>Skill level (beginner, intermediate, advanced)</li>
+<li>Use cases or scenarios</li>
+</ul>
+</li>
+<li>
+<p><strong>Translation Approach</strong> (### header)</p>
+<ul>
+<li>Methodology used (direct translation, adaptation, transcreation)</li>
+<li>Tools utilized (if any)</li>
+<li>Quality assurance steps</li>
+</ul>
+</li>
+<li>
+<p><strong>Link to Translated Content</strong> (### header)</p>
+<ul>
+<li>Provide the Google Doc link</li>
+<li>Note: &ldquo;[View Full Translation](Google Doc URL)&rdquo;</li>
+</ul>
+</li>
+</ol>
+<h3 id="vietnamese-version-_indexvimd">Vietnamese Version (_index.vi.md)</h3>
+<p><strong>Front Matter:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;[translate:Các Blog Đã Dịch]&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>: <span style="color:#e6db74">2025-10-12</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">weight</span>: <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">chapter</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">pre</span>: <span style="color:#e6db74">&#34;&lt;b&gt;3. &lt;/b&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p><strong>Structure:</strong></p>
+<ul>
+<li>Mirror the English version structure exactly</li>
+<li>Use natural Vietnamese phrasing</li>
+<li>Preserve AWS service names in English (e.g., Lambda, S3, EC2, DynamoDB)</li>
+<li>Keep technical terms in English when they are industry standard (e.g., serverless, container, deployment, CI/CD)</li>
+<li>Translate conceptual explanations naturally into Vietnamese</li>
+</ul>
+<p><strong>Translation Guidelines for Vietnamese:</strong></p>
+<ul>
+<li>Headers: Translate to Vietnamese (e.g., Tổng Quan, Phương Pháp Dịch Thuật)</li>
+<li>AWS Services: Keep in English (AWS Lambda, Amazon S3, AWS IoT Core)</li>
+<li>Technical Terms: Use English for established terms (serverless, microservices, CI/CD, API Gateway)</li>
+<li>Explanations: Natural Vietnamese with appropriate technical vocabulary</li>
+<li>Bullet points: Translate fully to Vietnamese while preserving technical accuracy</li>
+</ul>
+<h2 id="content-requirements-for-each-blog">Content Requirements for Each Blog</h2>
+<h3 id="information-to-extract-from-source-documents">Information to Extract from Source Documents</h3>
+<ol>
+<li><strong>Original blog title</strong> (English)</li>
+<li><strong>Main topic/theme</strong> (AWS service or concept)</li>
+<li><strong>Technical depth</strong> (introductory, intermediate, advanced)</li>
+<li><strong>Key AWS services mentioned</strong></li>
+<li><strong>Primary audience</strong> (developers, architects, DevOps engineers, etc.)</li>
+<li><strong>Core concepts explained</strong></li>
+<li><strong>Practical examples or use cases</strong></li>
+<li><strong>Best practices highlighted</strong></li>
+</ol>
+<h3 id="translation-documentation-elements">Translation Documentation Elements</h3>
+<ol>
+<li>
+<p><strong>Technical terminology decisions</strong></p>
+<ul>
+<li>Which terms were kept in English</li>
+<li>Which terms were translated to Vietnamese</li>
+<li>Rationale for each decision</li>
+</ul>
+</li>
+<li>
+<p><strong>Localization adaptations</strong></p>
+<ul>
+<li>Cultural context adjustments</li>
+<li>Examples adapted for Vietnamese market</li>
+<li>Regional cloud considerations (if applicable)</li>
+</ul>
+</li>
+<li>
+<p><strong>Quality assurance</strong></p>
+<ul>
+<li>Review process</li>
+<li>Technical accuracy verification</li>
+<li>Native speaker review (if applicable)</li>
+</ul>
+</li>
+<li>
+<p><strong>Challenges and solutions</strong></p>
+<ul>
+<li>Complex technical concepts</li>
+<li>Ambiguous source material</li>
+<li>Vietnamese terminology gaps</li>
+</ul>
+</li>
+</ol>
+<h2 id="translation-methodology-section">Translation Methodology Section</h2>
+<p>Include a comprehensive section covering:</p>
+<h3 id="approach">Approach</h3>
+<ul>
+<li><strong>Direct Translation:</strong> When technical accuracy requires literal translation</li>
+<li><strong>Adaptation:</strong> When cultural context demands modification</li>
+<li><strong>Transcreation:</strong> When preserving intent over literal meaning</li>
+</ul>
+<h3 id="quality-standards">Quality Standards</h3>
+<ul>
+<li>Technical accuracy verification against AWS documentation</li>
+<li>Natural Vietnamese language flow</li>
+<li>Consistency in terminology throughout</li>
+<li>Peer review by other Vietnamese developers (if applicable)</li>
+</ul>
+<h3 id="tools-and-resources">Tools and Resources</h3>
+<ul>
+<li>Translation memory tools used (if any)</li>
+<li>AWS terminology databases referenced</li>
+<li>Vietnamese technical writing style guides</li>
+<li>Collaboration with FCJ team members</li>
+</ul>
+<h3 id="challenges-overcome">Challenges Overcome</h3>
+<ul>
+<li>Handling AWS-specific jargon</li>
+<li>Translating cloud architecture concepts</li>
+<li>Maintaining code example clarity</li>
+<li>Balancing technical precision with readability</li>
+</ul>
+<h2 id="impact-and-contribution-section">Impact and Contribution Section</h2>
+<h3 id="community-benefit">Community Benefit</h3>
+<ul>
+<li>How these translations help Vietnamese developers</li>
+<li>Accessibility improvements for non-English speakers</li>
+<li>Contribution to FCJ&rsquo;s mission of cloud education</li>
+<li>Building Vietnamese AWS technical content library</li>
+</ul>
+<h3 id="learning-outcomes">Learning Outcomes</h3>
+<ul>
+<li>Translation skills developed</li>
+<li>Deeper AWS service understanding</li>
+<li>Technical writing improvement</li>
+<li>Bilingual content creation expertise</li>
+</ul>
+<h3 id="metrics-if-available">Metrics (if available)</h3>
+<ul>
+<li>Word count per blog</li>
+<li>Translation time invested</li>
+<li>Technical terms translated</li>
+<li>Community feedback received</li>
+</ul>
+<h2 id="writing-style-guidelines">Writing Style Guidelines</h2>
+<h3 id="tone">Tone</h3>
+<ul>
+<li><strong>Professional but accessible:</strong> Technical content that&rsquo;s approachable</li>
+<li><strong>Educational:</strong> Emphasize learning and knowledge sharing</li>
+<li><strong>Contributor mindset:</strong> Highlight community contribution aspect</li>
+<li><strong>Bilingual excellence:</strong> Showcase quality of both languages</li>
+</ul>
+<h3 id="language-specifications">Language Specifications</h3>
+<p><strong>English Version:</strong></p>
+<ul>
+<li>Clear, concise technical writing</li>
+<li>Active voice preferred</li>
+<li>Short paragraphs (3-4 sentences max)</li>
+<li>Use bullet points for lists</li>
+<li>Professional technical documentation style</li>
+</ul>
+<p><strong>Vietnamese Version:</strong></p>
+<ul>
+<li>Natural Vietnamese phrasing (avoid word-for-word translation)</li>
+<li>Appropriate use of formal technical Vietnamese</li>
+<li>Retain English terms where industry-standard</li>
+<li>Use Vietnamese punctuation conventions</li>
+<li>Maintain professional tone while being accessible</li>
+</ul>
+<h3 id="formatting-standards">Formatting Standards</h3>
+<ul>
+<li>Use <code>##</code> for main sections (e.g., Blog 1, Blog 2)</li>
+<li>Use <code>###</code> for subsections (e.g., Translation Highlights, Key Topics)</li>
+<li>Use <code>-</code> for bullet points (no indentation)</li>
+<li>Use <code>**bold**</code> for emphasis on key terms</li>
+<li>Use backticks for code terms: <code>Lambda</code>, <code>S3</code>, <code>API Gateway</code></li>
+<li>Use blockquotes <code>&gt;</code> for important notes or callouts</li>
+</ul>
+<h2 id="technical-accuracy-requirements">Technical Accuracy Requirements</h2>
+<h3 id="aws-service-names">AWS Service Names</h3>
+<ul>
+<li>Always use official AWS service names in English</li>
+<li>Example: AWS Lambda (not Lambda, not AWS Lambda)</li>
+<li>Example: Amazon S3 (not S3)</li>
+<li>Example: AWS IoT Core (not AWS Lõi IoT)</li>
+</ul>
+<h3 id="technical-terms">Technical Terms</h3>
+<p>Preserve in English:</p>
+<ul>
+<li>Architecture patterns (serverless, microservices, event-driven)</li>
+<li>Technical operations (deployment, scaling, monitoring)</li>
+<li>Development concepts (CI/CD, containerization, orchestration)</li>
+<li>Industry acronyms (API, SDK, CLI, REST, JSON, YAML)</li>
+</ul>
+<p>Translate to Vietnamese:</p>
+<ul>
+<li>General concepts (security → bảo mật, performance → hiệu suất)</li>
+<li>Action descriptions (configure → cấu hình, implement → triển khai)</li>
+<li>Explanatory text and instructions</li>
+</ul>
+<h3 id="code-and-commands">Code and Commands</h3>
+<ul>
+<li>Keep all code snippets in original format</li>
+<li>Keep command-line examples in English</li>
+<li>Translate code comments if present in source</li>
+<li>Translate explanations around code blocks</li>
+</ul>
+<h2 id="quality-checklist">Quality Checklist</h2>
+<p>Before finalizing, verify:</p>
+<ul>
+<li><input disabled="" type="checkbox"> Both English and Vietnamese versions are complete</li>
+<li><input disabled="" type="checkbox"> All 3 blogs are documented with full details</li>
+<li><input disabled="" type="checkbox"> Front matter is correct in both files</li>
+<li><input disabled="" type="checkbox"> AWS service names are consistently in English</li>
+<li><input disabled="" type="checkbox"> Technical terms follow the preservation guidelines</li>
+<li><input disabled="" type="checkbox"> Vietnamese translation reads naturally (not robotic)</li>
+<li><input disabled="" type="checkbox"> All links to Google Docs are included and functional</li>
+<li><input disabled="" type="checkbox"> Sections are parallel between English and Vietnamese versions</li>
+<li><input disabled="" type="checkbox"> Translation methodology is clearly explained</li>
+<li><input disabled="" type="checkbox"> Impact and contribution sections are meaningful</li>
+<li><input disabled="" type="checkbox"> Formatting is consistent throughout</li>
+<li><input disabled="" type="checkbox"> No markdown syntax errors</li>
+<li><input disabled="" type="checkbox"> Headers follow hierarchical structure (##, ###)</li>
+<li><input disabled="" type="checkbox"> Bullet points are properly formatted</li>
+</ul>
+<h2 id="expected-output-deliverables">Expected Output Deliverables</h2>
+<h3 id="file-1-3-translated-blogs_indexmd">File 1: <code>3-Translated-Blogs/_index.md</code></h3>
+<ul>
+<li>Complete English documentation</li>
+<li>600-1000 words total</li>
+<li>Professional technical writing style</li>
+<li>Clear structure with all required sections</li>
+<li>Links to all 3 translated blogs</li>
+</ul>
+<h3 id="file-2-3-translated-blogs_indexvimd">File 2: <code>3-Translated-Blogs/_index.vi.md</code></h3>
+<ul>
+<li>Complete Vietnamese documentation</li>
+<li>Parallel structure to English version</li>
+<li>Natural Vietnamese phrasing</li>
+<li>Appropriate technical term handling</li>
+<li>Links to all 3 translated blogs</li>
+</ul>
+<h2 id="additional-instructions">Additional Instructions</h2>
+<ol>
+<li>
+<p><strong>If Source Documents Are Inaccessible:</strong></p>
+<ul>
+<li>Clearly indicate which documents couldn&rsquo;t be accessed</li>
+<li>Request user to provide blog titles and summaries</li>
+<li>Offer to generate template structure that user can fill in</li>
+<li>Suggest making Google Docs publicly viewable</li>
+</ul>
+</li>
+<li>
+<p><strong>Blog Title Extraction:</strong></p>
+<ul>
+<li>Extract actual blog titles from source documents</li>
+<li>Use original English titles in both versions</li>
+<li>Vietnamese version can include Vietnamese translation in parentheses</li>
+</ul>
+</li>
+<li>
+<p><strong>Technical Content Handling:</strong></p>
+<ul>
+<li>Prioritize technical accuracy over creative translation</li>
+<li>Verify AWS terminology against official documentation</li>
+<li>Maintain consistency across all 3 blog documentation</li>
+</ul>
+</li>
+<li>
+<p><strong>Community Context:</strong></p>
+<ul>
+<li>Emphasize contribution to Vietnamese AWS developer community</li>
+<li>Highlight FCJ&rsquo;s mission of making cloud knowledge accessible</li>
+<li>Connect to broader goal of technical content localization</li>
+</ul>
+</li>
+<li>
+<p><strong>Professional Presentation:</strong></p>
+<ul>
+<li>Format must be ready for immediate use in Hugo static site</li>
+<li>No placeholders or incomplete sections</li>
+<li>Professional documentation quality suitable for publication</li>
+</ul>
+</li>
+</ol>
+<h2 id="success-criteria">Success Criteria</h2>
+<p>The generated documentation should:</p>
+<ul>
+<li>✅ Accurately represent the 3 translated blogs with full details</li>
+<li>✅ Provide clear insight into translation methodology and challenges</li>
+<li>✅ Be bilingual with high-quality English and Vietnamese content</li>
+<li>✅ Follow FCJ documentation standards and Hugo format</li>
+<li>✅ Include all required sections with appropriate depth</li>
+<li>✅ Demonstrate professional technical writing skills</li>
+<li>✅ Be publication-ready without further editing needed</li>
+<li>✅ Properly handle technical terminology in both languages</li>
+<li>✅ Include working links to source translations</li>
+<li>✅ Contribute meaningful context about community impact</li>
+</ul>
+<hr>
+<p>This prompt follows advanced prompt engineering practices including:</p>
+<ul>
+<li><strong>Clear role and context</strong> definition</li>
+<li><strong>Specific output structure</strong> with templates</li>
+<li><strong>Detailed content requirements</strong> per section</li>
+<li><strong>Bilingual handling guidelines</strong> with technical term preservation rules</li>
+<li><strong>Quality standards</strong> and verification checklist</li>
+<li><strong>Fallback instructions</strong> for inaccessible sources</li>
+<li><strong>Success criteria</strong> for output validation</li>
+<li><strong>Professional formatting</strong> standards</li>
+<li><strong>Cultural localization</strong> considerations for Vietnamese audience</li>
+</ul>
+<p>The prompt is designed to generate production-ready documentation that accurately represents your blog translation contributions to the FCJ program.[2][4][3]</p>
+<p><a href="https://www.reddit.com/r/TranslationStudies/comments/pd7dfb/format_for_translating_a_webpage/">1</a>
+<a href="https://translayte.com/blog/how-to-translate-blog-posts-professionally">2</a>
+<a href="https://blogs.fcdo.gov.uk/wp-content/uploads/FCO-Blogs-Languages-1.1.pdf">3</a>
+<a href="https://www.verbolabs.com/ultimate-guide-to-the-perfect-format-of-blog-writing/">4</a>
+<a href="https://www.tandfonline.com/doi/full/10.1080/23322969.2023.2170526">5</a>
+<a href="https://www.semanticscholar.org/paper/c4d6d4646802b91c4a35ad4ca145754e65dd5eec">6</a>
+<a href="https://www.tandfonline.com/doi/full/10.1080/13556509.2018.1543566">7</a>
+<a href="https://www.semanticscholar.org/paper/04d9f6a6590d7e9b58dcf4b90246707cfc174f6f">8</a>
+<a href="https://www.semanticscholar.org/paper/1a805825b98e93edcc152fa54d99ae27450d7c12">9</a>
+<a href="https://www.semanticscholar.org/paper/ec8ea58dac258a4e7198675e0632520cec0f8b0c">10</a>
+<a href="https://www.semanticscholar.org/paper/aff5f95a1b25b628d350e6f9a17712e70cc238bd">11</a>
+<a href="https://www.semanticscholar.org/paper/e53c82bd76b30df417b716703def7797b12f9284">12</a>
+<a href="https://www.cdri.org.kh/publication/negotiating-family-and-personal-aspirations-four-young-cambodian-women-reflecting-on-choosing-a-major">13</a>
+<a href="http://choicereviews.org/review/10.5860/CHOICE.35-2812">14</a>
+<a href="https://www.aclweb.org/anthology/W16-2603.pdf">15</a>
+<a href="https://www.mdpi.com/2304-6775/10/1/9/pdf">16</a>
+<a href="https://journals.uni-lj.si/elope/article/download/11829/12909">17</a>
+<a href="https://www.degruyter.com/document/doi/10.1515/applirev-2022-0016/pdf">18</a>
+<a href="https://www.mdpi.com/2079-9292/12/5/1140/pdf?version=1677660375">19</a>
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10877626/">20</a>
+<a href="https://downloads.hindawi.com/journals/misy/2022/3737199.pdf">21</a>
+<a href="https://www.tandfonline.com/doi/pdf/10.1080/21670811.2018.1468722?needAccess=true">22</a>
+<a href="http://fibreculturejournal.org/wp-content/pdfs/FCJ-190RobertWGehl.pdf">23</a>
+<a href="https://fcjsisters.wordpress.com">24</a>
+<a href="https://aws.amazon.com/blogs/machine-learning/create-a-serverless-pipeline-to-translate-large-documents-with-amazon-translate/">25</a>
+<a href="https://aws.amazon.com/blogs/machine-learning/translating-documents-with-amazon-translate-aws-lambda-and-the-new-batch-translate-api/">26</a>
+<a href="http://fc2blogmanualen.blog.fc2.com/blog-entry-1.html">27</a>
+<a href="https://www.ficode.com/blog/a-step-by-step-guide-to-aws-cloud-migration">28</a></p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/FCJ_D2F/3-translated-blogs/" title="Translated Blogs"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/FCJ_D2F/4-event-participated/" title="Events Participated" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/FCJ_D2F/js/clipboard.min.js?1764865901"></script>
+    <script src="/FCJ_D2F/js/perfect-scrollbar.min.js?1764865901"></script>
+    <script src="/FCJ_D2F/js/perfect-scrollbar.jquery.min.js?1764865901"></script>
+    <script src="/FCJ_D2F/js/jquery.sticky.js?1764865901"></script>
+    <script src="/FCJ_D2F/js/featherlight.min.js?1764865901"></script>
+    <script src="/FCJ_D2F/js/highlight.pack.js?1764865901"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/FCJ_D2F/js/modernizr.custom-3.6.0.js?1764865901"></script>
+    <script src="/FCJ_D2F/js/learn.js?1764865901"></script>
+    <script src="/FCJ_D2F/js/hugo-learn.js?1764865901"></script>
+    
+        
+            <script src="/FCJ_D2F/mermaid/mermaid.js?1764865901"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-158079754-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
+
