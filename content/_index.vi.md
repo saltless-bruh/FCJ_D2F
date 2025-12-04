@@ -12,7 +12,7 @@ MSSV: SE182122
 
 Số Điện Thoại: 0911611933
 
-Email: huytqse182122@fpt.edu.vn
+Email: <huytqse182122@fpt.edu.vn>
 
 Trường Đại Học: Đại học FPT TP.HCM
 
