@@ -6,15 +6,17 @@ chapter: false
 ---
 ### Student Information
 
-Full Name: [Your Full Name]
+Full Name: Tran Quang Huy
 
-Phone Number: [Your Phone Number]
+Student ID: SE182122
 
-Email: [Your Email]
+Phone Number: 0911611933
 
-University: [Your University]
+Email: <huytqse182122@fpt.edu.vn>
 
-Major: Information Technology
+University: FPT University HCMC
+
+Major: Information Assurance
 
 Class: AWS082025
 
@@ -22,7 +24,7 @@ Internship Company: Amazon Web Services Vietnam Co., Ltd.
 
 Internship Position: FCJ Cloud Intern
 
-Internship Duration: From 12/08/2025 to 12/11/2025
+Internship Duration: From 06/09/2025 to 24/12/2025
 
 ### Report Content
 

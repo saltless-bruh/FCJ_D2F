@@ -1,35 +1,30 @@
 ---
-
 title: "Báo Cáo Thực Tập"
-
 date: 2025-10-11
-
 weight: 1 
-
 chapter: false
-
 ---
-## Thông Tin Sinh Viên
+### Thông Tin Sinh Viên
 
-Họ và Tên: [Họ và Tên của bạn]
+Họ và Tên: Trần Quang Huy
 
-MSSV: [Mã số sinh viên của bạn]
+MSSV: SE182122
 
-Số Điện Thoại: [Số điện thoại của bạn]
+Số Điện Thoại: 0911611933
 
-Email: [Email của bạn]
+Email: huytqse182122@fpt.edu.vn
 
-Trường Đại Học: [Trường của bạn]
+Trường Đại Học: Đại học FPT TP.HCM
 
-Chuyên Ngành: Công Nghệ Thông Tin
+Chuyên Ngành: An Toàn Thông Tin
 
 Lớp: AWS082025
 
-Công Ty Thực Tập: Amazon Web Services Vietnam Co., Ltd. 2.
+Công Ty Thực Tập: Amazon Web Services Vietnam Co., Ltd.
 
-Vị Trí Thực Tập: FCJ Cloud Intern 4.
+Vị Trí Thực Tập: FCJ Cloud Intern
 
-Thời Gian Thực Tập: Từ 12/08/2025 đến 12/11/2025
+Thời Gian Thực Tập: Từ 06/09/2025 đến 24/12/2025
 
 ### Nội Dung Báo Cáo
 
