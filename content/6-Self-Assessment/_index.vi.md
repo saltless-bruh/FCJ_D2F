@@ -62,12 +62,14 @@ Trong quá trình thực tập, tôi đã thành công trong việc áp dụng k
 - **Kỹ Năng Full-Stack**: Phát triển ứng dụng web security console với React/TypeScript frontend và serverless backend
 
 **Bằng Chứng Phát Triển:**
+
 - Tuần 1: Khái niệm AWS cơ bản → Tuần 13: Nền tảng bảo mật production-ready
 - Hoàn thành thành công 8+ AWS hands-on labs về Lambda, DynamoDB, IAM và IoT Core
 - Tham dự 6 sự kiện (FCJ Kickoff, Vietnam Cloud Day, AI-Driven Dev, Cloud Mastery Series #1-3) áp dụng kiến thức ngay lập tức
 - Dịch 3 blog kỹ thuật AWS (OpenSearch/Grafana, NetApp Trident, LLM RLHF/RLAIF) thể hiện sự hiểu biết sâu sắc
 
 **Lĩnh Vực Xuất Sắc:**
+
 - Best practices bảo mật và triển khai hạ tầng PKI
 - Terraform IaC với mẫu code modular, có thể tái sử dụng
 - Thiết kế kiến trúc serverless theo AWS Well-Architected Framework
@@ -96,10 +98,10 @@ Tôi đã thể hiện sự nhanh nhẹn học tập đặc biệt trong suốt 
   - Học nguyên tắc FinOps để tối ưu chi phí
 
 **Tác Động Có Thể Đo Lường:**
+
 - Giảm 40% thời gian phát triển thông qua AI-assisted coding
 - Học và triển khai 10+ dịch vụ AWS mới trong 13 tuần
 - Dịch 3 blog kỹ thuật phức tạp (tổng 1,516 dòng) đòi hỏi hiểu biết kỹ thuật sâu sắc
-
 
 ### 3-12. Các Tiêu Chí Còn Lại
 
@@ -155,6 +157,7 @@ Tôi đã thể hiện sự nhanh nhẹn học tập đặc biệt trong suốt 
 **Thách Thức**: Đôi khi dành quá nhiều thời gian cho features, làm việc đêm khuya, khó ước tính thời gian
 
 **Kế Hoạch Cải Thiện**:
+
 - Time blocking với hard stops
 - Pomodoro technique (25 phút tập trung + break)
 - Priority matrix (Eisenhower)
@@ -165,6 +168,7 @@ Tôi đã thể hiện sự nhanh nhẹn học tập đặc biệt trong suốt 
 **Thách Thức**: Giải thích khái niệm phức tạp cho non-technical stakeholders, cung cấp quá nhiều detail kỹ thuật
 
 **Kế Hoạch Cải Thiện**:
+
 - Practice layered explanations (executive summary → technical deep dive)
 - Sử dụng analogies và storytelling
 - Record và review presentations
@@ -175,6 +179,7 @@ Tôi đã thể hiện sự nhanh nhẹn học tập đặc biệt trong suốt 
 **Thách Thức**: Xu hướng thêm features beyond planned scope, over-engineering solutions
 
 **Kế Hoạch Cải Thiện**:
+
 - MVP mindset first
 - Impact/effort matrix trước khi implement
 - Stakeholder communication cho scope changes
@@ -185,6 +190,7 @@ Tôi đã thể hiện sự nhanh nhẹn học tập đặc biệt trong suốt 
 **Thách Thức**: Đôi khi document sau khi complete thay vì real-time
 
 **Kế Hoạch Cải Thiện**:
+
 - Real-time documentation concurrent với implementation
 - Decision log cho architectural decisions
 - Structured templates
@@ -195,6 +201,7 @@ Tôi đã thể hiện sự nhanh nhẹn học tập đặc biệt trong suốt 
 **Thách Thức**: Làm việc đêm khuya, skip breaks, khó "switch off"
 
 **Kế Hoạch Cải Thiện**:
+
 - Strict work hours và mandatory breaks
 - Exercise routine cho mental reset
 - Hobby time và social connection
@@ -279,12 +286,14 @@ Thực tập này là trải nghiệm transformative sẽ định hình career t
 Thực tập AWS First Cloud Journey 2025 là trải nghiệm học tập đặc biệt vượt expectations. Trong 13 tuần, tôi chuyển đổi từ sinh viên với kiến thức AWS lý thuyết thành practitioner có khả năng xây dựng production-grade cloud security systems.
 
 **Điểm Chính:**
+
 - **Technical Growth**: Thành thạo 10+ AWS services, xây dựng IoT Security Infrastructure Platform hoàn chỉnh
 - **Professional Development**: Cải thiện communication, teamwork, problem-solving skills
 - **Community Connection**: Network 50+ cloud professionals, đóng góp cho AWS Vietnam community
 - **Career Readiness**: Skills và confidence cho cloud security engineer role
 
 **Tóm Tắt Tự Đánh Giá:**
+
 - **Điểm Mạnh**: Technical skills (Tốt), Learning agility (Tốt), Proactiveness (Tốt), Problem-solving (Tốt), Teamwork (Tốt)
 - **Cần Phát Triển**: Time management (Trung bình), Verbal communication (Trung bình), Work-life balance
 - **Overall Performance**: Tốt - Delivered all project objectives, đóng góp meaningfully cho community
