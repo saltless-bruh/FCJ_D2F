@@ -6,5 +6,6 @@
         "Portforwarding",
         "Portfwd",
         "Worklog"
-    ]
+    ],
+    "svn.ignoreMissingSvnWarning": true
 }
