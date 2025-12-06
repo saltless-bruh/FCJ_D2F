@@ -8,7 +8,9 @@ pre: " <b> 1.12 </b> "
 
 #### NHẬT KÝ TUẦN 12
 
-⚠️ **Lưu ý**: Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 12 của chương trình thực tập.
+{{% notice note %}}
+Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 12 của chương trình thực tập.
+{{% /notice %}}
 
 ### Mục tiêu Tuần 12
 
@@ -18,12 +20,12 @@ pre: " <b> 1.12 </b> "
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
-| STT | Mô tả Nhiệm vụ | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo |
-|-----|----------------|--------------|---------------|-----------|
-| 1 | Thực hiện kiểm tra bảo mật toàn diện - Vulnerability scanning với AWS Inspector - Penetration testing - IAM policy review - Compliance validation | 24/11/2025 | 26/11/2025 | Security Testing |
-| 2 | Tham dự AWS Cloud Mastery Series #3 - Advanced security operations - Incident response automation - Cost management và optimization | 27/11/2025 | 27/11/2025 | [AWS Cloud Mastery](https://aws.amazon.com/events/) |
-| 3 | Kiểm tra và tối ưu hiệu năng - Load testing certificate issuance - Lambda cold start optimization - DynamoDB capacity planning - API response time analysis | 28/11/2025 | 29/11/2025 | Performance Testing |
-| 4 | Hoàn thành tài liệu kỹ thuật - Architecture documentation - API documentation - Deployment guide - Operational runbooks - Troubleshooting guide | 29/11/2025 | 30/11/2025 | Documentation |
+| STT | Mô tả Nhiệm vụ                                                                                                                                              | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo                                           |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | --------------------------------------------------- |
+| 1   | Thực hiện kiểm tra bảo mật toàn diện - Vulnerability scanning với AWS Inspector - Penetration testing - IAM policy review - Compliance validation           | 24/11/2025   | 26/11/2025    | Security Testing                                    |
+| 2   | Tham dự AWS Cloud Mastery Series #3 - Advanced security operations - Incident response automation - Cost management và optimization                         | 27/11/2025   | 27/11/2025    | [AWS Cloud Mastery](https://aws.amazon.com/events/) |
+| 3   | Kiểm tra và tối ưu hiệu năng - Load testing certificate issuance - Lambda cold start optimization - DynamoDB capacity planning - API response time analysis | 28/11/2025   | 29/11/2025    | Performance Testing                                 |
+| 4   | Hoàn thành tài liệu kỹ thuật - Architecture documentation - API documentation - Deployment guide - Operational runbooks - Troubleshooting guide             | 29/11/2025   | 30/11/2025    | Documentation                                       |
 
 ### Thành tựu Tuần 12
 

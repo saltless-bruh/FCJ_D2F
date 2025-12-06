@@ -8,7 +8,9 @@ pre: " <b> 1.5 </b> "
 
 #### NHẬT KÝ TUẦN 5
 
-⚠️ **Lưu ý**: Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 5 của chương trình thực tập.
+{{% notice note %}}
+Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 5 của chương trình thực tập.
+{{% /notice %}}
 
 ### Mục tiêu Tuần 5
 
@@ -18,13 +20,13 @@ pre: " <b> 1.5 </b> "
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
-| STT | Mô tả Nhiệm vụ | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo |
-|-----|----------------|--------------|---------------|-----------|
-| 1 | Thiết lập GitHub repository dự án - Khởi tạo cấu trúc monorepo - Cấu hình CI/CD pipelines - Thiết lập branch protection rules | 06/10/2025 | 07/10/2025 | [GitHub Repo](https://github.com/) |
-| 2 | Hoàn thành DynamoDB lab và triển khai device registry - Thiết kế schema cho device certificates - Triển khai TTL cho certs hết hạn - Tạo GSI cho queries | 08/10/2025 | 09/10/2025 | [AWS DynamoDB](https://aws.amazon.com/dynamodb/) |
-| 3 | Hoàn thành IoT Core lab - Cấu hình IoT Thing Registry - Thiết lập MQTT topics và subscriptions - Triển khai IoT policies | 10/10/2025 | 10/10/2025 | [AWS IoT Core](https://aws.amazon.com/iot-core/) |
-| 4 | Dịch và xuất bản 3 blog kỹ thuật cho FCJ - Chọn chủ đề bảo mật AWS - Dịch sang tiếng Việt - Gửi để review | 11/10/2025 | 12/10/2025 | [FCJ Blogs](https://cloudjourney.awsstudygroup.com/) |
-| 5 | Triển khai phân cấp PKI CA với ACM Private CA - Tạo Root và Intermediate CAs - Cấu hình CA certificate chain - Thiết lập certificate templates | 12/10/2025 | 12/10/2025 | [ACM Private CA](https://aws.amazon.com/certificate-manager/) |
+| STT | Mô tả Nhiệm vụ                                                                                                                                           | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo                                                     |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | ------------------------------------------------------------- |
+| 1   | Thiết lập GitHub repository dự án - Khởi tạo cấu trúc monorepo - Cấu hình CI/CD pipelines - Thiết lập branch protection rules                            | 06/10/2025   | 07/10/2025    | [GitHub Repo](https://github.com/)                            |
+| 2   | Hoàn thành DynamoDB lab và triển khai device registry - Thiết kế schema cho device certificates - Triển khai TTL cho certs hết hạn - Tạo GSI cho queries | 08/10/2025   | 09/10/2025    | [AWS DynamoDB](https://aws.amazon.com/dynamodb/)              |
+| 3   | Hoàn thành IoT Core lab - Cấu hình IoT Thing Registry - Thiết lập MQTT topics và subscriptions - Triển khai IoT policies                                 | 10/10/2025   | 10/10/2025    | [AWS IoT Core](https://aws.amazon.com/iot-core/)              |
+| 4   | Dịch và xuất bản 3 blog kỹ thuật cho FCJ - Chọn chủ đề bảo mật AWS - Dịch sang tiếng Việt - Gửi để review                                                | 11/10/2025   | 12/10/2025    | [FCJ Blogs](https://cloudjourney.awsstudygroup.com/)          |
+| 5   | Triển khai phân cấp PKI CA với ACM Private CA - Tạo Root và Intermediate CAs - Cấu hình CA certificate chain - Thiết lập certificate templates           | 12/10/2025   | 12/10/2025    | [ACM Private CA](https://aws.amazon.com/certificate-manager/) |
 
 ### Thành tựu Tuần 5
 

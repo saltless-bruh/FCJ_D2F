@@ -8,7 +8,9 @@ pre: " <b> 1.3 </b> "
 
 #### NHẬT KÝ TUẦN 3
 
-⚠️ **Lưu ý**: Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 3 của chương trình thực tập.
+{{% notice note %}}
+Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 3 của chương trình thực tập.
+{{% /notice %}}
 
 ### Mục tiêu Tuần 3
 
@@ -18,12 +20,12 @@ pre: " <b> 1.3 </b> "
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
-| STT | Mô tả Nhiệm vụ | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo |
-|-----|----------------|--------------|---------------|-----------|
-| 1 | Thiết lập AWS account và cấu hình IAM - Tạo IAM users với least privilege - Cấu hình MFA cho bảo mật - Thiết lập cảnh báo billing | 22/09/2025 | 23/09/2025 | [AWS IAM](https://aws.amazon.com/iam/) |
-| 2 | Đánh giá công cụ IaC (Terraform vs CloudFormation) - So sánh cú pháp declarative - Đánh giá tính di động multi-cloud - Quyết định: Terraform cho tính linh hoạt | 24/09/2025 | 25/09/2025 | [Terraform](https://www.terraform.io/) |
-| 3 | Hoàn thiện technology stack - Backend: TypeScript + Node.js Lambda - Frontend: React + TypeScript - IaC: Terraform - Database: DynamoDB | 26/09/2025 | 27/09/2025 | Technology Stack |
-| 4 | Tài liệu hóa thiết lập môi trường phát triển - Cài đặt AWS CLI và SDK - Cấu hình công cụ phát triển local - Tạo hướng dẫn getting-started | 28/09/2025 | 28/09/2025 | Dev Environment |
+| STT | Mô tả Nhiệm vụ                                                                                                                                                  | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo                              |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | -------------------------------------- |
+| 1   | Thiết lập AWS account và cấu hình IAM - Tạo IAM users với least privilege - Cấu hình MFA cho bảo mật - Thiết lập cảnh báo billing                               | 22/09/2025   | 23/09/2025    | [AWS IAM](https://aws.amazon.com/iam/) |
+| 2   | Đánh giá công cụ IaC (Terraform vs CloudFormation) - So sánh cú pháp declarative - Đánh giá tính di động multi-cloud - Quyết định: Terraform cho tính linh hoạt | 24/09/2025   | 25/09/2025    | [Terraform](https://www.terraform.io/) |
+| 3   | Hoàn thiện technology stack - Backend: TypeScript + Node.js Lambda - Frontend: React + TypeScript - IaC: Terraform - Database: DynamoDB                         | 26/09/2025   | 27/09/2025    | Technology Stack                       |
+| 4   | Tài liệu hóa thiết lập môi trường phát triển - Cài đặt AWS CLI và SDK - Cấu hình công cụ phát triển local - Tạo hướng dẫn getting-started                       | 28/09/2025   | 28/09/2025    | Dev Environment                        |
 
 ### Thành tựu Tuần 3
 

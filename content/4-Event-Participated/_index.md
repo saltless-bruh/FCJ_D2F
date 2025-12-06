@@ -6,11 +6,9 @@ chapter: false
 pre: "<b>4. </b>"
 ---
 
-# EVENTS PARTICIPATED
-
-⚠️ **Note**: The information below documents all events I participated in during my AWS FCJ internship from September to December 2025. Each event provided valuable learning experiences and opportunities to connect with the AWS community.
-
-During my internship, I participated in six significant events related to AWS, cloud computing, and the FCJ program. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with wonderful networking moments with cloud professionals and fellow interns.
+{{% notice note %}}
+The information below documents all events I participated in during my AWS FCJ internship from September to December 2025. Each event provided valuable learning experiences and opportunities to connect with the AWS community.
+{{% /notice %}}
 
 ---
 
@@ -39,18 +37,21 @@ The FCJ 2025 Kickoff Event marked the official beginning of the First Cloud Jour
 ### Sessions Attended
 
 1. **Welcome and Program Overview** - FCJ Program Director
+
    - Introduction to FCJ history and mission
    - 2025 program structure and timeline
    - Success stories from previous cohorts
    - Evaluation criteria and graduation requirements
 
 2. **Project Ideation Workshop** - Technical Mentors
+
    - Brainstorming project topics aligned with AWS services
    - Identifying real-world problems to solve
    - Scoping projects appropriately for 4-month timeline
    - Technical feasibility assessment
 
 3. **Intern Project Presentations** - All Participating Interns
+
    - 5-minute pitch of initial project ideas
    - Q&A with mentors and fellow interns
    - Feedback on project scope and technical approach
@@ -108,11 +109,13 @@ Vietnam Cloud Day 2025 was a premier cloud computing conference bringing togethe
 ### Sessions Attended
 
 1. **Securing IoT Devices at Scale** - AWS Solutions Architect
+
    - Certificate-based authentication strategies
    - AWS IoT Core policies and thing groups
    - Integration with AWS Certificate Manager Private CA
 
 2. **Building Serverless Applications** - AWS Developer Advocate
+
    - Lambda function optimization techniques
    - EventBridge for event-driven architecture
    - DynamoDB best practices for high-throughput applications
@@ -168,11 +171,13 @@ This virtual event explored the transformative impact of AI on software developm
 ### Sessions Attended
 
 1. **GitHub Copilot Deep Dive** - GitHub Developer Relations
+
    - Setting up Copilot in development environments
    - Writing effective prompts for infrastructure as code
    - Context-aware code suggestions for AWS SDK
 
 2. **AI in Cloud Security** - Security Automation Expert
+
    - Using AI to identify security misconfigurations
    - Automated compliance checking with AI-powered tools
    - Integrating security scanning in development workflow
@@ -226,11 +231,13 @@ Part of AWS's ongoing education series, this webinar focused on advanced securit
 ### Sessions Attended
 
 1. **Multi-Account Strategy for Startups** - AWS Solutions Architect
+
    - Account segregation patterns (dev/test/prod)
    - Centralized logging and monitoring architecture
    - Cross-account IAM role assumptions
 
 2. **Security Automation at Scale** - AWS Security Specialist
+
    - Automated compliance checking with AWS Config Rules
    - GuardDuty for threat detection and response
    - Security Hub for centralized security findings
@@ -284,12 +291,14 @@ The second installment of the AWS Cloud Mastery Series focused on Infrastructure
 ### Sessions Attended
 
 1. **Terraform Module Design Patterns** - AWS DevOps Specialist
+
    - Creating reusable, composable Terraform modules
    - Managing module versioning and dependencies
    - Remote state management with S3 and DynamoDB locking
    - Workspace strategies for multi-environment deployments
 
 2. **Multi-Region Architecture** - AWS Solutions Architect
+
    - Active-active vs active-passive multi-region patterns
    - Data replication strategies with DynamoDB Global Tables
    - Route53 routing policies for global traffic management
@@ -353,18 +362,21 @@ The final session of the AWS Cloud Mastery Series trilogy focused on advanced se
 ### Sessions Attended
 
 1. **Automated Incident Response** - AWS Security Architect
+
    - Building event-driven security automation with EventBridge
    - Lambda functions for automatic threat remediation
    - Step Functions for complex incident response workflows
    - Integration with Security Hub for centralized findings
 
 2. **Compliance at Scale** - AWS Compliance Specialist
+
    - AWS Config Rules for continuous compliance monitoring
    - Custom Config Rules for organization-specific policies
    - Automated remediation of non-compliant resources
    - Generating compliance reports for auditors
 
 3. **FinOps and Cost Optimization** - AWS Cost Management Expert
+
    - Implementing FinOps culture and practices
    - Cost allocation and chargeback strategies
    - Using AWS Cost Anomaly Detection
@@ -438,14 +450,14 @@ This trilogy perfectly aligned with my project lifecycle, providing timely knowl
 
 ### Event Attendance Summary
 
-| Event | Date | Type | Key Focus |
-|-------|------|------|-----------|
-| FCJ 2025 Kickoff | Sep 8 | In-Person | Program orientation, project ideation, networking |
-| Vietnam Cloud Day 2025 | Sep 18 | Conference | AWS services, IoT security, cloud architecture |
-| AI-Driven Development | Oct 3 | Virtual | GitHub Copilot, AI-assisted coding, automation |
-| AWS Cloud Mastery #1 | Nov 13 | Webinar | Security architecture, multi-account, IAM |
-| AWS Cloud Mastery #2 | Nov 20 | Webinar | Infrastructure as Code, Terraform, cost optimization |
-| AWS Cloud Mastery #3 | Nov 27 | Webinar | Security operations, incident response, FinOps |
+| Event                  | Date   | Type       | Key Focus                                            |
+| ---------------------- | ------ | ---------- | ---------------------------------------------------- |
+| FCJ 2025 Kickoff       | Sep 8  | In-Person  | Program orientation, project ideation, networking    |
+| Vietnam Cloud Day 2025 | Sep 18 | Conference | AWS services, IoT security, cloud architecture       |
+| AI-Driven Development  | Oct 3  | Virtual    | GitHub Copilot, AI-assisted coding, automation       |
+| AWS Cloud Mastery #1   | Nov 13 | Webinar    | Security architecture, multi-account, IAM            |
+| AWS Cloud Mastery #2   | Nov 20 | Webinar    | Infrastructure as Code, Terraform, cost optimization |
+| AWS Cloud Mastery #3   | Nov 27 | Webinar    | Security operations, incident response, FinOps       |
 
 ### Practical Project Impact
 
@@ -508,7 +520,7 @@ Participating in these six events was invaluable to my professional development 
 The strategic timing and comprehensive coverage of these events transformed my internship from a learning experience into a career-launching journey. The combination of:
 
 - **Technical knowledge** from expert presentations and workshops
-- **Professional networking** with AWS community and fellow interns  
+- **Professional networking** with AWS community and fellow interns
 - **Practical application** to real-world IoT security project
 - **Career preparation** through exposure to industry practices
 

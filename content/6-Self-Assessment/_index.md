@@ -6,9 +6,9 @@ chapter: false
 pre: "<b>6. </b>"
 ---
 
-# SELF-ASSESSMENT
-
-⚠️ **Note**: This self-assessment reflects my genuine experience and growth during the AWS First Cloud Journey 2025 internship program. All evaluations are based on actual work completed and feedback received.
+{{% notice note %}}
+This self-assessment reflects my genuine experience and growth during the AWS First Cloud Journey 2025 internship program. All evaluations are based on actual work completed and feedback received.
+{{% /notice %}}
 
 During my internship with the **AWS First Cloud Journey Program** from **September 8, 2025 to December 4, 2025** (13 weeks), I had the invaluable opportunity to learn, practice, and apply theoretical knowledge to real-world cloud computing and IoT security challenges.
 
@@ -29,20 +29,20 @@ To objectively reflect on my 13-week internship journey, I would like to evaluat
 
 ## Self-Evaluation Table
 
-| No. | Evaluation Criteria | Description | Good | Average | Needs Improvement |
-|-----|---------------------|-------------|------|---------|-------------------|
-| 1 | Professional knowledge & skills | Understanding of cloud computing, applying AWS services in practice, proficiency with IaC tools, code quality | ✅ | ☐ | ☐ |
-| 2 | Ability to learn | Absorbing new AWS services and technologies quickly through events, documentation, and hands-on practice | ✅ | ☐ | ☐ |
-| 3 | Proactiveness | Taking initiative to attend extra events, research advanced topics, and propose improvements without waiting for instructions | ✅ | ☐ | ☐ |
-| 4 | Sense of responsibility | Completing weekly tasks on time, maintaining detailed worklog, ensuring project quality and security | ✅ | ☐ | ☐ |
-| 5 | Discipline | Adhering to FCJ program schedule, attending all 6 events, submitting deliverables punctually | ☐ | ✅ | ☐ |
-| 6 | Progressive mindset | Actively seeking feedback from mentors, applying lessons learned from events, continuously improving code quality | ✅ | ☐ | ☐ |
-| 7 | Communication | Documenting work clearly in worklogs, translating technical blogs, presenting project ideas effectively | ☐ | ✅ | ☐ |
-| 8 | Teamwork | Collaborating with 5-member team, sharing knowledge with fellow FCJ interns, participating in AWS community | ✅ | ☐ | ☐ |
-| 9 | Professional conduct | Respecting mentors and peers, contributing positively to FCJ community, maintaining professional standards | ✅ | ☐ | ☐ |
-| 10 | Problem-solving skills | Debugging complex security issues, architecting scalable solutions, applying creative approaches to challenges | ✅ | ☐ | ☐ |
-| 11 | Contribution to project/team | Delivered complete IoT security platform, translated 3 technical blogs, shared event learnings with community | ✅ | ☐ | ☐ |
-| 12 | Overall | General evaluation of entire 13-week internship journey, balancing technical growth with community contribution | ✅ | ☐ | ☐ |
+| No. | Evaluation Criteria             | Description                                                                                                                   | Good | Average | Needs Improvement |
+| --- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---- | ------- | ----------------- |
+| 1   | Professional knowledge & skills | Understanding of cloud computing, applying AWS services in practice, proficiency with IaC tools, code quality                 | ✅   | ☐       | ☐                 |
+| 2   | Ability to learn                | Absorbing new AWS services and technologies quickly through events, documentation, and hands-on practice                      | ✅   | ☐       | ☐                 |
+| 3   | Proactiveness                   | Taking initiative to attend extra events, research advanced topics, and propose improvements without waiting for instructions | ✅   | ☐       | ☐                 |
+| 4   | Sense of responsibility         | Completing weekly tasks on time, maintaining detailed worklog, ensuring project quality and security                          | ✅   | ☐       | ☐                 |
+| 5   | Discipline                      | Adhering to FCJ program schedule, attending all 6 events, submitting deliverables punctually                                  | ☐    | ✅      | ☐                 |
+| 6   | Progressive mindset             | Actively seeking feedback from mentors, applying lessons learned from events, continuously improving code quality             | ✅   | ☐       | ☐                 |
+| 7   | Communication                   | Documenting work clearly in worklogs, translating technical blogs, presenting project ideas effectively                       | ☐    | ✅      | ☐                 |
+| 8   | Teamwork                        | Collaborating with 5-member team, sharing knowledge with fellow FCJ interns, participating in AWS community                   | ✅   | ☐       | ☐                 |
+| 9   | Professional conduct            | Respecting mentors and peers, contributing positively to FCJ community, maintaining professional standards                    | ✅   | ☐       | ☐                 |
+| 10  | Problem-solving skills          | Debugging complex security issues, architecting scalable solutions, applying creative approaches to challenges                | ✅   | ☐       | ☐                 |
+| 11  | Contribution to project/team    | Delivered complete IoT security platform, translated 3 technical blogs, shared event learnings with community                 | ✅   | ☐       | ☐                 |
+| 12  | Overall                         | General evaluation of entire 13-week internship journey, balancing technical growth with community contribution               | ✅   | ☐       | ☐                 |
 
 ---
 
@@ -81,11 +81,13 @@ During the internship, I successfully applied theoretical knowledge from univers
 I demonstrated exceptional learning agility throughout the internship by quickly absorbing new technologies and applying them to my project:
 
 - **Rapid Technology Adoption**:
+
   - Week 4: Learned GitHub Copilot → Immediately integrated for 40% productivity boost
   - Week 11: Learned Terraform → Deployed complete IaC implementation within 1 week
   - Week 12: Learned security automation → Implemented automated compliance checking
 
 - **Event-Driven Learning**: Attended 6 AWS events and applied 95% of concepts learned directly to project:
+
   - Vietnam Cloud Day → Refined PKI architecture same week
   - AI-Driven Development → Adopted Copilot for accelerated development
   - Cloud Mastery #2 → Refactored infrastructure into reusable Terraform modules
@@ -134,17 +136,20 @@ I consistently took initiative beyond assigned tasks, demonstrating strong self-
 I maintained high standards of accountability and reliability throughout the internship:
 
 - **Timely Deliverables**:
+
   - Completed all 13 weekly worklogs on schedule with comprehensive documentation
   - Delivered project milestones according to planned timeline
   - Submitted final presentation and documentation by deadline
 
 - **Quality Assurance**:
+
   - Wrote comprehensive unit and integration tests achieving >80% code coverage
   - Conducted security testing and addressed all critical vulnerabilities
   - Performed load testing ensuring <100ms response time for critical operations
   - Created operational runbooks and troubleshooting guides
 
 - **Documentation Excellence**:
+
   - Maintained detailed weekly worklogs documenting all activities
   - Created architecture documentation following AWS best practices
   - Wrote API documentation and deployment guides
@@ -197,18 +202,21 @@ While I generally adhered to FCJ program requirements, there were areas where I 
 I demonstrated strong willingness to receive feedback and continuously improve:
 
 - **Mentor Feedback Integration**:
+
   - Week 2: Received feedback on architecture complexity → Simplified design using serverless patterns
   - Week 6: Feedback on IAM policies being too broad → Implemented least-privilege permissions
   - Week 8: Feedback on error handling → Added comprehensive logging and monitoring
   - Week 11: Feedback on infrastructure code duplication → Refactored into reusable Terraform modules
 
 - **Event Learning Application**:
+
   - Immediately applied security best practices learned at Vietnam Cloud Day
   - Adopted AI-assisted development after AI-Driven Development event
   - Restructured infrastructure after Cloud Mastery #2 on IaC best practices
   - Added automated compliance after Cloud Mastery #3 on security operations
 
 - **Self-Reflection and Iteration**:
+
   - Week 4: Recognized code productivity issues → Adopted GitHub Copilot
   - Week 8: Identified testing gaps → Implemented comprehensive test suite
   - Week 11: Noticed deployment reliability issues → Built CI/CD pipeline with automated testing
@@ -235,6 +243,7 @@ My communication skills improved significantly during the internship, though the
 **Strengths:**
 
 - **Written Documentation**:
+
   - Maintained detailed weekly worklogs with clear task descriptions and outcomes
   - Wrote comprehensive technical documentation (architecture, API, deployment guides)
   - Translated 3 complex technical blogs (1,516 lines total) with clarity and accuracy
@@ -282,6 +291,7 @@ I collaborated effectively with my 5-member project team and the broader FCJ com
 
 - **Role Coordination**: Worked closely with 2 IC Design Engineers (hardware/firmware), 2 Software Engineers (backend/frontend).
 - **Knowledge Sharing**:
+
   - Shared event learnings with team members through internal presentations
   - Conducted code reviews and provided constructive feedback
   - Documented architecture decisions for team reference
@@ -364,21 +374,25 @@ I demonstrated strong analytical thinking and creative problem-solving throughou
 **Complex Technical Challenges Solved:**
 
 1. **Certificate Lifecycle Automation** (Week 6)
+
    - **Problem**: Manual certificate management unscalable for 1000+ devices
    - **Solution**: Designed automated 3-tier PKI hierarchy with Lambda-based lifecycle management
    - **Outcome**: Reduced certificate management overhead by 90%, enabled automatic rotation
 
 2. **Security Policy Enforcement** (Week 7)
+
    - **Problem**: Manual security policy updates error-prone and time-consuming
    - **Solution**: Implemented automated policy enforcement using AWS IoT Core policies and EventBridge
    - **Outcome**: Automated security policy distribution to all devices in <5 seconds
 
 3. **Real-time Threat Detection** (Week 7-8)
+
    - **Problem**: Need to detect security threats across distributed IoT devices in real-time
    - **Solution**: Built event processing pipeline using Kinesis Data Streams and Lambda consumers
    - **Outcome**: Achieved <2 second threat detection and automatic incident response
 
 4. **Infrastructure Code Duplication** (Week 11)
+
    - **Problem**: 60% code duplication across Terraform configurations
    - **Solution**: Refactored infrastructure into reusable, composable Terraform modules
    - **Outcome**: Reduced code duplication, improved maintainability, enabled multi-environment deployments
@@ -419,6 +433,7 @@ I made significant and measurable contributions to both the project and FCJ comm
 **Project Deliverables:**
 
 1. **IoT Security Infrastructure Platform** (Core Contribution)
+
    - Automated PKI certificate management supporting 1000+ devices
    - Real-time threat detection and incident response system
    - Security policy automation and compliance reporting
@@ -427,6 +442,7 @@ I made significant and measurable contributions to both the project and FCJ comm
    - CI/CD pipeline with automated testing and deployment
 
 2. **Technical Metrics Achieved**:
+
    - **Performance**: <100ms response time for critical operations
    - **Reliability**: 99.9% system uptime in testing
    - **Scalability**: Supports 1000+ IoT devices with room for expansion
@@ -445,12 +461,14 @@ I made significant and measurable contributions to both the project and FCJ comm
 **Community Contributions:**
 
 1. **Blog Translations** (3 technical articles, 1,516 lines total):
+
    - **Blog 1**: OpenSearch & Grafana for AWS Observability (548 lines)
    - **Blog 2**: NetApp Trident for Amazon EKS Disaster Recovery (367 lines)
    - **Blog 3**: LLM Fine-tuning with RLHF & RLAIF (601 lines)
    - All translations published to Google Docs with proper formatting and technical accuracy
 
 2. **Knowledge Sharing**:
+
    - Shared insights from 6 AWS events with FCJ intern community
    - Documented best practices for future FCJ cohorts
    - Helped fellow interns understand AWS services and architecture patterns
@@ -484,16 +502,19 @@ Reflecting on my complete 13-week internship journey, I believe I successfully a
 **Major Accomplishments:**
 
 1. **Technical Growth**:
+
    - Progressed from basic AWS knowledge to building production-grade security platform
    - Mastered 10+ AWS services through hands-on implementation
    - Gained expertise in cloud architecture, security, IaC, and DevOps practices
 
 2. **Project Delivery**:
+
    - Delivered complete IoT Security Infrastructure Platform on schedule
    - Achieved all performance, reliability, and security targets
    - Stayed within budget while building scalable, production-ready solution
 
 3. **Community Engagement**:
+
    - Attended 6 AWS events (double the typical intern participation)
    - Translated 3 technical blogs contributing to FCJ knowledge base
    - Built professional network of 50+ cloud professionals
@@ -545,18 +566,21 @@ This internship has solidified my passion for cloud computing and security. I pl
 ### Technical Achievements
 
 1. **Cloud Architecture Mastery**
+
    - Designed and implemented production-grade serverless architecture
    - Applied AWS Well-Architected Framework principles (Security, Reliability, Performance, Cost Optimization, Operational Excellence)
    - Built scalable system supporting 1000+ devices with room for 10x growth
    - Achieved <100ms response time and 99.9% uptime in testing
 
 2. **Security Implementation**
+
    - Implemented comprehensive PKI infrastructure with 3-tier certificate authority hierarchy
    - Built automated certificate lifecycle management reducing overhead by 90%
    - Designed least-privilege IAM policies following security best practices
    - Created automated threat detection and incident response system
 
 3. **Infrastructure as Code Excellence**
+
    - Wrote modular, reusable Terraform code achieving 60% reduction in duplication
    - Implemented proper state management with S3 backend and DynamoDB locking
    - Built CI/CD pipeline with automated testing and validation
@@ -571,12 +595,14 @@ This internship has solidified my passion for cloud computing and security. I pl
 ### Learning and Growth
 
 1. **Rapid Technology Adoption**
+
    - Learned and applied 10+ AWS services across 13 weeks
    - Integrated GitHub Copilot for 40% productivity boost within days of learning
    - Mastered Terraform and deployed complete IaC implementation in 1 week
    - Applied security automation concepts immediately after learning at events
 
 2. **Event-Driven Learning**
+
    - Attended 6 AWS events and applied 95% of concepts to project
    - Translated complex technical blogs requiring deep comprehension
    - Shared learnings with community through presentations and documentation
@@ -589,12 +615,14 @@ This internship has solidified my passion for cloud computing and security. I pl
 ### Community Contribution
 
 1. **Knowledge Sharing**
+
    - Translated 3 technical blogs (1,516 lines) for Vietnamese AWS community
    - Documented best practices and learnings for future FCJ cohorts
    - Shared event insights with fellow interns through presentations
    - Contributed to AWS Vietnam User Group discussions
 
 2. **Professional Networking**
+
    - Built network of 50+ cloud professionals through event participation
    - Connected with 25+ fellow FCJ interns establishing collaboration channels
    - Engaged with 5 FCJ mentors for ongoing technical guidance
@@ -735,21 +763,25 @@ While I achieved strong results overall, there are specific areas where I recogn
 ### Technical Lessons
 
 1. **Start with Architecture, Not Code**
+
    - Early architectural decisions have lasting impact
    - Time spent on design prevents costly refactoring later
    - AWS Well-Architected Framework provides valuable guidance
 
 2. **Security Cannot Be an Afterthought**
+
    - Security must be built in from the beginning
    - Least-privilege IAM policies prevent many security issues
    - Automated security monitoring catches problems early
 
 3. **Infrastructure as Code is Essential**
+
    - Manual infrastructure changes don't scale
    - Version-controlled infrastructure enables collaboration
    - Modular IaC code is reusable and maintainable
 
 4. **Test Early and Often**
+
    - Unit tests catch bugs before integration
    - Load testing reveals performance issues
    - Security testing identifies vulnerabilities before production
@@ -762,21 +794,25 @@ While I achieved strong results overall, there are specific areas where I recogn
 ### Professional Lessons
 
 1. **Community Engagement Accelerates Learning**
+
    - Event participation exposes you to best practices
    - Networking provides mentorship opportunities
    - Knowledge sharing reinforces understanding
 
 2. **Feedback is a Gift**
+
    - Seek feedback early and often
    - Apply feedback immediately to maximize learning
    - Thank people for taking time to provide feedback
 
 3. **Communication is as Important as Code**
+
    - Documentation has long-term value
    - Clear communication prevents misunderstandings
    - Different audiences need different explanation levels
 
 4. **Balance Exploration with Delivery**
+
    - Learning new technologies is valuable
    - Delivering working solutions is essential
    - Find balance between innovation and pragmatism
@@ -789,21 +825,25 @@ While I achieved strong results overall, there are specific areas where I recogn
 ### Personal Lessons
 
 1. **Time Management Skills are Learnable**
+
    - Improved significantly from Week 1 to Week 13
    - Tools and techniques help (time blocking, Pomodoro, etc.)
    - Continuous refinement needed
 
 2. **Asking for Help is Strength, Not Weakness**
+
    - Mentors appreciate when you ask questions
    - Community is willing to help those who help themselves
    - Saves significant time compared to struggling alone
 
 3. **Sustainable Pace Beats Heroic Efforts**
+
    - Late-night coding sessions are sometimes necessary
    - Cannot maintain that pace long-term
    - Better to work consistently at sustainable pace
 
 4. **Imposter Syndrome is Normal**
+
    - Everyone feels inadequate at times
    - Focus on progress, not perfection
    - Celebrate achievements, no matter how small
@@ -820,11 +860,13 @@ While I achieved strong results overall, there are specific areas where I recogn
 ### Short-Term Goals (Next 3 Months)
 
 1. **AWS Certification**
+
    - Complete AWS Certified Solutions Architect - Associate exam
    - Begin studying for AWS Certified Security - Specialty
    - Leverage internship project as practical foundation
 
 2. **Skill Enhancement**
+
    - Deep dive into AWS advanced services (Step Functions, AppSync, CDK)
    - Strengthen Kubernetes skills for container orchestration
    - Improve CI/CD expertise with advanced pipeline patterns
@@ -837,16 +879,19 @@ While I achieved strong results overall, there are specific areas where I recogn
 ### Medium-Term Goals (6-12 Months)
 
 1. **Professional Employment**
+
    - Secure cloud security engineer or DevOps engineer role
    - Apply AWS skills and internship experience in production environment
    - Continue learning from experienced professionals
 
 2. **Advanced Certifications**
+
    - Complete AWS Certified Security - Specialty
    - Consider AWS Certified DevOps Engineer - Professional
    - Explore specialized certifications based on career direction
 
 3. **Project Enhancement**
+
    - Open-source portions of IoT Security Infrastructure Platform
    - Add machine learning for predictive threat detection
    - Implement multi-region deployment for disaster recovery
@@ -859,16 +904,19 @@ While I achieved strong results overall, there are specific areas where I recogn
 ### Long-Term Goals (1-3 Years)
 
 1. **Technical Leadership**
+
    - Grow into senior cloud security engineer role
    - Lead architecture design for complex cloud systems
    - Mentor junior engineers and interns
 
 2. **Specialized Expertise**
+
    - Become recognized expert in cloud security and PKI infrastructure
    - Contribute to AWS community as thought leader
    - Speak at conferences and AWS community events
 
 3. **Continuous Learning**
+
    - Stay current with evolving AWS services and cloud technologies
    - Explore emerging areas (quantum-safe cryptography, zero-trust architecture)
    - Pursue advanced degrees or specialized training as needed
@@ -948,8 +996,8 @@ Thank you to the FCJ program, mentors, fellow interns, and AWS community for thi
 
 ---
 
-*Prepared by: Tran Quang Huy*  
-*Student ID: SE182122*  
-*University: FPT University*  
-*Internship Period: September 8 - December 4, 2025*  
-*Program: AWS First Cloud Journey 2025*
+_Prepared by: Tran Quang Huy_  
+_Student ID: SE182122_  
+_University: FPT University_  
+_Internship Period: September 8 - December 4, 2025_  
+_Program: AWS First Cloud Journey 2025_

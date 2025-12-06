@@ -8,7 +8,9 @@ pre: " <b> 1.6 </b> "
 
 #### WEEK 6 WORKLOG
 
-⚠️ **Note**: This worklog documents actual work completed during Week 6 of the internship program.
+{{% notice note %}}
+This worklog documents actual work completed during Week 6 of the internship program.
+{{% /notice %}}
 
 ### Week 6 Objectives
 
@@ -18,12 +20,12 @@ pre: " <b> 1.6 </b> "
 
 ### Tasks Performed This Week
 
-| No. | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
-| 1 | Develop Lambda functions for certificate automation - Implement certificate issuance workflow - Build automatic renewal logic - Create revocation handler | 13/10/2025 | 15/10/2025 | [Lambda Functions](https://github.com/) |
-| 2 | Implement EventBridge rules for lifecycle automation - Schedule certificate expiry checks (7/30 days before) - Trigger renewal workflows - Send expiry notifications | 16/10/2025 | 17/10/2025 | [EventBridge](https://aws.amazon.com/eventbridge/) |
-| 3 | Complete AWS security services lab - CloudHSM for key storage - KMS for encryption keys - Secrets Manager for credentials | 18/10/2025 | 18/10/2025 | [AWS Security Labs](https://cloudjourney.awsstudygroup.com/) |
-| 4 | Set up certificate validation endpoints - Configure CRL distribution point - Implement OCSP responder - Test certificate revocation checking | 19/10/2025 | 19/10/2025 | Certificate Validation |
+| No. | Task Description                                                                                                                                                     | Start Date | End Date   | Reference                                                    |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
+| 1   | Develop Lambda functions for certificate automation - Implement certificate issuance workflow - Build automatic renewal logic - Create revocation handler            | 13/10/2025 | 15/10/2025 | [Lambda Functions](https://github.com/)                      |
+| 2   | Implement EventBridge rules for lifecycle automation - Schedule certificate expiry checks (7/30 days before) - Trigger renewal workflows - Send expiry notifications | 16/10/2025 | 17/10/2025 | [EventBridge](https://aws.amazon.com/eventbridge/)           |
+| 3   | Complete AWS security services lab - CloudHSM for key storage - KMS for encryption keys - Secrets Manager for credentials                                            | 18/10/2025 | 18/10/2025 | [AWS Security Labs](https://cloudjourney.awsstudygroup.com/) |
+| 4   | Set up certificate validation endpoints - Configure CRL distribution point - Implement OCSP responder - Test certificate revocation checking                         | 19/10/2025 | 19/10/2025 | Certificate Validation                                       |
 
 ### Week 6 Achievements
 

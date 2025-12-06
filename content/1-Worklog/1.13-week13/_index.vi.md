@@ -8,7 +8,9 @@ pre: " <b> 1.13 </b> "
 
 #### NHẬT KÝ TUẦN 13
 
-⚠️ **Lưu ý**: Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 13 của chương trình thực tập.
+{{% notice note %}}
+Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 13 của chương trình thực tập.
+{{% /notice %}}
 
 ### Mục tiêu Tuần 13
 
@@ -18,12 +20,12 @@ pre: " <b> 1.13 </b> "
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
-| STT | Mô tả Nhiệm vụ | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo |
-|-----|----------------|--------------|---------------|-----------|
-| 1 | Thiết lập môi trường demo production - Deploy lên AWS environment riêng biệt - Load dữ liệu và devices mẫu - Chuẩn bị demo scenarios - Kiểm tra tất cả tính năng end-to-end | 01/12/2025 | 02/12/2025 | Demo Environment |
-| 2 | Chuẩn bị tài liệu presentation cuối cùng - Tạo presentation slides - Quay demo video - Chuẩn bị architecture diagrams - Tài liệu hóa kết quả dự án | 02/12/2025 | 03/12/2025 | Presentation |
-| 3 | Hoàn thiện tài liệu proposal dự án - Cập nhật với triển khai thực tế - Thêm phần lessons learned - Bao gồm performance metrics - Tài liệu hóa future enhancements | 03/12/2025 | 03/12/2025 | Proposal Refinement |
-| 4 | Demo và giao dự án cuối cùng - Trình bày với điều phối viên FCJ - Demo hệ thống live - Q&A session - Nộp tất cả deliverables | 04/12/2025 | 04/12/2025 | [Final Presentation](https://www.facebook.com/groups/660548818043427) |
+| STT | Mô tả Nhiệm vụ                                                                                                                                                              | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo                                                             |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | --------------------------------------------------------------------- |
+| 1   | Thiết lập môi trường demo production - Deploy lên AWS environment riêng biệt - Load dữ liệu và devices mẫu - Chuẩn bị demo scenarios - Kiểm tra tất cả tính năng end-to-end | 01/12/2025   | 02/12/2025    | Demo Environment                                                      |
+| 2   | Chuẩn bị tài liệu presentation cuối cùng - Tạo presentation slides - Quay demo video - Chuẩn bị architecture diagrams - Tài liệu hóa kết quả dự án                          | 02/12/2025   | 03/12/2025    | Presentation                                                          |
+| 3   | Hoàn thiện tài liệu proposal dự án - Cập nhật với triển khai thực tế - Thêm phần lessons learned - Bao gồm performance metrics - Tài liệu hóa future enhancements           | 03/12/2025   | 03/12/2025    | Proposal Refinement                                                   |
+| 4   | Demo và giao dự án cuối cùng - Trình bày với điều phối viên FCJ - Demo hệ thống live - Q&A session - Nộp tất cả deliverables                                                | 04/12/2025   | 04/12/2025    | [Final Presentation](https://www.facebook.com/groups/660548818043427) |
 
 ### Thành tựu Tuần 13
 

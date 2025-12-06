@@ -8,7 +8,9 @@ pre: " <b> 1.4 </b> "
 
 #### NHẬT KÝ TUẦN 4
 
-⚠️ **Lưu ý**: Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 4 của chương trình thực tập.
+{{% notice note %}}
+Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 4 của chương trình thực tập.
+{{% /notice %}}
 
 ### Mục tiêu Tuần 4
 
@@ -18,12 +20,12 @@ pre: " <b> 1.4 </b> "
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
-| STT | Mô tả Nhiệm vụ | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo |
-|-----|----------------|--------------|---------------|-----------|
-| 1 | Hoàn thành AWS Labs: IAM - Quản lý users, groups, roles - Thực hành nguyên tắc least privilege - Cấu hình access policies | 29/09/2025 | 30/09/2025 | [AWS IAM Lab](https://cloudjourney.awsstudygroup.com/) |
-| 2 | Hoàn thành AWS Labs: EC2, VPC, S3 - Khởi chạy và cấu hình EC2 instances - Thiết kế network topology VPC - Triển khai S3 bucket policies | 01/10/2025 | 02/10/2025 | [AWS Labs](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Tham dự sự kiện AI-Driven Development - Tìm hiểu GitHub Copilot cho cloud development - Khám phá AI-assisted coding patterns - Thiết lập Copilot trong môi trường phát triển | 03/10/2025 | 03/10/2025 | AI Development Event |
-| 4 | Hoàn thành AWS Lambda lab - Xây dựng serverless functions - Thực hành Lambda triggers với EventBridge - Triển khai error handling và logging | 04/10/2025 | 05/10/2025 | [AWS Lambda](https://aws.amazon.com/lambda/) |
+| STT | Mô tả Nhiệm vụ                                                                                                                                                               | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo                                              |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | ------------------------------------------------------ |
+| 1   | Hoàn thành AWS Labs: IAM - Quản lý users, groups, roles - Thực hành nguyên tắc least privilege - Cấu hình access policies                                                    | 29/09/2025   | 30/09/2025    | [AWS IAM Lab](https://cloudjourney.awsstudygroup.com/) |
+| 2   | Hoàn thành AWS Labs: EC2, VPC, S3 - Khởi chạy và cấu hình EC2 instances - Thiết kế network topology VPC - Triển khai S3 bucket policies                                      | 01/10/2025   | 02/10/2025    | [AWS Labs](https://cloudjourney.awsstudygroup.com/)    |
+| 3   | Tham dự sự kiện AI-Driven Development - Tìm hiểu GitHub Copilot cho cloud development - Khám phá AI-assisted coding patterns - Thiết lập Copilot trong môi trường phát triển | 03/10/2025   | 03/10/2025    | AI Development Event                                   |
+| 4   | Hoàn thành AWS Lambda lab - Xây dựng serverless functions - Thực hành Lambda triggers với EventBridge - Triển khai error handling và logging                                 | 04/10/2025   | 05/10/2025    | [AWS Lambda](https://aws.amazon.com/lambda/)           |
 
 ### Thành tựu Tuần 4
 

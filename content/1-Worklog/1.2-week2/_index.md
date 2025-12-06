@@ -8,7 +8,9 @@ pre: " <b> 1.2 </b> "
 
 #### WEEK 2 WORKLOG
 
-⚠️ **Note**: This worklog documents actual work completed during Week 2 of the internship program.
+{{% notice note %}}
+This worklog documents actual work completed during Week 2 of the internship program.
+{{% /notice %}}
 
 ### Week 2 Objectives
 
@@ -18,12 +20,12 @@ pre: " <b> 1.2 </b> "
 
 ### Tasks Performed This Week
 
-| No. | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
-| 1 | Attend Vietnam Cloud Day 2025 - Learn about new AWS security services - Network with AWS professionals - Explore IoT security use cases | 18/09/2025 | 18/09/2025 | [Vietnam Cloud Day](https://vietnamcloudday.vn/) |
-| 2 | Research PKI infrastructure on AWS - Study ACM Private CA service - Review AWS certificate management - Explore CloudHSM for key storage | 16/09/2025 | 17/09/2025 | [ACM Private CA](https://aws.amazon.com/certificate-manager/private-certificate-authority/) |
-| 3 | Refine system architecture diagram - Define certificate hierarchy (Root/Intermediate/Device CAs) - Design Lambda-based automation flow - Plan DynamoDB schema for device registry | 19/09/2025 | 20/09/2025 | Architecture Design |
-| 4 | Document initial technical specifications - Define API requirements - Create data flow diagrams - Set up project roadmap | 21/09/2025 | 21/09/2025 | Project Documentation |
+| No. | Task Description                                                                                                                                                                  | Start Date | End Date   | Reference                                                                                   |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ------------------------------------------------------------------------------------------- |
+| 1   | Attend Vietnam Cloud Day 2025 - Learn about new AWS security services - Network with AWS professionals - Explore IoT security use cases                                           | 18/09/2025 | 18/09/2025 | [Vietnam Cloud Day](https://vietnamcloudday.vn/)                                            |
+| 2   | Research PKI infrastructure on AWS - Study ACM Private CA service - Review AWS certificate management - Explore CloudHSM for key storage                                          | 16/09/2025 | 17/09/2025 | [ACM Private CA](https://aws.amazon.com/certificate-manager/private-certificate-authority/) |
+| 3   | Refine system architecture diagram - Define certificate hierarchy (Root/Intermediate/Device CAs) - Design Lambda-based automation flow - Plan DynamoDB schema for device registry | 19/09/2025 | 20/09/2025 | Architecture Design                                                                         |
+| 4   | Document initial technical specifications - Define API requirements - Create data flow diagrams - Set up project roadmap                                                          | 21/09/2025 | 21/09/2025 | Project Documentation                                                                       |
 
 ### Week 2 Achievements
 

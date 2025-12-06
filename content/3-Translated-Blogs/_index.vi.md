@@ -6,11 +6,15 @@ chapter: false
 pre: "<b>3. </b>"
 ---
 
+{{% notice info %}}
+
 ## Tổng Quan
 
 Trong Tuần 5 của chương trình thực tập AWS First Cloud Journey (6-12 tháng 10 năm 2025), tôi đã dịch ba bài blog kỹ thuật AWS từ tiếng Anh sang tiếng Việt. Sáng kiến này nhằm mục đích làm cho nội dung kỹ thuật AWS có giá trị trở nên dễ tiếp cận với các nhà phát triển Việt Nam và đóng góp vào cộng đồng điện toán đám mây Việt Nam đang phát triển. Tất cả các bản dịch đã được gửi qua Google Form cho đội ngũ nội dung FCJ.
 
 Các bản dịch này tập trung vào việc duy trì độ chính xác kỹ thuật đồng thời đảm bảo cách diễn đạt tiếng Việt tự nhiên, giúp thu hẹp khoảng cách ngôn ngữ cho các nhà phát triển Việt Nam học các công nghệ AWS.
+
+{{% /notice %}}
 
 ---
 

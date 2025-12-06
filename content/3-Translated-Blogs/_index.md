@@ -6,11 +6,15 @@ chapter: false
 pre: "<b>3. </b>"
 ---
 
+{{% notice info %}}
+
 ## Overview
 
 During Week 5 of my AWS First Cloud Journey internship (October 6-9, 2025), I translated three AWS technical blogs from English to Vietnamese. This initiative aims to make valuable AWS technical content accessible to Vietnamese developers and contribute to the growing Vietnamese cloud computing community. All translations were submitted via Google Form to the FCJ content team.
 
 These translations focus on maintaining technical accuracy while ensuring natural Vietnamese phrasing, helping bridge the language gap for Vietnamese developers learning AWS technologies.
+
+{{% /notice %}}
 
 ---
 

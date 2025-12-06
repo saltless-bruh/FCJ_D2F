@@ -8,7 +8,9 @@ pre: " <b> 1.13 </b> "
 
 #### WEEK 13 WORKLOG
 
-⚠️ **Note**: This worklog documents actual work completed during Week 13 of the internship program.
+{{% notice note %}}
+This worklog documents actual work completed during Week 13 of the internship program.
+{{% /notice %}}
 
 ### Week 13 Objectives
 
@@ -18,12 +20,12 @@ pre: " <b> 1.13 </b> "
 
 ### Tasks Performed This Week
 
-| No. | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
-| 1 | Set up production demo environment - Deploy to isolated AWS environment - Load sample data and devices - Prepare demo scenarios - Test all features end-to-end | 01/12/2025 | 02/12/2025 | Demo Environment |
-| 2 | Prepare final presentation materials - Create presentation slides - Record demo video - Prepare architecture diagrams - Document project outcomes | 02/12/2025 | 03/12/2025 | Presentation |
-| 3 | Refine project proposal document - Update with actual implementation - Add lessons learned section - Include performance metrics - Document future enhancements | 03/12/2025 | 03/12/2025 | Proposal Refinement |
-| 4 | Final project demonstration and delivery - Present to FCJ coordinators - Demonstrate live system - Q&A session - Submit all deliverables | 04/12/2025 | 04/12/2025 | [Final Presentation](https://www.facebook.com/groups/660548818043427) |
+| No. | Task Description                                                                                                                                                | Start Date | End Date   | Reference                                                             |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | --------------------------------------------------------------------- |
+| 1   | Set up production demo environment - Deploy to isolated AWS environment - Load sample data and devices - Prepare demo scenarios - Test all features end-to-end  | 01/12/2025 | 02/12/2025 | Demo Environment                                                      |
+| 2   | Prepare final presentation materials - Create presentation slides - Record demo video - Prepare architecture diagrams - Document project outcomes               | 02/12/2025 | 03/12/2025 | Presentation                                                          |
+| 3   | Refine project proposal document - Update with actual implementation - Add lessons learned section - Include performance metrics - Document future enhancements | 03/12/2025 | 03/12/2025 | Proposal Refinement                                                   |
+| 4   | Final project demonstration and delivery - Present to FCJ coordinators - Demonstrate live system - Q&A session - Submit all deliverables                        | 04/12/2025 | 04/12/2025 | [Final Presentation](https://www.facebook.com/groups/660548818043427) |
 
 ### Week 13 Achievements
 

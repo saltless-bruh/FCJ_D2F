@@ -8,7 +8,9 @@ pre: " <b> 1.10 </b> "
 
 #### WEEK 10 WORKLOG
 
-⚠️ **Note**: This worklog documents actual work completed during Week 10 of the internship program.
+{{% notice note %}}
+This worklog documents actual work completed during Week 10 of the internship program.
+{{% /notice %}}
 
 ### Week 10 Objectives
 
@@ -18,12 +20,12 @@ pre: " <b> 1.10 </b> "
 
 ### Tasks Performed This Week
 
-| No. | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
-| 1 | Develop advanced dashboard visualizations - Certificate expiry timeline charts - Threat detection heatmaps - Compliance trend graphs - Device health metrics | 10/11/2025 | 12/11/2025 | Dashboard Visualization |
-| 2 | Attend AWS Cloud Mastery Series #1 - Advanced security architecture patterns - Multi-account strategies - AWS Organizations best practices | 13/11/2025 | 13/11/2025 | [AWS Cloud Mastery](https://aws.amazon.com/events/) |
-| 3 | Implement device management features - Device onboarding wizard - Bulk certificate operations - Device metadata management - Certificate rotation controls | 14/11/2025 | 15/11/2025 | Device Management |
-| 4 | API integration and testing - Connect frontend to Lambda APIs - Implement error handling - Add loading states and optimistic updates | 15/11/2025 | 16/11/2025 | API Integration |
+| No. | Task Description                                                                                                                                             | Start Date | End Date   | Reference                                           |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | --------------------------------------------------- |
+| 1   | Develop advanced dashboard visualizations - Certificate expiry timeline charts - Threat detection heatmaps - Compliance trend graphs - Device health metrics | 10/11/2025 | 12/11/2025 | Dashboard Visualization                             |
+| 2   | Attend AWS Cloud Mastery Series #1 - Advanced security architecture patterns - Multi-account strategies - AWS Organizations best practices                   | 13/11/2025 | 13/11/2025 | [AWS Cloud Mastery](https://aws.amazon.com/events/) |
+| 3   | Implement device management features - Device onboarding wizard - Bulk certificate operations - Device metadata management - Certificate rotation controls   | 14/11/2025 | 15/11/2025 | Device Management                                   |
+| 4   | API integration and testing - Connect frontend to Lambda APIs - Implement error handling - Add loading states and optimistic updates                         | 15/11/2025 | 16/11/2025 | API Integration                                     |
 
 ### Week 10 Achievements
 

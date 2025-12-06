@@ -6,9 +6,9 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-### WORKLOG
-
-⚠️ **Note**: This worklog documents my actual internship experience. All information reflects real work completed during the program.
+{{% notice note %}}
+This worklog documents my actual internship experience. All information reflects real work completed during the program.
+{{% /notice %}}
 
 On this page, you will find a comprehensive overview of my internship worklog. I completed the AWS First Cloud Journey internship program over a 13-week period (September 8 to December 4, 2025), during which I developed an IoT Security Infrastructure Platform using various AWS services.
 
@@ -41,5 +41,3 @@ Week 11: [Infrastructure as Code & AWS Cloud Mastery #2](1.11-week11/)
 Week 12: [Testing & AWS Cloud Mastery #3](1.12-week12/)
 
 Week 13: [Final Demo & Documentation](1.13-week13/)
-
-

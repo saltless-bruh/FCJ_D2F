@@ -6,9 +6,9 @@ chapter: false
 pre: "<b>6. </b>"
 ---
 
-# TỰ ĐÁNH GIÁ
-
-⚠️ **Lưu ý**: Bản tự đánh giá này phản ánh trải nghiệm thực tế và sự phát triển của tôi trong chương trình thực tập AWS First Cloud Journey 2025. Tất cả đánh giá dựa trên công việc thực tế đã hoàn thành và phản hồi nhận được.
+{{% notice note %}}
+Bản tự đánh giá này phản ánh trải nghiệm thực tế và sự phát triển của tôi trong chương trình thực tập AWS First Cloud Journey 2025. Tất cả đánh giá dựa trên công việc thực tế đã hoàn thành và phản hồi nhận được.
+{{% /notice %}}
 
 Trong quá trình thực tập với **Chương Trình AWS First Cloud Journey** từ **8 tháng 9 năm 2025 đến 4 tháng 12 năm 2025** (13 tuần), tôi đã có cơ hội vô giá để học hỏi, thực hành và áp dụng kiến thức lý thuyết vào các thách thức thực tế về điện toán đám mây và bảo mật IoT.
 
@@ -29,20 +29,20 @@ Về đạo đức làm việc, tôi luôn cố gắng cung cấp công việc c
 
 ## Bảng Tự Đánh Giá
 
-| STT | Tiêu Chí Đánh Giá | Mô Tả | Tốt | Trung Bình | Cần Cải Thiện |
-|-----|-------------------|-------|-----|------------|---------------|
-| 1 | Kiến thức & kỹ năng chuyên môn | Hiểu biết về điện toán đám mây, áp dụng dịch vụ AWS trong thực tế, thành thạo công cụ IaC, chất lượng code | ✅ | ☐ | ☐ |
-| 2 | Khả năng học hỏi | Tiếp thu nhanh các dịch vụ AWS và công nghệ mới thông qua sự kiện, tài liệu và thực hành | ✅ | ☐ | ☐ |
-| 3 | Tính chủ động | Chủ động tham gia thêm sự kiện, nghiên cứu chủ đề nâng cao và đề xuất cải tiến không cần chỉ đạo | ✅ | ☐ | ☐ |
-| 4 | Tinh thần trách nhiệm | Hoàn thành nhiệm vụ hàng tuần đúng hạn, duy trì worklog chi tiết, đảm bảo chất lượng và bảo mật dự án | ✅ | ☐ | ☐ |
-| 5 | Tính kỷ luật | Tuân thủ lịch trình chương trình FCJ, tham dự đầy đủ 6 sự kiện, nộp deliverables đúng thời hạn | ☐ | ✅ | ☐ |
-| 6 | Tư duy tiến bộ | Tích cực tìm kiếm feedback từ mentors, áp dụng bài học từ sự kiện, liên tục cải thiện chất lượng code | ✅ | ☐ | ☐ |
-| 7 | Giao tiếp | Ghi chép công việc rõ ràng trong worklogs, dịch blog kỹ thuật, trình bày ý tưởng dự án hiệu quả | ☐ | ✅ | ☐ |
-| 8 | Làm việc nhóm | Hợp tác với team 5 thành viên, chia sẻ kiến thức với các bạn FCJ, tham gia cộng đồng AWS | ✅ | ☐ | ☐ |
-| 9 | Ứng xử chuyên nghiệp | Tôn trọng mentors và đồng nghiệp, đóng góp tích cực cho cộng đồng FCJ, duy trì chuẩn mực chuyên nghiệp | ✅ | ☐ | ☐ |
-| 10 | Kỹ năng giải quyết vấn đề | Debug các vấn đề bảo mật phức tạp, thiết kế giải pháp có khả năng mở rộng, áp dụng cách tiếp cận sáng tạo | ✅ | ☐ | ☐ |
-| 11 | Đóng góp cho dự án/nhóm | Hoàn thành nền tảng bảo mật IoT, dịch 3 blog kỹ thuật, chia sẻ kiến thức sự kiện với cộng đồng | ✅ | ☐ | ☐ |
-| 12 | Đánh giá tổng thể | Đánh giá chung về hành trình thực tập 13 tuần, cân bằng giữa phát triển kỹ thuật và đóng góp cộng đồng | ✅ | ☐ | ☐ |
+| STT | Tiêu Chí Đánh Giá              | Mô Tả                                                                                                      | Tốt | Trung Bình | Cần Cải Thiện |
+| --- | ------------------------------ | ---------------------------------------------------------------------------------------------------------- | --- | ---------- | ------------- |
+| 1   | Kiến thức & kỹ năng chuyên môn | Hiểu biết về điện toán đám mây, áp dụng dịch vụ AWS trong thực tế, thành thạo công cụ IaC, chất lượng code | ✅  | ☐          | ☐             |
+| 2   | Khả năng học hỏi               | Tiếp thu nhanh các dịch vụ AWS và công nghệ mới thông qua sự kiện, tài liệu và thực hành                   | ✅  | ☐          | ☐             |
+| 3   | Tính chủ động                  | Chủ động tham gia thêm sự kiện, nghiên cứu chủ đề nâng cao và đề xuất cải tiến không cần chỉ đạo           | ✅  | ☐          | ☐             |
+| 4   | Tinh thần trách nhiệm          | Hoàn thành nhiệm vụ hàng tuần đúng hạn, duy trì worklog chi tiết, đảm bảo chất lượng và bảo mật dự án      | ✅  | ☐          | ☐             |
+| 5   | Tính kỷ luật                   | Tuân thủ lịch trình chương trình FCJ, tham dự đầy đủ 6 sự kiện, nộp deliverables đúng thời hạn             | ☐   | ✅         | ☐             |
+| 6   | Tư duy tiến bộ                 | Tích cực tìm kiếm feedback từ mentors, áp dụng bài học từ sự kiện, liên tục cải thiện chất lượng code      | ✅  | ☐          | ☐             |
+| 7   | Giao tiếp                      | Ghi chép công việc rõ ràng trong worklogs, dịch blog kỹ thuật, trình bày ý tưởng dự án hiệu quả            | ☐   | ✅         | ☐             |
+| 8   | Làm việc nhóm                  | Hợp tác với team 5 thành viên, chia sẻ kiến thức với các bạn FCJ, tham gia cộng đồng AWS                   | ✅  | ☐          | ☐             |
+| 9   | Ứng xử chuyên nghiệp           | Tôn trọng mentors và đồng nghiệp, đóng góp tích cực cho cộng đồng FCJ, duy trì chuẩn mực chuyên nghiệp     | ✅  | ☐          | ☐             |
+| 10  | Kỹ năng giải quyết vấn đề      | Debug các vấn đề bảo mật phức tạp, thiết kế giải pháp có khả năng mở rộng, áp dụng cách tiếp cận sáng tạo  | ✅  | ☐          | ☐             |
+| 11  | Đóng góp cho dự án/nhóm        | Hoàn thành nền tảng bảo mật IoT, dịch 3 blog kỹ thuật, chia sẻ kiến thức sự kiện với cộng đồng             | ✅  | ☐          | ☐             |
+| 12  | Đánh giá tổng thể              | Đánh giá chung về hành trình thực tập 13 tuần, cân bằng giữa phát triển kỹ thuật và đóng góp cộng đồng     | ✅  | ☐          | ☐             |
 
 ---
 
@@ -81,11 +81,13 @@ Trong quá trình thực tập, tôi đã thành công trong việc áp dụng k
 Tôi đã thể hiện sự nhanh nhẹn học tập đặc biệt trong suốt thời gian thực tập bằng cách nhanh chóng tiếp thu công nghệ mới và áp dụng chúng vào dự án:
 
 - **Áp Dụng Công Nghệ Nhanh Chóng**:
+
   - Tuần 4: Học GitHub Copilot → Tích hợp ngay lập tức cho 40% tăng năng suất
   - Tuần 11: Học Terraform → Triển khai IaC hoàn chỉnh trong 1 tuần
   - Tuần 12: Học security automation → Triển khai automated compliance checking
 
 - **Học Tập Qua Sự Kiện**: Tham dự 6 sự kiện AWS và áp dụng 95% khái niệm học được trực tiếp vào dự án:
+
   - Vietnam Cloud Day → Tinh chỉnh kiến trúc PKI cùng tuần
   - AI-Driven Development → Áp dụng Copilot để tăng tốc phát triển
   - Cloud Mastery #2 → Refactor hạ tầng thành Terraform modules tái sử dụng
@@ -305,8 +307,8 @@ Cảm ơn FCJ program, mentors, fellow interns, và AWS community vì incredible
 
 ---
 
-*Người thực hiện: Trần Quang Huy*  
-*MSSV: SE182122*  
-*Trường: Đại học FPT*  
-*Thời gian thực tập: 8 tháng 9 - 4 tháng 12 năm 2025*  
-*Chương trình: AWS First Cloud Journey 2025*
+_Người thực hiện: Trần Quang Huy_  
+_MSSV: SE182122_  
+_Trường: Đại học FPT_  
+_Thời gian thực tập: 8 tháng 9 - 4 tháng 12 năm 2025_  
+_Chương trình: AWS First Cloud Journey 2025_

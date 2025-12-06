@@ -8,7 +8,9 @@ pre: " <b> 1.1 </b> "
 
 #### NHẬT KÝ TUẦN 1
 
-⚠️ **Lưu ý**: Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 1 của chương trình thực tập.
+{{% notice note %}}
+Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 1 của chương trình thực tập.
+{{% /notice %}}
 
 ### Mục tiêu Tuần 1
 
@@ -18,12 +20,12 @@ pre: " <b> 1.1 </b> "
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
-| STT | Mô tả Nhiệm vụ | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo |
-|-----|----------------|--------------|---------------|-----------|
-| 1 | Tham dự sự kiện khởi động FCJ 2025 - Gặp gỡ các bạn thực tập và điều phối viên - Nhận tổng quan về cấu trúc thực tập - Giới thiệu ý tưởng dự án ban đầu | 08/09/2025 | 08/09/2025 | [FCJ Program](https://www.facebook.com/groups/660548818043427) |
-| 2 | Nghiên cứu các chủ đề dự án tiềm năng tập trung vào dịch vụ AWS - Khám phá thách thức bảo mật IoT và AWS IoT Core - Xem xét các dự án FCJ trước đây | 10/09/2025 | 10/09/2025 | [Cloud Journey](https://cloudjourney.awsstudygroup.com/) |
-| 3 | Tổ chức cuộc họp offline với thành viên nhóm - Hoàn thiện chủ đề dự án: Nền tảng Bảo mật Hạ tầng IoT - Tạo bảng phân công và timeline - Xác định phạm vi dự án | 12/09/2025 | 12/09/2025 | Cộng tác Nhóm |
-| 4 | Thiết lập công cụ cộng tác (GitHub, Slack, Notion) - Tạo cấu trúc repository - Soạn proposal ban đầu - Nghiên cứu dịch vụ AWS cần thiết | 14/09/2025 | 14/09/2025 | [GitHub](https://github.com/) |
+| STT | Mô tả Nhiệm vụ                                                                                                                                                 | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo                                                      |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | -------------------------------------------------------------- |
+| 1   | Tham dự sự kiện khởi động FCJ 2025 - Gặp gỡ các bạn thực tập và điều phối viên - Nhận tổng quan về cấu trúc thực tập - Giới thiệu ý tưởng dự án ban đầu        | 08/09/2025   | 08/09/2025    | [FCJ Program](https://www.facebook.com/groups/660548818043427) |
+| 2   | Nghiên cứu các chủ đề dự án tiềm năng tập trung vào dịch vụ AWS - Khám phá thách thức bảo mật IoT và AWS IoT Core - Xem xét các dự án FCJ trước đây            | 10/09/2025   | 10/09/2025    | [Cloud Journey](https://cloudjourney.awsstudygroup.com/)       |
+| 3   | Tổ chức cuộc họp offline với thành viên nhóm - Hoàn thiện chủ đề dự án: Nền tảng Bảo mật Hạ tầng IoT - Tạo bảng phân công và timeline - Xác định phạm vi dự án | 12/09/2025   | 12/09/2025    | Cộng tác Nhóm                                                  |
+| 4   | Thiết lập công cụ cộng tác (GitHub, Slack, Notion) - Tạo cấu trúc repository - Soạn proposal ban đầu - Nghiên cứu dịch vụ AWS cần thiết                        | 14/09/2025   | 14/09/2025    | [GitHub](https://github.com/)                                  |
 
 ### Thành tựu Tuần 1
 

@@ -8,7 +8,9 @@ pre: " <b> 1.10 </b> "
 
 #### NHẬT KÝ TUẦN 10
 
-⚠️ **Lưu ý**: Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 10 của chương trình thực tập.
+{{% notice note %}}
+Nhật ký này ghi lại công việc thực tế đã hoàn thành trong Tuần 10 của chương trình thực tập.
+{{% /notice %}}
 
 ### Mục tiêu Tuần 10
 
@@ -18,12 +20,12 @@ pre: " <b> 1.10 </b> "
 
 ### Các nhiệm vụ thực hiện trong tuần này
 
-| STT | Mô tả Nhiệm vụ | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo |
-|-----|----------------|--------------|---------------|-----------|
-| 1 | Phát triển visualizations dashboard tiên tiến - Biểu đồ timeline certificate expiry - Heatmaps threat detection - Biểu đồ xu hướng compliance - Device health metrics | 10/11/2025 | 12/11/2025 | Dashboard Visualization |
-| 2 | Tham dự AWS Cloud Mastery Series #1 - Advanced security architecture patterns - Multi-account strategies - AWS Organizations best practices | 13/11/2025 | 13/11/2025 | [AWS Cloud Mastery](https://aws.amazon.com/events/) |
-| 3 | Triển khai tính năng quản lý thiết bị - Device onboarding wizard - Bulk certificate operations - Device metadata management - Certificate rotation controls | 14/11/2025 | 15/11/2025 | Device Management |
-| 4 | Tích hợp và kiểm tra API - Kết nối frontend với Lambda APIs - Triển khai error handling - Thêm loading states và optimistic updates | 15/11/2025 | 16/11/2025 | API Integration |
+| STT | Mô tả Nhiệm vụ                                                                                                                                                        | Ngày Bắt đầu | Ngày Kết thúc | Tham khảo                                           |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | --------------------------------------------------- |
+| 1   | Phát triển visualizations dashboard tiên tiến - Biểu đồ timeline certificate expiry - Heatmaps threat detection - Biểu đồ xu hướng compliance - Device health metrics | 10/11/2025   | 12/11/2025    | Dashboard Visualization                             |
+| 2   | Tham dự AWS Cloud Mastery Series #1 - Advanced security architecture patterns - Multi-account strategies - AWS Organizations best practices                           | 13/11/2025   | 13/11/2025    | [AWS Cloud Mastery](https://aws.amazon.com/events/) |
+| 3   | Triển khai tính năng quản lý thiết bị - Device onboarding wizard - Bulk certificate operations - Device metadata management - Certificate rotation controls           | 14/11/2025   | 15/11/2025    | Device Management                                   |
+| 4   | Tích hợp và kiểm tra API - Kết nối frontend với Lambda APIs - Triển khai error handling - Thêm loading states và optimistic updates                                   | 15/11/2025   | 16/11/2025    | API Integration                                     |
 
 ### Thành tựu Tuần 10
 

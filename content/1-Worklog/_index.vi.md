@@ -6,9 +6,9 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-#### NHẬT KÝ LÀM VIỆC
-
-⚠️ **Lưu ý**: Nhật ký này ghi lại trải nghiệm thực tập thực tế của tôi. Tất cả thông tin phản ánh công việc thực sự đã hoàn thành trong chương trình.
+{{% notice note %}}
+Nhật ký này ghi lại trải nghiệm thực tập thực tế của tôi. Tất cả thông tin phản ánh công việc thực sự đã hoàn thành trong chương trình.
+{{% /notice %}}
 
 Trên trang này, bạn sẽ tìm thấy tổng quan toàn diện về nhật ký thực tập của tôi. Tôi đã hoàn thành chương trình thực tập AWS First Cloud Journey trong thời gian 13 tuần (từ ngày 8 tháng 9 đến ngày 4 tháng 12 năm 2025), trong đó tôi đã phát triển một Nền tảng Bảo mật Hạ tầng IoT sử dụng nhiều dịch vụ AWS khác nhau.
 

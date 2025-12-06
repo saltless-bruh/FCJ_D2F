@@ -6,11 +6,9 @@ chapter: false
 pre: "<b>4. </b>"
 ---
 
-# CÁC SỰ KIỆN ĐÃ THAM GIA
-
-⚠️ **Lưu ý**: Thông tin dưới đây ghi lại tất cả các sự kiện tôi đã tham gia trong suốt thời gian thực tập AWS FCJ từ tháng 9 đến tháng 12 năm 2025. Mỗi sự kiện đều mang đến những trải nghiệm học tập quý giá và cơ hội kết nối với cộng đồng AWS.
-
-Trong suốt thời gian thực tập, tôi đã tham gia sáu sự kiện quan trọng liên quan đến AWS, điện toán đám mây và chương trình FCJ. Mỗi sự kiện đều là một trải nghiệm đáng nhớ, cung cấp kiến thức mới, thú vị và hữu ích, cùng với những khoảnh khắc kết nối tuyệt vời với các chuyên gia về đám mây và các bạn thực tập sinh khác.
+{{% notice note %}}
+Thông tin dưới đây ghi lại tất cả các sự kiện tôi đã tham gia trong suốt thời gian thực tập AWS FCJ từ tháng 9 đến tháng 12 năm 2025. Mỗi sự kiện đều mang đến những trải nghiệm học tập quý giá và cơ hội kết nối với cộng đồng AWS.
+{{% /notice %}}
 
 ---
 
@@ -39,18 +37,21 @@ Sự kiện FCJ 2025 Kickoff đánh dấu sự khởi đầu chính thức của
 ### Các Phiên Tham Dự
 
 1. **Chào Mừng và Tổng Quan Chương Trình** - Giám đốc Chương trình FCJ
+
    - Giới thiệu về lịch sử và sứ mệnh của FCJ
    - Cấu trúc và lịch trình chương trình 2025
    - Câu chuyện thành công từ các khóa trước
    - Tiêu chí đánh giá và yêu cầu tốt nghiệp
 
 2. **Workshop Ý Tưởng Dự Án** - Người hướng dẫn kỹ thuật
+
    - Động não các chủ đề dự án phù hợp với các dịch vụ AWS
    - Xác định các vấn đề thực tế cần giải quyết
    - Xác định phạm vi dự án phù hợp cho lịch trình 4 tháng
    - Đánh giá tính khả thi kỹ thuật
 
 3. **Trình Bày Dự Án Thực Tập Sinh** - Tất cả thực tập sinh tham gia
+
    - Giới thiệu 5 phút về ý tưởng dự án ban đầu
    - Hỏi đáp với người hướng dẫn và các bạn thực tập sinh khác
    - Phản hồi về phạm vi dự án và cách tiếp cận kỹ thuật
@@ -73,6 +74,7 @@ Sự kiện FCJ 2025 Kickoff đánh dấu sự khởi đầu chính thức của
 ### Tác Động Đến Hành Trình Thực Tập
 
 Sự kiện khởi động này đã đặt nền móng cho toàn bộ thời gian thực tập của tôi:
+
 - Xác nhận lựa chọn chủ đề dự án và nhận hướng dẫn về phạm vi
 - Thiết lập mối quan hệ với người hướng dẫn cung cấp hỗ trợ liên tục
 - Hiểu các mốc quan trọng của chương trình và lập kế hoạch phù hợp
@@ -107,11 +109,13 @@ Vietnam Cloud Day 2025 là một hội nghị điện toán đám mây hàng đ�
 ### Các Phiên Tham Dự
 
 1. **Bảo Mật Thiết Bị IoT Quy Mô Lớn** - AWS Solutions Architect
+
    - Chiến lược xác thực dựa trên chứng chỉ
    - Chính sách AWS IoT Core và nhóm thing
    - Tích hợp với AWS Certificate Manager Private CA
 
 2. **Xây Dựng Ứng Dụng Serverless** - AWS Developer Advocate
+
    - Kỹ thuật tối ưu hóa Lambda function
    - EventBridge cho kiến trúc hướng sự kiện
    - Phương pháp hay nhất DynamoDB cho ứng dụng throughput cao
@@ -132,6 +136,7 @@ Vietnam Cloud Day 2025 là một hội nghị điện toán đám mây hàng đ�
 ### Tác Động Đến Dự Án Thực Tập
 
 Sự kiện này rất quan trọng trong việc định hình hướng kỹ thuật cho dự án của tôi:
+
 - Tinh chỉnh kiến trúc PKI dựa trên các mẫu được AWS khuyến nghị
 - Xác định các dịch vụ AWS (ACM Private CA, Lambda, DynamoDB) làm thành phần cốt lõi
 - Học các phương pháp hay nhất về bảo mật ảnh hưởng đến quyết định thiết kế dự án
@@ -166,11 +171,13 @@ Sự kiện trực tuyến này khám phá tác động biến đổi của AI �
 ### Các Phiên Tham Dự
 
 1. **GitHub Copilot Deep Dive** - GitHub Developer Relations
+
    - Thiết lập Copilot trong môi trường phát triển
    - Viết prompts hiệu quả cho infrastructure as code
    - Gợi ý code nhận biết ngữ cảnh cho AWS SDK
 
 2. **AI trong Cloud Security** - Chuyên gia Tự động hóa Bảo mật
+
    - Sử dụng AI để xác định cấu hình sai về bảo mật
    - Kiểm tra tuân thủ tự động với các công cụ hỗ trợ AI
    - Tích hợp security scanning vào quy trình phát triển
@@ -224,11 +231,13 @@ Là một phần của chuỗi đào tạo liên tục của AWS, webinar này t
 ### Các Phiên Tham Dự
 
 1. **Chiến Lược Đa Tài Khoản cho Startups** - AWS Solutions Architect
+
    - Các mẫu phân tách tài khoản (dev/test/prod)
    - Kiến trúc logging và monitoring tập trung
    - Giả định vai trò IAM cross-account
 
 2. **Tự Động Hóa Bảo Mật Quy Mô Lớn** - AWS Security Specialist
+
    - Kiểm tra tuân thủ tự động với AWS Config Rules
    - GuardDuty cho phát hiện và ứng phó với mối đe dọa
    - Security Hub cho các phát hiện bảo mật tập trung
@@ -282,12 +291,14 @@ Phần thứ hai của chuỗi AWS Cloud Mastery tập trung vào các phương 
 ### Các Phiên Tham Dự
 
 1. **Mẫu Thiết Kế Terraform Module** - AWS DevOps Specialist
+
    - Tạo các Terraform modules có thể tái sử dụng, composable
    - Quản lý phiên bản module và dependencies
    - Quản lý remote state với S3 và DynamoDB locking
    - Chiến lược workspace cho triển khai đa môi trường
 
 2. **Kiến Trúc Đa Vùng** - AWS Solutions Architect
+
    - Mẫu active-active vs active-passive đa vùng
    - Chiến lược sao chép dữ liệu với DynamoDB Global Tables
    - Route53 routing policies cho quản lý traffic toàn cầu
@@ -351,18 +362,21 @@ Phiên cuối cùng của bộ ba AWS Cloud Mastery Series tập trung vào các
 ### Các Phiên Tham Dự
 
 1. **Ứng Phó Sự Cố Tự Động** - AWS Security Architect
+
    - Xây dựng tự động hóa bảo mật hướng sự kiện với EventBridge
    - Lambda functions cho remediation mối đe dọa tự động
    - Step Functions cho quy trình ứng phó sự cố phức tạp
    - Tích hợp với Security Hub cho các phát hiện tập trung
 
 2. **Tuân Thủ Quy Mô Lớn** - AWS Compliance Specialist
+
    - AWS Config Rules cho monitoring tuân thủ liên tục
    - Custom Config Rules cho các chính sách đặc thù tổ chức
    - Remediation tự động cho các tài nguyên không tuân thủ
    - Tạo báo cáo tuân thủ cho kiểm toán viên
 
 3. **FinOps và Tối Ưu Hóa Chi Phí** - AWS Cost Management Expert
+
    - Triển khai văn hóa và thực hành FinOps
    - Chiến lược phân bổ chi phí và chargeback
    - Sử dụng AWS Cost Anomaly Detection
@@ -402,6 +416,7 @@ Phiên cuối cùng của bộ ba AWS Cloud Mastery Series tập trung vào các
 ### Phản Ánh về Chuỗi Sự Kiện
 
 Hoàn thành cả ba sự kiện AWS Cloud Mastery Series cung cấp phạm vi toàn diện về:
+
 1. **Security Architecture** (Series #1) - Nền tảng và thiết kế
 2. **Infrastructure as Code** (Series #2) - Triển khai và deployment
 3. **Security Operations** (Series #3) - Vận hành và tối ưu hóa
@@ -435,14 +450,14 @@ Bộ ba này hoàn toàn phù hợp với vòng đời dự án của tôi, cung
 
 ### Tóm Tắt Tham Dự Sự Kiện
 
-| Sự Kiện | Ngày | Loại | Trọng Tâm Chính |
-|---------|------|------|-----------------|
-| FCJ 2025 Kickoff | 8/9 | Trực tiếp | Định hướng chương trình, ý tưởng dự án, kết nối |
-| Vietnam Cloud Day 2025 | 18/9 | Hội nghị | Dịch vụ AWS, bảo mật IoT, kiến trúc đám mây |
-| AI-Driven Development | 3/10 | Trực tuyến | GitHub Copilot, coding hỗ trợ AI, tự động hóa |
-| AWS Cloud Mastery #1 | 13/11 | Webinar | Kiến trúc bảo mật, đa tài khoản, IAM |
-| AWS Cloud Mastery #2 | 20/11 | Webinar | Infrastructure as Code, Terraform, tối ưu chi phí |
-| AWS Cloud Mastery #3 | 27/11 | Webinar | Vận hành bảo mật, ứng phó sự cố, FinOps |
+| Sự Kiện                | Ngày  | Loại       | Trọng Tâm Chính                                   |
+| ---------------------- | ----- | ---------- | ------------------------------------------------- |
+| FCJ 2025 Kickoff       | 8/9   | Trực tiếp  | Định hướng chương trình, ý tưởng dự án, kết nối   |
+| Vietnam Cloud Day 2025 | 18/9  | Hội nghị   | Dịch vụ AWS, bảo mật IoT, kiến trúc đám mây       |
+| AI-Driven Development  | 3/10  | Trực tuyến | GitHub Copilot, coding hỗ trợ AI, tự động hóa     |
+| AWS Cloud Mastery #1   | 13/11 | Webinar    | Kiến trúc bảo mật, đa tài khoản, IAM              |
+| AWS Cloud Mastery #2   | 20/11 | Webinar    | Infrastructure as Code, Terraform, tối ưu chi phí |
+| AWS Cloud Mastery #3   | 27/11 | Webinar    | Vận hành bảo mật, ứng phó sự cố, FinOps           |
 
 ### Tác Động Thực Tiễn Đến Dự Án
 
@@ -503,6 +518,7 @@ Việc tham gia sáu sự kiện này vô cùng quý giá đối với sự phá
 6. **Cloud Mastery #3** chuẩn bị dự án của tôi cho production với vận hành và tối ưu hóa chi phí
 
 Thời gian chiến lược và phạm vi toàn diện của các sự kiện này đã biến đổi thời gian thực tập của tôi từ một trải nghiệm học tập thành một hành trình khởi động sự nghiệp. Sự kết hợp của:
+
 - **Kiến thức kỹ thuật** từ các buổi thuyết trình và workshops của chuyên gia
 - **Networking chuyên nghiệp** với cộng đồng AWS và các bạn thực tập sinh
 - **Ứng dụng thực tiễn** vào dự án bảo mật IoT thực tế
