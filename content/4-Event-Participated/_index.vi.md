@@ -6,7 +6,7 @@ chapter: false
 pre: "<b>4. </b>"
 ---
 
-{{% notice info %}}
+{{% notice note %}}
 Thông tin dưới đây ghi lại tất cả các sự kiện tôi đã tham gia trong suốt thời gian thực tập AWS FCJ từ tháng 9 đến tháng 12 năm 2025. Mỗi sự kiện đều mang đến những trải nghiệm học tập quý giá và cơ hội kết nối với cộng đồng AWS.
 {{% /notice %}}
 

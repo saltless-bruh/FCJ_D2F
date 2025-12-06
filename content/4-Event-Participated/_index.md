@@ -6,7 +6,7 @@ chapter: false
 pre: "<b>4. </b>"
 ---
 
-{{% notice info %}}
+{{% notice note %}}
 The information below documents all events I participated in during my AWS FCJ internship from September to December 2025. Each event provided valuable learning experiences and opportunities to connect with the AWS community.
 {{% /notice %}}
 
