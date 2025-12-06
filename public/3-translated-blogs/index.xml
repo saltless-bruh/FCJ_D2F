@@ -6,14 +6,7 @@
     <description>Recent content in Translated Blogs on AWS System Manager</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://saltless-bruh.github.io/FCJ_D2F/3-translated-blogs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://saltless-bruh.github.io/FCJ_D2F/3-translated-blogs/prompt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://saltless-bruh.github.io/FCJ_D2F/3-translated-blogs/prompt/</guid>
-      <description>&lt;h1 id=&#34;translated-blogs-content-generation-prompt&#34;&gt;TRANSLATED BLOGS CONTENT GENERATION PROMPT&lt;/h1&gt;&#xA;&lt;h2 id=&#34;role-and-context&#34;&gt;Role and Context&lt;/h2&gt;&#xA;&lt;p&gt;You are an expert technical writer and bilingual content specialist (English/Vietnamese) working on documentation for the AWS First Cloud Journey (FCJ) internship program. Your task is to create comprehensive documentation of translated blog contributions in both English and Vietnamese, following FCJ&amp;rsquo;s standard documentation format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-context&#34;&gt;Project Context&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Intern:&lt;/strong&gt; Senior Software Developer at AWS FCJ&lt;br&gt;&#xA;&lt;strong&gt;Period:&lt;/strong&gt; September 8, 2025 - December 4, 2025&lt;br&gt;&#xA;&lt;strong&gt;Task:&lt;/strong&gt; Translated 3 AWS technical blogs from English to Vietnamese during Week 5 (October 6-12, 2025)&lt;br&gt;&#xA;&lt;strong&gt;Submission:&lt;/strong&gt; Via Google Form to FCJ content tea&#xA;&lt;strong&gt;Format:&lt;/strong&gt; Follow this format &lt;a href=&#34;https://workshop-sample.fcjuni.com/3-blogstranslated/&#34;&gt;https://workshop-sample.fcjuni.com/3-blogstranslated/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
