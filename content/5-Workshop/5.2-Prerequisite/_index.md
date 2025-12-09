@@ -224,51 +224,51 @@ ap-southeast-1**.
 
 To prepare the workshop environment, create **IoT Core Template** (click link): [PrivateLinkWorkshop](https://ap-southeast-1.console.aws.amazon.com/iot/home?region=ap-southeast-1#/thing/ESP32_01). Accept all of the defaults when deploying the template.
 
-![create stack](/images/images/5-Workshop/5.2-Prerequisite/CreateThings1.jpeg)
+![create stack](/images/5-Workshop/5.2-Prerequisite/CreateThings1.jpeg)
 
 + Choose **IoT Core template**
 + Choose **Create Things**
 
-![create stack](/images/images/5-Workshop/5.2-Prerequisite/CreateThings2.jpeg)
+![create stack](/images/5-Workshop/5.2-Prerequisite/CreateThings2.jpeg)
 
 + Choose **Create single thing**
 + Choose **Next**
 
-![complete](/images/images/5-Workshop/5.2-Prerequisite/CreateThings3.jpeg)
+![complete](/images/5-Workshop/5.2-Prerequisite/CreateThings3.jpeg)
 
 + Name the **thing**
 + Choose **Next**
 
-![vpcs](/images/images/5-Workshop/5.2-Prerequisite/CreateThings4.jpeg)
+![vpcs](/images/5-Workshop/5.2-Prerequisite/CreateThings4.jpeg)
 
 + Choose **Recommended Option**
 + Choose **Next**
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateThings5.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings5.jpeg)
 + Choose **Create Policy**
 + Choose **Next**
 
 <<<<<<< HEAD
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
 =======
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
 >>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Name the **Policy**
 + Choose **Add Four New Statements**
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/Code.jpg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/Code.jpg)
 + Base on the **Code** to fill the **Resource Name**
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateThings7.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings7.jpeg)
 
 + Choose the **Policy Action** like the image
 + Fill in the **Policy Resource** with your information
 + Choose **Create**
 
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateThings8.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings8.jpeg)
 
 + Choose **Create Policy**
 
 <<<<<<< HEAD
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
 =======
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
 >>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
@@ -317,15 +317,15 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 ```
 
 <<<<<<< HEAD
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
 
 + Choose **Create Certificate**
 
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateCert2.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert2.jpeg)
 
 + Choose **Create**
 
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateCert3.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert3.jpeg)
 =======
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
 
@@ -342,7 +342,7 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 + Choose **Continue**
 
 <<<<<<< HEAD
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
 =======
 ![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
 
@@ -353,4 +353,4 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 + Choose **esp32/pub**
 + Choose **Subscribe**
 
-![EC2](/images/images/5-Workshop/5.2-Prerequisite/MQTT2.jpeg)
+![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT2.jpeg)
