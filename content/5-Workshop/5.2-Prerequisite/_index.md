@@ -3,7 +3,6 @@ title : "Connect ESP32 With IoT Core"
 weight : 2 
 chapter : false
 pre : " <b> 5.2. </b> "
----
 
 #### IAM permissions
 
@@ -237,21 +236,14 @@ To prepare the workshop environment, create **IoT Core Template** (click link): 
 ![complete](/images/5-Workshop/5.2-Prerequisite/CreateThings3.jpeg)
 
 + Name the **thing**
-+ Choose **Next**
 
 ![vpcs](/images/5-Workshop/5.2-Prerequisite/CreateThings4.jpeg)
 
 + Choose **Recommended Option**
-+ Choose **Next**
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings5.jpeg)
 + Choose **Create Policy**
-+ Choose **Next**
 
-<<<<<<< HEAD
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
-=======
-![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
->>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Name the **Policy**
 + Choose **Add Four New Statements**
@@ -265,13 +257,8 @@ To prepare the workshop environment, create **IoT Core Template** (click link): 
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings8.jpeg)
 
-+ Choose **Create Policy**
 
-<<<<<<< HEAD
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
-=======
-![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
->>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Choose **ESP32_POLICY**
 + Choose **Create thing**
@@ -311,46 +298,29 @@ static const char AWS_CERT_CRT[] PROGMEM = R"KEY(
 
 static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 
-)KEY";
 
 #endif
-```
 
-<<<<<<< HEAD
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
 
 + Choose **Create Certificate**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert2.jpeg)
 
-+ Choose **Create**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert3.jpeg)
-=======
-![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
 
-+ Choose **Create Certificate**
 
-![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert2.jpeg)
 
-+ Choose **Create**
 
-![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert3.jpeg)
->>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Download **Four Certificates (Device, Public Key File, Private Key File, CA1)**
 + Choose **Continue**
 
-<<<<<<< HEAD
-![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
-=======
 ![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
 
 + Choose **esp32/pub**
 + Choose **Subscribe**
->>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
-+ Choose **esp32/pub**
-+ Choose **Subscribe**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT2.jpeg)
