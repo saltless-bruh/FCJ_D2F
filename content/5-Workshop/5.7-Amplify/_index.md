@@ -30,4 +30,8 @@ Connect your repo and deploy the frontend with AWS Amplify.
    ![Amplify](/images/5-Workshop/5.7-Amplify-img/amplify6.jpg)
 
 7) Open the **live URL** to verify the app  
+<<<<<<< HEAD
    ![Amplify](/images/5-Workshop/5.7-Amplify-img/amplify7.jpg)
+=======
+   ![Amplify](/5-Workshop/5.7-Amplify-img/amplify7.jpg)
+>>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a

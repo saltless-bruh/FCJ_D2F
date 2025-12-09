@@ -247,7 +247,11 @@ To prepare the workshop environment, create **IoT Core Template** (click link): 
 + Choose **Create Policy**
 + Choose **Next**
 
+<<<<<<< HEAD
 ![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
+=======
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
+>>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Name the **Policy**
 + Choose **Add Four New Statements**
@@ -263,7 +267,11 @@ To prepare the workshop environment, create **IoT Core Template** (click link): 
 
 + Choose **Create Policy**
 
+<<<<<<< HEAD
 ![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
+=======
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
+>>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Choose **ESP32_POLICY**
 + Choose **Create thing**
@@ -308,6 +316,7 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 #endif
 ```
 
+<<<<<<< HEAD
 ![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
 
 + Choose **Create Certificate**
@@ -317,11 +326,29 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 + Choose **Create**
 
 ![EC2](/images/images/5-Workshop/5.2-Prerequisite/CreateCert3.jpeg)
+=======
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
+
++ Choose **Create Certificate**
+
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert2.jpeg)
+
++ Choose **Create**
+
+![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert3.jpeg)
+>>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Download **Four Certificates (Device, Public Key File, Private Key File, CA1)**
 + Choose **Continue**
 
+<<<<<<< HEAD
 ![EC2](/images/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
+=======
+![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
+
++ Choose **esp32/pub**
++ Choose **Subscribe**
+>>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 + Choose **esp32/pub**
 + Choose **Subscribe**

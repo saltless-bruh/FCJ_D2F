@@ -183,8 +183,11 @@ Then visit: <http://localhost:1313>
 
 ### Online (Deployed Site)
 <<<<<<< HEAD
+<<<<<<< HEAD
 🌐 **Live Demo**: https://saltless-bruh.github.io/FCJ_D2F/
 =======
+=======
+>>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
 
 🌐 **Live Demo**: [Your Deployed URL Here]
 >>>>>>> 0ac3103 (refactor: Rename "Prerequiste" to "Prerequisite" and update workshop content, including IoT Core to DynamoDB integration.)

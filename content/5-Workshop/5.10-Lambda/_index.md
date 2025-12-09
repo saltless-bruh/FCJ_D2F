@@ -24,4 +24,8 @@ Create and test an AWS Lambda function for your backend logic.
    ![Lambda](/images/5-Workshop/5.10-Lambda-img/lambda4.jpg)
 
 5) Create a **Test event** and run **Test** to verify output  
+<<<<<<< HEAD
    ![Lambda](/images/5-Workshop/5.10-Lambda-img/lambda5.jpg)
+=======
+   ![Lambda](/5-Workshop/5.10-Lambda-img/lambda5.jpg)
+>>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
