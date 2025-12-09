@@ -31,4 +31,3 @@ Kết nối repo và deploy frontend bằng AWS Amplify.
 
 7) Mở **live URL** để kiểm tra ứng dụng  
    ![Amplify](/images/5-Workshop/5.7-Amplify-img/amplify7.jpg)
-   ![Amplify](/5-Workshop/5.7-Amplify-img/amplify7.jpg)

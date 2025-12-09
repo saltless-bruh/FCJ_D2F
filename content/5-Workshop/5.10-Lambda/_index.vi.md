@@ -25,4 +25,3 @@ Tạo và kiểm thử hàm AWS Lambda cho logic backend.
 
 5) Tạo **Test event** và chạy **Test** để kiểm tra kết quả  
    ![Lambda](/images/5-Workshop/5.10-Lambda-img/lambda5.jpg)
-   ![Lambda](/5-Workshop/5.10-Lambda-img/lambda5.jpg)

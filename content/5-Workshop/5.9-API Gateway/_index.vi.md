@@ -34,4 +34,3 @@ Tạo HTTP API, gắn backend và deploy.
 
 8) Test bằng client (browser/cURL/Postman)  
    ![API](/images/5-Workshop/5.9-API%20Gateway-img/API8.jpg)
-   ![API](/5-Workshop/5.9-API%20Gateway-img/API8.jpg)
