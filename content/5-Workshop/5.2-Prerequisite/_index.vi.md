@@ -6,8 +6,10 @@ pre : " <b> 5.2. </b> "
 ---
 
 #### IAM permissions
+
 Gắn IAM permission policy sau vào tài khoản aws user của bạn để triển khai và dọn dẹp tài nguyên trong workshop này.
-```
+
+```bash
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -219,11 +221,11 @@ Gắn IAM permission policy sau vào tài khoản aws user của bạn để tri
 
 Trong lab này, chúng ta sẽ dùng N.Virginia region (us-east-1).
 
-Để chuẩn bị cho môi trường làm workshop, chúng ta deploy CloudFormation template sau (click link): [PrivateLinkWorkshop ](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://s3.us-east-1.amazonaws.com/reinvent-endpoints-builders-session/Nested.yaml&stackName=PLCloudSetup). Để nguyên các lựa chọn mặc định.
+Để chuẩn bị cho môi trường làm workshop, chúng ta deploy CloudFormation template sau (click link): [PrivateLinkWorkshop](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://s3.us-east-1.amazonaws.com/reinvent-endpoints-builders-session/Nested.yaml&stackName=PLCloudSetup). Để nguyên các lựa chọn mặc định.
 
 ![create stack](/images/5-Workshop/5.2-Prerequisite/create-stack1.png)
 
-+ Lựa chọn 2 mục acknowledgement 
++ Lựa chọn 2 mục acknowledgement
 + Chọn Create stack
 
 ![create stack](/images/5-Workshop/5.2-Prerequisite/create-stack2.png)

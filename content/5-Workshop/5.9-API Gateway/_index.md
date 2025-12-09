@@ -6,6 +6,7 @@ pre: " <b> 5.9. </b> "
 ---
 
 #### Overview
+
 Create an HTTP API, integrate backend, and deploy.
 
 ### Steps
@@ -33,4 +34,3 @@ Create an HTTP API, integrate backend, and deploy.
 
 8) Test with a client (browser/cURL/Postman)  
    ![API](/5-Workshop/5.9-API%20Gateway-img/API8.jpg)
-

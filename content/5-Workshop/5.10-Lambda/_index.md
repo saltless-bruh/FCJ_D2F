@@ -1,11 +1,12 @@
 ---
 title: "Build Lambda Function"
-weight: 11
+weight: 10
 chapter: false
 pre: " <b> 5.10. </b> "
 ---
 
 #### Overview
+
 Create and test an AWS Lambda function for your backend logic.
 
 ### Steps
@@ -24,4 +25,3 @@ Create and test an AWS Lambda function for your backend logic.
 
 5) Create a **Test event** and run **Test** to verify output  
    ![Lambda](/5-Workshop/5.10-Lambda-img/lambda5.jpg)
-

@@ -6,6 +6,7 @@ pre: " <b> 5.7. </b> "
 ---
 
 #### Overview
+
 Connect your repo and deploy the frontend with AWS Amplify.
 
 ### Steps
@@ -30,4 +31,3 @@ Connect your repo and deploy the frontend with AWS Amplify.
 
 7) Open the **live URL** to verify the app  
    ![Amplify](/5-Workshop/5.7-Amplify-img/amplify7.jpg)
-

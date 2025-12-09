@@ -4,8 +4,8 @@
 [![Theme](https://img.shields.io/badge/Theme-Hugo%20Learn-00ADD8?style=flat)](https://learn.netlify.app/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **IoT Security Infrastructure Platform** 
-> 
+> **IoT Security Infrastructure Platform**
+>
 > Comprehensive internship report documenting my 13-week journey with the AWS First Cloud Journey 2025 program, focusing on building a production-grade IoT security platform using AWS services.
 
 ## 📋 Table of Contents
@@ -25,6 +25,7 @@
 This repository contains my comprehensive internship report for the **AWS First Cloud Journey (FCJ) 2025** program. The report is built using **Hugo** with the **Hugo Learn** theme and documents my 13-week journey from September 8 to December 4, 2025, where I developed an **IoT Security Infrastructure Platform** using various AWS services.
 
 The report includes:
+
 - ✅ Weekly worklogs documenting actual work completed
 - ✅ Project proposal and architecture design
 - ✅ AWS technical blog translations (English to Vietnamese)
@@ -41,7 +42,7 @@ The report includes:
 | **University** | FPT University HCMC |
 | **Major** | Information Assurance |
 | **Class** | AWS082025 |
-| **Email** | huytqse182122@fpt.edu.vn |
+| **Email** | <huytqse182122@fpt.edu.vn> |
 | **Phone** | 0911611933 |
 | **Company** | Amazon Web Services Vietnam Co., Ltd. |
 | **Position** | FCJ Cloud Intern |
@@ -54,6 +55,7 @@ The report includes:
 A production-grade security platform designed to address critical challenges in IoT device fleet management:
 
 **Core Features:**
+
 - 🔐 **PKI Certificate Management**: 3-tier certificate authority hierarchy with automated lifecycle management
 - 🛡️ **Security Policy Enforcement**: Automated policy compliance checking and enforcement
 - 🔍 **Threat Detection**: Real-time anomaly detection and threat identification
@@ -62,6 +64,7 @@ A production-grade security platform designed to address critical challenges in 
 - 💻 **Security Console**: React/TypeScript web application for platform management
 
 **AWS Services Used:**
+
 - AWS IoT Core
 - AWS Certificate Manager Private CA
 - AWS Lambda
@@ -103,6 +106,7 @@ content/
 ## 🛠 Technology Stack
 
 ### Report Infrastructure
+
 - **Static Site Generator**: Hugo Extended (v0.80+)
 - **Theme**: Hugo Learn Theme
 - **Styling**: Custom CSS with Hugo Learn shortcodes
@@ -110,6 +114,7 @@ content/
 - **Deployment**: GitHub Pages / Netlify
 
 ### Project Technology Stack
+
 - **Infrastructure as Code**: Terraform
 - **CI/CD**: GitHub Actions
 - **Frontend**: React, TypeScript, AWS Amplify
@@ -123,6 +128,7 @@ content/
 ### Prerequisites
 
 - **Hugo Extended** (v0.80 or higher)
+
   ```bash
   # Install Hugo Extended on Linux
   wget https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_extended_0.121.0_linux-amd64.deb
@@ -135,17 +141,20 @@ content/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/FCJ_D2F.git
    cd FCJ_D2F
    ```
 
 2. **Initialize Git submodules** (for Hugo Learn theme)
+
    ```bash
    git submodule update --init --recursive
    ```
 
 3. **Run Hugo development server**
+
    ```bash
    hugo server -D
    ```
@@ -165,17 +174,25 @@ hugo --minify
 ## 👀 Viewing the Report
 
 ### Local Development
+
 ```bash
 hugo server -D
 ```
-Then visit: http://localhost:1313
+
+Then visit: <http://localhost:1313>
 
 ### Online (Deployed Site)
+<<<<<<< HEAD
 🌐 **Live Demo**: https://saltless-bruh.github.io/FCJ_D2F/
+=======
+
+🌐 **Live Demo**: [Your Deployed URL Here]
+>>>>>>> 0ac3103 (refactor: Rename "Prerequiste" to "Prerequisite" and update workshop content, including IoT Core to DynamoDB integration.)
 
 ## ⭐ Key Highlights
 
 ### Technical Achievements
+
 - ✅ Built production-grade IoT security platform supporting 1,000+ devices
 - ✅ Achieved 99.9% uptime with <100ms response time
 - ✅ Reduced certificate management overhead by 90%
@@ -183,6 +200,7 @@ Then visit: http://localhost:1313
 - ✅ Deployed 15+ Lambda functions for security automation
 
 ### Learning & Growth
+
 - 📚 Mastered 10+ AWS services in 13 weeks
 - 🎯 Attended 6 major AWS events (FCJ Kickoff, Vietnam Cloud Day, Cloud Mastery Series)
 - 🌏 Translated 3 technical AWS blogs (1,516 lines) to Vietnamese
@@ -190,6 +208,7 @@ Then visit: http://localhost:1313
 - 🎓 Prepared for AWS Solutions Architect & Security Specialty certifications
 
 ### Community Contribution
+
 - 🌐 Made AWS content accessible to Vietnamese developers
 - 📝 Shared knowledge through blog translations and presentations
 - 👥 Active participant in AWS Vietnam User Group
@@ -223,7 +242,8 @@ All shortcodes follow the [Hugo Learn theme documentation](https://learn.netlify
 ## 📧 Contact
 
 **Tran Quang Huy**
-- 📧 Email: huytqse182122@fpt.edu.vn
+
+- 📧 Email: <huytqse182122@fpt.edu.vn>
 - 🎓 University: FPT University HCMC
 - 💼 Program: AWS First Cloud Journey 2025
 - 📱 Phone: 0911611933
@@ -231,6 +251,7 @@ All shortcodes follow the [Hugo Learn theme documentation](https://learn.netlify
 ## 🙏 Acknowledgments
 
 Special thanks to:
+
 - **AWS First Cloud Journey Team** - For creating this exceptional internship program
 - **FCJ Mentors** - For technical guidance and career advice
 - **Fellow Interns** - For collaboration and knowledge sharing
