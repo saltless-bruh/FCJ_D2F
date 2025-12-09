@@ -1,58 +1,25 @@
 ---
-title : "Workshop"
-date: 2025-10-11
-weight : 5
-chapter : false
-pre : " <b> 5. </b> "
+title: "Workshop"
+weight: 5
+chapter: false
+pre: " <b> 5. </b> "
 ---
+# IoT Security Workshop
 
-This section documents the workshops I have created and delivered during my internship.
+#### Overview
+- Build a webapp connected to ESP32 sensor data with incident alerts.
+- Stack: React (JS/TS) on Amplify + Route 53, Cognito auth, API Gateway + Lambda backend.
+- IoT ingest: AWS IoT Core + Rule → Lambda, storing to DynamoDB/S3; SES for email alerts.
+- Live site: `https://www.iotsecuredmonitor.click`.
 
-## Workshop: AWS Systems Manager Session Manager
-
-### Overview
-
-A comprehensive workshop on using AWS Systems Manager Session Manager for secure instance management without the need for bastion hosts or SSH keys.
-
-### Target Audience
-
-- AWS Cloud Engineers
-- System Administrators
-- DevOps Engineers
-
-### Prerequisites
-
-- Basic understanding of AWS services
-- AWS account with appropriate permissions
-- Familiarity with EC2 instances
-
-### Topics Covered
-
-1. Session Manager Overview
-2. Setting up Session Manager
-3. Managing EC2 Instances
-4. Logging and Monitoring
-5. Security Best Practices
-
-### Hands-on Labs
-
-1. Creating and Configuring EC2 Instances
-2. Setting up IAM Roles and Permissions
-3. Implementing Session Logging
-4. Working with Private Instances
-5. Troubleshooting Common Issues
-
-### Resources Provided
-
-- Step-by-step guides
-- Architecture diagrams
-- IAM policy templates
-- Sample configurations
-- Troubleshooting guides
-
-### Workshop Impact
-
-- Trained 20+ participants
-- Improved understanding of secure instance management
-- Reduced reliance on bastion hosts
-- Enhanced security practices
+#### Content
+1. [Workshop overview](5.1-Workshop-overview/)
+2. [Prerequiste](5.2-Prerequiste/)
+3. [Connect IoT Core with DynamoDB](5.3-S3-Iot%20core/)
+4. [Using SES](5.4-SES/)
+5. [Using Route 53](5.5-Route53/)
+6. [Using S3](5.6-S3/)
+7. [Deploy with Amplify](5.7-Amplify/)
+8. [Configure Cognito](5.8-Cognito/)
+9. [Create API with API Gateway](5.9-API%20Gateway/)
+10. [Build Lambda Function](5.10-Lambda/)
