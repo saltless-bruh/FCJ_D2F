@@ -21,8 +21,5 @@ Tạo Cognito User Pool và app client để xác thực.
    ![Cognito](/images/5-Workshop/5.8-Cognito-img/cognito3.jpg)
 
 4) Thiết lập **Domain** (Cognito-hosted UI), khai báo callback URLs, lưu cấu hình  
-<<<<<<< HEAD
    ![Cognito](/images/5-Workshop/5.8-Cognito-img/cognito4.jpg)
-=======
    ![Cognito](/5-Workshop/5.8-Cognito-img/cognito4.jpg)
->>>>>>> 0ac3103672ff8af68eb80253b652e32a5ea0f43a
