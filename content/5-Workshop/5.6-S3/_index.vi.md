@@ -2,7 +2,7 @@
 title: "Sử dụng S3"
 weight: 7
 chapter: false
-pre: " <b> 5.7. </b> "
+pre: " <b> 5.6. </b> "
 ---
 
 #### Amazon S3 (Simple Storage Service)

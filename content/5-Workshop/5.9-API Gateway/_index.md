@@ -1,6 +1,6 @@
 ---
 title: "Create API with API Gateway"
-weight: 10
+weight: 9
 chapter: false
 pre: " <b> 5.9. </b> "
 ---
@@ -34,4 +34,3 @@ Create an HTTP API, integrate backend, and deploy.
 
 8) Test with a client (browser/cURL/Postman)  
    ![API](/images/5-Workshop/5.9-API%20Gateway-img/API8.jpg)
-   ![API](/5-Workshop/5.9-API%20Gateway-img/API8.jpg)
