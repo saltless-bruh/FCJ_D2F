@@ -39,12 +39,12 @@ Trong phần này, bạn sẽ học cách:
 
    - Mở AWS Management Console
    - Tìm kiếm "S3" và nhấp vào dịch vụ S3
-     ![Tạo S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B1.png)
+     ![Tạo S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B1.png)
 
 2. **Tạo Bucket mới**
 
    - Nhấp **Create bucket**
-     ![Tạo S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B2.png)
+     ![Tạo S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B2.png)
    - Nhập tên bucket duy nhất (phải là duy nhất trên toàn cầu)
    - Chọn AWS Region
    - Cấu hình các thiết lập bổ sung:
@@ -52,31 +52,31 @@ Trong phần này, bạn sẽ học cách:
      - Block Public Access settings (giữ nguyên mặc định)
      - Bucket Versioning
      - Encryption
-       ![Tạo S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B3.png)
+       ![Tạo S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B3.png)
 
 3. **Nhấp Create Bucket**
-   ![Tạo S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B4.png)
+   ![Tạo S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B4.png)
 
 #### Tải Objects lên S3
 
 1. **Chọn Bucket của bạn**
 
    - Nhấp vào tên bucket từ danh sách
-     ![Tải Objects lên S3](/5-Workshop/5.6-S3-img/S3-P2B1.png)
+     ![Tải Objects lên S3](/images/5-Workshop/5.6-S3-img/S3-P2B1.png)
 
 2. **Tải File lên**
 
    - Nhấp **Upload**
-     ![Tải Objects lên S3](/5-Workshop/5.6-S3-img/S3-P2B2.png)
+     ![Tải Objects lên S3](/images/5-Workshop/5.6-S3-img/S3-P2B2.png)
    - Nhấp **Add files** hoặc kéo thả files
    - Cấu hình permissions và properties
    - Nhấp **Upload**
-     ![Tải Objects lên S3](/5-Workshop/5.6-S3-img/S3-P2B3.png)
+     ![Tải Objects lên S3](/images/5-Workshop/5.6-S3-img/S3-P2B3.png)
 
 3. **Xem Chi tiết Object**
    - Nhấp vào tên object để xem properties
    - Sao chép object URL để truy cập
-     ![Tải Objects lên S3](/5-Workshop/5.6-S3-img/S3-P2B4.png)
+     ![Tải Objects lên S3](/images/5-Workshop/5.6-S3-img/S3-P2B4.png)
 
 #### Cấu hình Quyền truy cập Bucket
 
@@ -115,8 +115,8 @@ Versioning giữ nhiều phiên bản của một object trong cùng một bucke
 3. Nhấp **Edit**
 4. Chọn **Enable**
 5. Nhấp **Save changes**
-   ![Bật Versioning](/5-Workshop/5.6-S3-img/S3-P4B1.png)
-   ![Bật Versioning](/5-Workshop/5.6-S3-img/S3-P4B1.1.png)
+   ![Bật Versioning](/images/5-Workshop/5.6-S3-img/S3-P4B1.png)
+   ![Bật Versioning](/images/5-Workshop/5.6-S3-img/S3-P4B1.1.png)
 
 Lợi ích:
 

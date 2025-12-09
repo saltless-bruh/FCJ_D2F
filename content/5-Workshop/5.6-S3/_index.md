@@ -39,12 +39,12 @@ In this section, you will learn how to:
 
    - Open the AWS Management Console
    - Search for "S3" and click on the S3 service
-     ![Creating an S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B1.png)
+     ![Creating an S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B1.png)
 
 2. **Create a New Bucket**
 
    - Click **Create bucket**
-     ![Creating an S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B2.png)
+     ![Creating an S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B2.png)
    - Enter a unique bucket name (must be globally unique)
    - Select your AWS Region
    - Configure additional settings:
@@ -52,31 +52,31 @@ In this section, you will learn how to:
      - Block Public Access settings (keep enabled by default)
      - Bucket Versioning
      - Encryption
-       ![Creating an S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B3.png)
+       ![Creating an S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B3.png)
 
 3. **Click Create Bucket**
-   ![Creating an S3 Bucket](/5-Workshop/5.6-S3-img/S3-P1B4.png)
+   ![Creating an S3 Bucket](/images/5-Workshop/5.6-S3-img/S3-P1B4.png)
 
 #### Uploading Objects to S3
 
 1. **Select Your Bucket**
 
    - Click on your bucket name from the list
-     ![Uploading Objects to S3](/5-Workshop/5.6-S3-img/S3-P2B1.png)
+     ![Uploading Objects to S3](/images/5-Workshop/5.6-S3-img/S3-P2B1.png)
 
 2. **Upload Files**
 
    - Click **Upload**
-     ![Uploading Objects to S3](/5-Workshop/5.6-S3-img/S3-P2B2.png)
+     ![Uploading Objects to S3](/images/5-Workshop/5.6-S3-img/S3-P2B2.png)
    - Click **Add files** or drag and drop files
    - Configure permissions and properties
    - Click **Upload**
-     ![Uploading Objects to S3](/5-Workshop/5.6-S3-img/S3-P2B3.png)
+     ![Uploading Objects to S3](/images/5-Workshop/5.6-S3-img/S3-P2B3.png)
 
 3. **View Object Details**
    - Click on the object name to view properties
    - Copy the object URL for access
-     ![Uploading Objects to S3](/5-Workshop/5.6-S3-img/S3-P2B4.png)
+     ![Uploading Objects to S3](/images/5-Workshop/5.6-S3-img/S3-P2B4.png)
 
 #### Configuring Bucket Permissions
 
@@ -115,8 +115,8 @@ Versioning keeps multiple variants of an object in the same bucket.
 3. Click **Edit**
 4. Select **Enable**
 5. Click **Save changes**
-   ![Enabling Versioning](/5-Workshop/5.6-S3-img/S3-P4B1.png)
-   ![Enabling Versioning](/5-Workshop/5.6-S3-img/S3-P4B1.1.png)
+   ![Enabling Versioning](/images/5-Workshop/5.6-S3-img/S3-P4B1.png)
+   ![Enabling Versioning](/images/5-Workshop/5.6-S3-img/S3-P4B1.1.png)
 
 Benefits:
 

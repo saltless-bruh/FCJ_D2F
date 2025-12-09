@@ -47,7 +47,7 @@ Trong phần này, bạn sẽ học cách sử dụng **Amazon Route 53** để 
 3. Nhấn vào dịch vụ **Route 53**
 4. Bạn sẽ thấy dashboard Route 53
 
-## ![Access Amazon Route 53](/5-Workshop/5.5-R53-img/R53-P1B1.png)
+## ![Access Amazon Route 53](/images/5-Workshop/5.5-R53-img/R53-P1B1.png)
 
 ---
 
@@ -57,14 +57,14 @@ Trong phần này, bạn sẽ học cách sử dụng **Amazon Route 53** để 
 
 **Lưu ý:** Đăng ký domain qua Route 53 không được bao gồm trong AWS Free Tier. Bạn có thể sử dụng domain hiện có hoặc mua từ nhà đăng ký bên ngoài bắt đầu từ $1-3/năm.
 
-## ![Create Hosted Zone](/5-Workshop/5.5-R53-img/R53-P2B1.png)
+## ![Create Hosted Zone](/images/5-Workshop/5.5-R53-img/R53-P2B1.png)
 
 **Bước 1:** Tạo Hosted Zone
 
 1. Nhấn **Hosted zones** trong thanh bên trái
 2. Nhấn nút **Create hosted zone**
 
-## ![Create Hosted Zone](/5-Workshop/5.5-R53-img/R53-P2B2.png)
+## ![Create Hosted Zone](/images/5-Workshop/5.5-R53-img/R53-P2B2.png)
 
 **Bước 2:** Cấu hình Hosted Zone
 
@@ -76,7 +76,7 @@ Trong phần này, bạn sẽ học cách sử dụng **Amazon Route 53** để 
 4. **Tags:** Tùy chọn (ví dụ: `Project: IoT-Monitor`)
 5. Nhấn **Create hosted zone**
 
-## ![Create Hosted Zone](/5-Workshop/5.5-R53-img/R53-P2B3.png)
+## ![Create Hosted Zone](/images/5-Workshop/5.5-R53-img/R53-P2B3.png)
 
 **Bước 3:** Ghi chú Name Servers
 Sau khi tạo, bạn sẽ thấy 4 bản ghi NS (Name Server):
@@ -131,7 +131,7 @@ Alias target: CloudFront distribution
 Routing policy: Simple routing
 ```
 
-![Create Record](/5-Workshop/5.5-R53-img/R53-P3B1.png)
+![Create Record](/images/5-Workshop/5.5-R53-img/R53-P3B1.png)
 
 ---
 
@@ -155,7 +155,7 @@ Alias target: API Gateway API
 Routing policy: Simple routing
 ```
 
-![Create Record](/5-Workshop/5.5-R53-img/R53-P3B1.png)
+![Create Record](/images/5-Workshop/5.5-R53-img/R53-P3B1.png)
 
 ---
 

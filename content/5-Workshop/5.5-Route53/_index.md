@@ -47,7 +47,7 @@ For your IoT temperature and humidity monitoring system, Route 53 provides:
 3. Click on **Route 53** service
 4. You'll see the Route 53 dashboard
 
-## ![Access Amazon Route 53](/5-Workshop/5.5-R53-img/R53-P1B1.png)
+## ![Access Amazon Route 53](/images/5-Workshop/5.5-R53-img/R53-P1B1.png)
 
 ---
 
@@ -57,14 +57,14 @@ For this workshop, we assume you already own a domain from a registrar (GoDaddy,
 
 **Note:** Domain registration through Route 53 is not covered in AWS Free Tier. You can use an existing domain or purchase one from external registrars starting at $1-3/year.
 
-## ![Create Hosted Zone](/5-Workshop/5.5-R53-img/R53-P2B1.png)
+## ![Create Hosted Zone](/images/5-Workshop/5.5-R53-img/R53-P2B1.png)
 
 **Step 1:** Create Hosted Zone
 
 1. Click **Hosted zones** in left sidebar
 2. Click **Create hosted zone** button
 
-## ![Create Hosted Zone](/5-Workshop/5.5-R53-img/R53-P2B2.png)
+## ![Create Hosted Zone](/images/5-Workshop/5.5-R53-img/R53-P2B2.png)
 
 **Step 2:** Configure Hosted Zone
 
@@ -76,7 +76,7 @@ For this workshop, we assume you already own a domain from a registrar (GoDaddy,
 4. **Tags:** Optional (e.g., `Project: IoT-Monitor`)
 5. Click **Create hosted zone**
 
-## ![Create Hosted Zone](/5-Workshop/5.5-R53-img/R53-P2B3.png)
+## ![Create Hosted Zone](/images/5-Workshop/5.5-R53-img/R53-P2B3.png)
 
 **Step 3:** Note Name Servers
 After creation, you'll see 4 NS (Name Server) records:
@@ -131,7 +131,7 @@ Alias target: CloudFront distribution
 Routing policy: Simple routing
 ```
 
-![Create Record](/5-Workshop/5.5-R53-img/R53-P3B1.png)
+![Create Record](/images/5-Workshop/5.5-R53-img/R53-P3B1.png)
 
 ---
 
@@ -155,7 +155,7 @@ Alias target: API Gateway API
 Routing policy: Simple routing
 ```
 
-![Create Record](/5-Workshop/5.5-R53-img/R53-P3B1.png)
+![Create Record](/images/5-Workshop/5.5-R53-img/R53-P3B1.png)
 
 ---
 

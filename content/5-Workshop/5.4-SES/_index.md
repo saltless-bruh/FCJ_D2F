@@ -71,7 +71,7 @@ Press **Next**
 
 - Navigate to **Verified identities** in left sidebar
 - Click **Create identity**
-  ![Create Identity](/5-Workshop/5.4-SES-img/SES-B1.png)
+  ![Create Identity](/images/5-Workshop/5.4-SES-img/SES-B1.png)
 - Choose between:
   - **Email address** - Quick setup, good for testing
   - **Domain** - Production use, more flexible
@@ -81,7 +81,7 @@ Press **Next**
 1. Select **Email address** option
 2. Enter your email address (e.g., `your-email@gmail.com`)
 3. Click **Create identity**
-   ![Create Identity](/5-Workshop/5.4-SES-img/SES-B2.png)
+   ![Create Identity](/images/5-Workshop/5.4-SES-img/SES-B2.png)
    **Step 3:** Verify Your Email
 
 4. Check your inbox for verification email from AWS
@@ -89,7 +89,7 @@ Press **Next**
 6. Click the verification link in email
 7. Return to SES console
 8. Refresh the page - Status should show **Verified**
-   ![Create Identity](/5-Workshop/5.4-SES-img/SES-B3.png)
+   ![Create Identity](/images/5-Workshop/5.4-SES-img/SES-B3.png)
 
 ---
 
@@ -101,9 +101,9 @@ Press **Next**
 2. Select **Domain** option
 3. Enter your domain name (e.g., `iotsecuredmonitor.click`)
 4. Check **Use a custom MAIL FROM domain** (optional)
-   ![Domain Verification](/5-Workshop/5.4-SES-img/SES-P3B1.png)
+   ![Domain Verification](/images/5-Workshop/5.4-SES-img/SES-P3B1.png)
 5. Click **Create identity**
-   ![Domain Verification](/5-Workshop/5.4-SES-img/SES-P3B1.1.png)
+   ![Domain Verification](/images/5-Workshop/5.4-SES-img/SES-P3B1.1.png)
    **Step 2:** Get DNS Records
 
 6. After creating, click **Get DNS records** button
@@ -115,7 +115,7 @@ Press **Next**
 
 **DMARC Record (TXT record - optional):**
 
-![Domain Verification](/5-Workshop/5.4-SES-img/SES-P3B2.png)
+![Domain Verification](/images/5-Workshop/5.4-SES-img/SES-P3B2.png)
 
 ### Part 4: Send Test Email
 
@@ -124,7 +124,7 @@ Press **Next**
 1. Go to Verified identities
 2. Select your verified email or domain
 3. Click Send test email button
-   ![Send Test Email](/5-Workshop/5.4-SES-img/SES-P4B1.png)
+   ![Send Test Email](/images/5-Workshop/5.4-SES-img/SES-P4B1.png)
 
 **Step 2:** Configure Test Email
 
@@ -148,7 +148,7 @@ Press **Next**
 - Text: Plain text version
 - HTML: HTML formatted version
 
-![Send Test Email](/5-Workshop/5.4-SES-img/SES-P4B2.png)
+![Send Test Email](/images/5-Workshop/5.4-SES-img/SES-P4B2.png)
 
 **Step 3:** Send Email
 
@@ -164,25 +164,25 @@ Email Monitoring
 
 1. Go to Configuration sets
 2. Click Create set
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B1.png)
 3. Enter name: production-emails
 4. Click Create
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B1.1.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B1.2.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B1.1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B1.2.png)
 
 **Step 2:** Add Event Destination
 
 1. Select your configuration set
 2. Click Add destination
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.png)
 3. Choose destination type:
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.1.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.2.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.3.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.2.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.3.png)
 
 **Step 3:** Enable Reputation Metrics
 
 1. In configuration set settings
 2. Enable Reputation metrics
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B3.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B3.1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B3.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B3.1.png)

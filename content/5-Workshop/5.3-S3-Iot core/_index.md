@@ -9,44 +9,44 @@ pre : " <b> 5.3. </b> "
 
 In this section, you will create **Table**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT1.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT1.jpeg)
 
 + Choose **Create Rule**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT2.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT2.jpeg)
 
 + Name the **Rule**
 + Choose **Next**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT3.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT3.jpeg)
 
 + Write the SQL Query **SELECT * FROM 'esp32/pub'**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT4.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT4.jpeg)
 
 + Choose **DynamoDB in Action 1**
 + Create **DynamoDB Table**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT5.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT5.jpeg)
 
 + Choose **Create Table**
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT6.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT6.jpeg)
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT7.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT7.jpeg)
 
 + Choose **Keys like table details**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT8.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT8.jpeg)
 
 + Choose **Create New Rule**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT9.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT9.jpeg)
 
 + **Naming** Then **Create**
 
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT10.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT10.jpeg)
 
 + Choose **Next**
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT11.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT11.jpeg)
 + Choose **Explore Item**
-![overview](/images/5-Workshop/5.3-S3-vpc/DBIOT12.jpeg)
+![overview](/images/images/5-Workshop/5.3-S3-vpc/DBIOT12.jpeg)

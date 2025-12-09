@@ -70,7 +70,7 @@ Nhấn **Next**
 
 - Điều hướng đến **Verified identities** trong thanh bên trái
 - Nhấn **Create identity**
-  ![Create Identity](/5-Workshop/5.4-SES-img/SES-B1.png)
+  ![Create Identity](/images/5-Workshop/5.4-SES-img/SES-B1.png)
 - Chọn giữa:
   - **Email address** - Thiết lập nhanh, tốt cho testing
   - **Domain** - Sử dụng production, linh hoạt hơn
@@ -80,7 +80,7 @@ Nhấn **Next**
 1. Chọn tùy chọn **Email address**
 2. Nhập địa chỉ email của bạn (ví dụ: `your-email@gmail.com`)
 3. Nhấn **Create identity**
-   ![Create Identity](/5-Workshop/5.4-SES-img/SES-B2.png)
+   ![Create Identity](/images/5-Workshop/5.4-SES-img/SES-B2.png)
 
 **Bước 3:** Xác minh Email của bạn
 
@@ -89,7 +89,7 @@ Nhấn **Next**
 6. Nhấn vào link xác minh trong email
 7. Quay lại SES console
 8. Làm mới trang - Trạng thái sẽ hiển thị **Verified**
-   ![Create Identity](/5-Workshop/5.4-SES-img/SES-B3.png)
+   ![Create Identity](/images/5-Workshop/5.4-SES-img/SES-B3.png)
 
 ---
 
@@ -101,9 +101,9 @@ Nhấn **Next**
 2. Chọn tùy chọn **Domain**
 3. Nhập tên domain của bạn (ví dụ: `iotsecuredmonitor.click`)
 4. Chọn **Use a custom MAIL FROM domain** (tùy chọn)
-   ![Domain Verification](/5-Workshop/5.4-SES-img/SES-P3B1.png)
+   ![Domain Verification](/images/5-Workshop/5.4-SES-img/SES-P3B1.png)
 5. Nhấn **Create identity**
-   ![Domain Verification](/5-Workshop/5.4-SES-img/SES-P3B1.1.png)
+   ![Domain Verification](/images/5-Workshop/5.4-SES-img/SES-P3B1.1.png)
 
 **Bước 2:** Lấy bản ghi DNS
 
@@ -116,7 +116,7 @@ Nhấn **Next**
 
 **Bản ghi DMARC (bản ghi TXT - tùy chọn):**
 
-![Domain Verification](/5-Workshop/5.4-SES-img/SES-P3B2.png)
+![Domain Verification](/images/5-Workshop/5.4-SES-img/SES-P3B2.png)
 
 ### Phần 4: Gửi Email thử nghiệm
 
@@ -125,7 +125,7 @@ Nhấn **Next**
 1. Đi đến Verified identities
 2. Chọn email hoặc domain đã xác minh của bạn
 3. Nhấn nút Send test email
-   ![Send Test Email](/5-Workshop/5.4-SES-img/SES-P4B1.png)
+   ![Send Test Email](/images/5-Workshop/5.4-SES-img/SES-P4B1.png)
 
 **Bước 2:** Cấu hình Email thử nghiệm
 
@@ -149,7 +149,7 @@ Nhấn **Next**
 - Text: Phiên bản văn bản thuần
 - HTML: Phiên bản định dạng HTML
 
-![Send Test Email](/5-Workshop/5.4-SES-img/SES-P4B2.png)
+![Send Test Email](/images/5-Workshop/5.4-SES-img/SES-P4B2.png)
 
 **Bước 3:** Gửi Email
 
@@ -165,25 +165,25 @@ Giám sát Email
 
 1. Đi đến Configuration sets
 2. Nhấn Create set
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B1.png)
 3. Nhập tên: production-emails
 4. Nhấn Create
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B1.1.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B1.2.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B1.1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B1.2.png)
 
 **Bước 2:** Thêm Event Destination
 
 1. Chọn configuration set của bạn
 2. Nhấn Add destination
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.png)
 3. Chọn loại destination:
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.1.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.2.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B2.3.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.2.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B2.3.png)
 
 **Bước 3:** Bật Reputation Metrics
 
 1. Trong cài đặt configuration set
 2. Bật Reputation metrics
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B3.png)
-   ![Email Monitoring](/5-Workshop/5.4-SES-img/SES-P5B3.1.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B3.png)
+   ![Email Monitoring](/images/5-Workshop/5.4-SES-img/SES-P5B3.1.png)
