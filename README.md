@@ -171,7 +171,7 @@ hugo server -D
 Then visit: http://localhost:1313
 
 ### Online (Deployed Site)
-🌐 **Live Demo**: [Your Deployed URL Here]
+🌐 **Live Demo**: https://saltless-bruh.github.io/FCJ_D2F/
 
 ## ⭐ Key Highlights
 
