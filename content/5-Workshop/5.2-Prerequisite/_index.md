@@ -6,8 +6,10 @@ pre : " <b> 5.2. </b> "
 ---
 
 #### IAM permissions
+
 Add the following IAM permission policy to your user account to deploy and cleanup this workshop.
-```
+
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -220,7 +222,7 @@ Add the following IAM permission policy to your user account to deploy and clean
 In this lab, we will use **Singapore
 ap-southeast-1**.
 
-To prepare the workshop environment, create **IoT Core Template** (click link): [PrivateLinkWorkshop ](https://ap-southeast-1.console.aws.amazon.com/iot/home?region=ap-southeast-1#/thing/ESP32_01). Accept all of the defaults when deploying the template. 
+To prepare the workshop environment, create **IoT Core Template** (click link): [PrivateLinkWorkshop](https://ap-southeast-1.console.aws.amazon.com/iot/home?region=ap-southeast-1#/thing/ESP32_01). Accept all of the defaults when deploying the template.
 
 ![create stack](/images/5-Workshop/5.2-Prerequisite/CreateThings1.jpeg)
 
@@ -246,6 +248,7 @@ To prepare the workshop environment, create **IoT Core Template** (click link): 
 + Choose **Next**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings6.jpeg)
+
 + Name the **Policy**
 + Choose **Add Four New Statements**
 ![EC2](/images/5-Workshop/5.2-Prerequisite/Code.jpg)
@@ -261,19 +264,18 @@ To prepare the workshop environment, create **IoT Core Template** (click link): 
 + Choose **Create Policy**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateThings9.jpeg)
+
 + Choose **ESP32_POLICY**
 + Choose **Create thing**
 
 #### IoT Code
-Add the following code to connect the ESP32.
-```
 
-{
+Add the following code to connect the ESP32.
+
+```cpp
 #ifndef AWS_CONFIG_H
 #define AWS_CONFIG_H
 #include <pgmspace.h>
-
-
 
 // Wi-Fi (Connect to your hotspot)
 #define WIFI_SSID "ABC"
@@ -304,21 +306,24 @@ static const char AWS_CERT_PRIVATE[] PROGMEM = R"KEY(
 )KEY";
 
 #endif
-}
 ```
+
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert1.jpeg)
+
 + Choose **Create Certificate**
 
-
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert2.jpeg)
+
 + Choose **Create**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/CreateCert3.jpeg)
-+ Download **Four Certificates (Device, Public Key File, Private Key File, CA1)** 
+
++ Download **Four Certificates (Device, Public Key File, Private Key File, CA1)**
 + Choose **Continue**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT1.jpeg)
+
 + Choose **esp32/pub**
-+ Choose **Subcribe**
++ Choose **Subscribe**
 
 ![EC2](/images/5-Workshop/5.2-Prerequisite/MQTT2.jpeg)

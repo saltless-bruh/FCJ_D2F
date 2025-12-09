@@ -4,17 +4,20 @@ weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-# IoT Security Workshop
 
-#### Overview
+## IoT Security Workshop
+
+## Overview
+
 - Build a webapp connected to ESP32 sensor data with incident alerts.
 - Stack: React (JS/TS) on Amplify + Route 53, Cognito auth, API Gateway + Lambda backend.
 - IoT ingest: AWS IoT Core + Rule → Lambda, storing to DynamoDB/S3; SES for email alerts.
 - Live site: `https://www.iotsecuredmonitor.click`.
 
-#### Content
+## Content
+
 1. [Workshop overview](5.1-Workshop-overview/)
-2. [Prerequiste](5.2-Prerequiste/)
+2. [Prerequisite](5.2-Prerequisite/)
 3. [Connect IoT Core with DynamoDB](5.3-S3-Iot%20core/)
 4. [Using SES](5.4-SES/)
 5. [Using Route 53](5.5-Route53/)

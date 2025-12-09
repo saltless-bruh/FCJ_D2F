@@ -15,7 +15,7 @@ In this section, you will learn how to use **Amazon Route 53** to manage DNS for
 
 **Amazon Route 53** is a highly available and scalable Domain Name System (DNS) web service designed to route end users to your application by translating domain names into IP addresses.
 
-### Key Features:
+### Key Features
 
 - **Domain Registration** - Register new domain names directly through AWS
 - **DNS Management** - Create and manage DNS records (A, CNAME, TXT, MX, etc.)
@@ -81,7 +81,7 @@ For this workshop, we assume you already own a domain from a registrar (GoDaddy,
 **Step 3:** Note Name Servers
 After creation, you'll see 4 NS (Name Server) records:
 
-```
+```bash
 ns-123.awsdns-12.com
 ns-456.awsdns-34.net
 ns-789.awsdns-56.org
@@ -120,7 +120,7 @@ nslookup -type=NS iotmonitor.click
 
 **Step 2:** Configure A Record (Alias) for CloudFront
 
-```
+```bash
 Record name: [leave empty for root domain]
 Record type: A - IPv4 address
 Alias: Yes
@@ -143,7 +143,7 @@ Routing policy: Simple routing
 
 **Step 2:** Configure A Record (Alias) for API Gateway
 
-```
+```bash
 Record name: api
 Record type: A - IPv4 address
 Alias: Yes
@@ -161,12 +161,12 @@ Routing policy: Simple routing
 
 ## Additional Resources
 
-- **AWS Route 53 Documentation:** https://docs.aws.amazon.com/route53/
-- **DNS Record Types:** https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html
-- **SES Domain Verification:** https://docs.aws.amazon.com/ses/latest/dg/verify-domain-procedure.html
-- **Route 53 Pricing:** https://aws.amazon.com/route53/pricing/
-- **DNS Propagation Checker:** https://dnschecker.org
-- **DMARC Guide:** https://dmarc.org/overview/
+- **AWS Route 53 Documentation:** <https://docs.aws.amazon.com/route53/>
+- **DNS Record Types:** <https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html>
+- **SES Domain Verification:** <https://docs.aws.amazon.com/ses/latest/dg/verify-domain-procedure.html>
+- **Route 53 Pricing:** <https://aws.amazon.com/route53/pricing/>
+- **DNS Propagation Checker:** <https://dnschecker.org>
+- **DMARC Guide:** <https://dmarc.org/overview/>
 
 ---
 

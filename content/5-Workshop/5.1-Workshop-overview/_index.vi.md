@@ -10,6 +10,7 @@ pre : " <b> 5.1. </b> "
 Mục tiêu: xây webapp kết nối dữ liệu cảm biến ESP32 và gửi cảnh báo khi có sự cố.
 
 Stack & dịch vụ
+
 - Frontend: React (JS/TS) host trên Amplify, code GitHub, domain Route 53 (`www.iotsecuredmonitor.click`).
 - Auth: Amazon Cognito user pool.
 - API: Amazon API Gateway + Lambda.
@@ -17,6 +18,7 @@ Stack & dịch vụ
 - Cảnh báo: Amazon SES (email).
 
 Luồng dữ liệu (theo sơ đồ)
+
 1) Cảm biến ESP32 gửi qua Internet Gateway vào **IoT Core**.  
 2) **IoT Rule** chuyển tiếp thông điệp.  
 3) **Lambda** xử lý, ghi **DynamoDB/S3**, và gọi **SES** gửi cảnh báo.  
@@ -24,5 +26,6 @@ Luồng dữ liệu (theo sơ đồ)
 5) UI gọi **API Gateway** (Lambda backend) để lấy dữ liệu/trạng thái.
 
 Kết quả & ghi chú
+
 - Site hoạt động: `https://www.iotsecuredmonitor.click`.  
 - Hoàn thiện pipeline IoT → cloud → web; khó khăn ban đầu do lần đầu dùng nhiều dịch vụ AWS và giới hạn chi phí, nhưng đã triển khai thành công và có cảnh báo hoạt động.

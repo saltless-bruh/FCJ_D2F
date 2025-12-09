@@ -6,6 +6,7 @@ pre: " <b> 5.9. </b> "
 ---
 
 #### Tổng quan
+
 Tạo HTTP API, gắn backend và deploy.
 
 ### Các bước
@@ -33,4 +34,3 @@ Tạo HTTP API, gắn backend và deploy.
 
 8) Test bằng client (browser/cURL/Postman)  
    ![API](/5-Workshop/5.9-API%20Gateway-img/API8.jpg)
-

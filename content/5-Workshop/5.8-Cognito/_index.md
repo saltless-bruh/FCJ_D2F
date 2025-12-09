@@ -6,6 +6,7 @@ pre: " <b> 5.8. </b> "
 ---
 
 #### Overview
+
 Create a Cognito User Pool and app client for authentication.
 
 ### Steps
@@ -21,4 +22,3 @@ Create a Cognito User Pool and app client for authentication.
 
 4) Set up **Domain** (Cognito-hosted UI) and callback URLs, then save  
    ![Cognito](/5-Workshop/5.8-Cognito-img/cognito4.jpg)
-

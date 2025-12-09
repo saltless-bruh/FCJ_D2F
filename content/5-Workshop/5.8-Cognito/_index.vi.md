@@ -6,6 +6,7 @@ pre: " <b> 5.8. </b> "
 ---
 
 #### Tổng quan
+
 Tạo Cognito User Pool và app client để xác thực.
 
 ### Các bước
@@ -21,4 +22,3 @@ Tạo Cognito User Pool và app client để xác thực.
 
 4) Thiết lập **Domain** (Cognito-hosted UI), khai báo callback URLs, lưu cấu hình  
    ![Cognito](/5-Workshop/5.8-Cognito-img/cognito4.jpg)
-

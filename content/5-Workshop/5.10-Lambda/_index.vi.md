@@ -1,11 +1,12 @@
 ---
 title: "Xây dựng Lambda Function"
-weight: 11
+weight: 10
 chapter: false
 pre: " <b> 5.10. </b> "
 ---
 
 #### Tổng quan
+
 Tạo và kiểm thử hàm AWS Lambda cho logic backend.
 
 ### Các bước
@@ -24,4 +25,3 @@ Tạo và kiểm thử hàm AWS Lambda cho logic backend.
 
 5) Tạo **Test event** và chạy **Test** để kiểm tra kết quả  
    ![Lambda](/5-Workshop/5.10-Lambda-img/lambda5.jpg)
-
