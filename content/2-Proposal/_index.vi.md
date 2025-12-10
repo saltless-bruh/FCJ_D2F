@@ -84,7 +84,7 @@ Phát triển hệ thống giám sát và cảnh báo an toàn IoT toàn diện 
 
 ### 3.3 Sơ Đồ Kiến Trúc Hệ Thống
 
-![Kiến Trúc Hệ Thống](/FCJ_D2F/images/Diagrams.png)
+![Kiến Trúc Hệ Thống](/images/Diagrams.png)
 
 ---
 
